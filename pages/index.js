@@ -2939,7 +2939,7 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 16px;
+              font-size: 14px;
               align-self: center;
               font-style: normal;
               text-align: center;
