@@ -385,6 +385,13 @@ closeButton.addEventListener("click", function() {
               margin-left: 10px;
               margin-right: 10px;
             }
+            .navbar-image {
+              margin-left: var(--dl-space-space-threeunits);
+              margin-right: var(--dl-space-space-threeunits);
+            }
+            .navbar-icon {
+              margin-right: var(--dl-space-space-unit);
+            }
             .navbar-links1 {
               align-self: center;
               align-items: center;
