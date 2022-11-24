@@ -333,7 +333,7 @@ Footer.defaultProps = {
   Link10: 'Portfólio',
   text1: 'Seja uma pessoa ilimitada',
   Header1: 'Serviços',
-  pastedImage_src: '/playground_assets/novo%20projeto%20%5B3%5D-200h.png',
+  pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   pastedImage_alt: 'pastedImage',
   Link7: 'Loja',
   Link2: 'Patrocinar',

@@ -41,7 +41,7 @@ const Home = (props) => {
                 ></Announcement>
               </a>
             </div>
-            <Navbar></Navbar>
+            <Navbar rootClassName="navbar-root-class-name"></Navbar>
           </div>
           <div className="home-hero">
             <div className="home-content">
@@ -51,21 +51,36 @@ const Home = (props) => {
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
-                  <img
-                    alt="image"
-                    src="/playground_assets/instagram-1500h.png"
-                    className="home-image"
-                  />
-                  <img
-                    alt="image"
-                    src="/playground_assets/youtube-1500h.png"
-                    className="home-image01"
-                  />
-                  <img
-                    alt="image"
-                    src="/playground_assets/tik-tok-1500h.png"
-                    className="home-image02"
-                  />
+                  <a
+                    href="https://www.instagram.com/oprimojunior/"
+                    className="home-link01"
+                  >
+                    <img
+                      alt="image"
+                      src="/playground_assets/instagram-1500h.png"
+                      className="home-image"
+                    />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
+                    className="home-link02"
+                  >
+                    <img
+                      alt="image"
+                      src="/playground_assets/youtube-1500h.png"
+                      className="home-image01"
+                    />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@oprimojunior"
+                    className="home-link03"
+                  >
+                    <img
+                      alt="image"
+                      src="/playground_assets/tik-tok-1500h.png"
+                      className="home-image02"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -150,7 +165,7 @@ const Home = (props) => {
                 <div className="home-explore">
                   <a
                     href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
-                    className="home-link01"
+                    className="home-link04"
                   >
                     Me acompanha  no youtube -&gt;
                   </a>
@@ -209,7 +224,7 @@ const Home = (props) => {
                   <Point text="Reprehenderit qui in ea voluptate velit"></Point>
                 </div>
                 <Link href="/">
-                  <a className="home-link02">
+                  <a className="home-link05">
                     <div className="home-get-started">
                       <span className="home-sign-up">Get started now</span>
                     </div>
@@ -238,7 +253,7 @@ const Home = (props) => {
               <span className="home-text12">Esse é meu podcast</span>
               <a
                 href="https://open.spotify.com/show/0LzVGwtBYHnWAByDNLNn3b"
-                className="home-link03"
+                className="home-link06"
               >
                 <div className="home-book-btn">
                   <span className="home-text13">Aperta aqui</span>
@@ -247,7 +262,7 @@ const Home = (props) => {
             </div>
             <img
               alt="pastedImage"
-              src="/playground_assets/pastedimage-ylke.svg"
+              src="/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-1200w.png"
               className="home-pasted-image5"
             />
           </div>
@@ -290,7 +305,7 @@ const Home = (props) => {
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link04"
+                      className="home-link07"
                     >
                       <div className="home-button">
                         <span className="home-text19">Eu quero</span>
@@ -319,7 +334,7 @@ const Home = (props) => {
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link05"
+                      className="home-link08"
                     >
                       <div className="home-button1">
                         <span className="home-text23">Eu quero</span>
@@ -374,7 +389,7 @@ const Home = (props) => {
                   </div>
                   <a
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                    className="home-link06"
+                    className="home-link09"
                   >
                     <div className="home-button2">
                       <span className="home-text29">
@@ -398,15 +413,12 @@ const Home = (props) => {
                   <div className="home-cost2">
                     <span className="home-text34">Grátis</span>
                   </div>
-                </div>
-                <div className="home-bottom2">
                   <div className="home-check-list3">
                     <Check></Check>
-                    <Check Feature="Quis nostrud exercitation ulla"></Check>
-                    <Check Feature="Duis aute irure dolor intuit"></Check>
-                    <Check Feature="Voluptas sit aspernatur aut odit"></Check>
-                    <Check Feature="Corporis suscipit laboriosam"></Check>
+                    <Check Feature="Ideias de negócios"></Check>
                   </div>
+                </div>
+                <div className="home-bottom2">
                   <div className="home-button3">
                     <span className="home-text35">Eu quero</span>
                   </div>
@@ -423,18 +435,17 @@ const Home = (props) => {
                   <div className="home-cost3">
                     <span className="home-text38">Apartir R$250</span>
                   </div>
+                  <div className="home-check-list4">
+                    <Check Feature="seu negócio fica mais profissional"></Check>
+                    <Check Feature="Só paga uma vez"></Check>
+                    <Check Feature="Sem mensalidade "></Check>
+                    <Check Feature="Chat de atendimento Grátis"></Check>
+                  </div>
                 </div>
                 <div className="home-bottom3">
-                  <div className="home-check-list4">
-                    <Check></Check>
-                    <Check Feature="Quis nostrud exercitation ulla"></Check>
-                    <Check Feature="Duis aute irure dolor intuit"></Check>
-                    <Check Feature="Voluptas sit aspernatur aut odit"></Check>
-                    <Check Feature="Corporis suscipit laboriosam"></Check>
-                  </div>
                   <a
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                    className="home-link07"
+                    className="home-link10"
                   >
                     <div className="home-button4">
                       <span className="home-text39">Eu quero</span>
@@ -490,7 +501,7 @@ const Home = (props) => {
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link08"
+                    className="home-link11"
                   >
                     <div className="home-button5">
                       <span className="home-text45">
@@ -508,7 +519,7 @@ const Home = (props) => {
             <div className="home-explore2">
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="home-link09"
+                className="home-link12"
               >
                 Entre em contato agora mesmo -&gt;
               </a>
@@ -693,7 +704,7 @@ const Home = (props) => {
               <div className="home-i-o-s-btn">
                 <a
                   href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ"
-                  className="home-link10"
+                  className="home-link13"
                 >
                   <img
                     alt="image"
@@ -705,7 +716,7 @@ const Home = (props) => {
               <div className="home-i-o-s-btn1">
                 <a
                   href="https://www.tiktok.com/@oprimojunior"
-                  className="home-link11"
+                  className="home-link14"
                 >
                   <img
                     alt="image"
@@ -717,7 +728,7 @@ const Home = (props) => {
               <div className="home-android-btn1">
                 <a
                   href="https://www.instagram.com/oprimojunior/"
-                  className="home-link12"
+                  className="home-link15"
                 >
                   <img
                     alt="image"
@@ -823,21 +834,33 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
+          .home-link01 {
+            display: contents;
+          }
           .home-image {
             width: var(--dl-size-size-medium);
             object-fit: cover;
             margin-left: 10px;
             margin-right: 10px;
+            text-decoration: none;
+          }
+          .home-link02 {
+            display: contents;
           }
           .home-image01 {
             width: 100px;
             object-fit: cover;
             margin-left: 10px;
             margin-right: 10px;
+            text-decoration: none;
+          }
+          .home-link03 {
+            display: contents;
           }
           .home-image02 {
             width: 100px;
             object-fit: cover;
+            text-decoration: none;
           }
           .home-images {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -1087,7 +1110,7 @@ const Home = (props) => {
             color: rgba(255, 255, 255, 0.5);
             border-color: rgba(255, 255, 255, 0.3);
           }
-          .home-link01 {
+          .home-link04 {
             width: Size-XSmall;
             text-decoration: none;
           }
@@ -1229,7 +1252,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-link02 {
+          .home-link05 {
             display: contents;
           }
           .home-get-started {
@@ -1366,7 +1389,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-link03 {
+          .home-link06 {
             display: contents;
           }
           .home-book-btn {
@@ -1551,7 +1574,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-link04 {
+          .home-link07 {
             display: contents;
           }
           .home-button {
@@ -1650,7 +1673,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-link05 {
+          .home-link08 {
             display: contents;
           }
           .home-button1 {
@@ -1793,7 +1816,7 @@ const Home = (props) => {
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-link06 {
+          .home-link09 {
             display: contents;
           }
           .home-button2 {
@@ -1883,15 +1906,6 @@ const Home = (props) => {
             font-weight: 600;
             line-height: 40px;
           }
-          .home-bottom2 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
           .home-check-list3 {
             gap: var(--dl-space-space-halfunit);
             width: 100%;
@@ -1900,6 +1914,15 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
+          }
+          .home-bottom2 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
           }
           .home-button3 {
             width: 100%;
@@ -1978,15 +2001,6 @@ const Home = (props) => {
             font-weight: 600;
             line-height: 40px;
           }
-          .home-bottom3 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
           .home-check-list4 {
             gap: var(--dl-space-space-halfunit);
             width: 100%;
@@ -1996,7 +2010,16 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-link07 {
+          .home-bottom3 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .home-link10 {
             display: contents;
           }
           .home-button4 {
@@ -2171,7 +2194,7 @@ const Home = (props) => {
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-link08 {
+          .home-link11 {
             display: contents;
           }
           .home-button5 {
@@ -2222,7 +2245,7 @@ const Home = (props) => {
             color: rgba(0, 0, 0, 0.5);
             border-color: rgba(0, 0, 0, 0.3);
           }
-          .home-link09 {
+          .home-link12 {
             font-style: normal;
             font-weight: 600;
             text-decoration: none;
@@ -2441,7 +2464,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link10 {
+          .home-link13 {
             display: contents;
           }
           .home-image07 {
@@ -2465,7 +2488,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link11 {
+          .home-link14 {
             display: contents;
           }
           .home-image08 {
@@ -2489,7 +2512,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-link12 {
+          .home-link15 {
             display: contents;
           }
           .home-image09 {
@@ -2913,8 +2936,13 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-hero {
+              padding-top: var(--dl-space-space-halfunit);
+              padding-bottom: var(--dl-space-space-halfunit);
+            }
             .home-title {
               font-size: 40px;
+              align-self: center;
               font-style: normal;
               font-family: Poppins;
               font-weight: 600;
@@ -2922,6 +2950,7 @@ const Home = (props) => {
             }
             .home-caption {
               font-size: 16px;
+              align-self: center;
               font-style: normal;
               font-family: Poppins;
               font-weight: 400;
@@ -2953,7 +2982,8 @@ const Home = (props) => {
               width: 150px;
             }
             .home-iframe {
-              width: 405px;
+              width: 325px;
+              height: 545px;
             }
             .home-image03 {
               width: 100%;

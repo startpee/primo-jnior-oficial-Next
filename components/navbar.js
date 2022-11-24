@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 const Navbar = (props) => {
   return (
     <>
-      <nav className="navbar-navbar">
+      <nav className={`navbar-navbar ${props.rootClassName} `}>
         <div className="navbar-desktop">
           <div className="navbar-main">
             <div className="navbar-branding">
@@ -335,6 +335,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
+
           @media (max-width: 991px) {
             .navbar-navbar {
               align-items: center;
@@ -367,9 +368,9 @@ closeButton.addEventListener("click", function() {
           }
           @media (max-width: 479px) {
             .navbar-mobile {
-              width: 398px;
+              width: 410px;
               display: flex;
-              padding-right: 0px;
+              padding-right: var(--dl-space-space-unit);
             }
             .navbar-links1 {
               align-items: center;
@@ -382,6 +383,9 @@ closeButton.addEventListener("click", function() {
             }
             .navbar-btn1 {
               background-color: #ffaf00;
+            }
+            .navbar-root-class-name {
+              margin-bottom: var(--dl-space-space-halfunit);
             }
           }
         `}
@@ -406,6 +410,7 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   Branding_alt: 'pastedImage',
   text11: 'Rede social',
+  rootClassName: '',
 }
 
 Navbar.propTypes = {
@@ -424,6 +429,7 @@ Navbar.propTypes = {
   image_src: PropTypes.string,
   Branding_alt: PropTypes.string,
   text11: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Navbar
