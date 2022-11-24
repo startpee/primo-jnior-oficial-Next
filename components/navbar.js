@@ -11,15 +11,13 @@ const Navbar = (props) => {
         <div className="navbar-desktop">
           <div className="navbar-main">
             <div className="navbar-branding">
-              <Link href="/">
-                <a className="navbar-link">
-                  <img
-                    alt={props.Branding_alt}
-                    src={props.Branding_src}
-                    className="navbar-finbest"
-                  />
-                </a>
-              </Link>
+              <a href="https://primojunior.com/" className="navbar-link">
+                <img
+                  alt={props.Branding_alt}
+                  src={props.Branding_src}
+                  className="navbar-finbest"
+                />
+              </a>
             </div>
             <div className="navbar-links">
               <a href="https://primojunior.com/" className="navbar-link01 link">
@@ -368,12 +366,14 @@ closeButton.addEventListener("click", function() {
           }
           @media (max-width: 479px) {
             .navbar-mobile {
-              width: 395px;
+              width: 320px;
               display: flex;
-              padding-top: 5px;
-              padding-left: 0px;
-              padding-right: var(--dl-space-space-unit);
+              align-items: center;
+              padding-top: 9px;
+              padding-left: 3px;
+              padding-right: 22px;
               padding-bottom: 84px;
+              justify-content: center;
             }
             .navbar-top {
               margin-left: 10px;
