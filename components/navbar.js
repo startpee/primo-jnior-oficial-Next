@@ -371,7 +371,7 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               margin-left: 10px;
               padding-top: 9px;
-              margin-right: 18px;
+              margin-right: 0px;
               padding-left: 0px;
               padding-right: 22px;
               padding-bottom: 84px;
