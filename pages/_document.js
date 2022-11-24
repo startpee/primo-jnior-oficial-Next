@@ -48,7 +48,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n      <script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n      <script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n      <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="7d9e59c3-d71f-4371-a708-d5af20a49739";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script><noscript>',
             }}
           ></noscript>
         </Head>
