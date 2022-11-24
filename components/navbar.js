@@ -370,7 +370,10 @@ closeButton.addEventListener("click", function() {
             .navbar-mobile {
               width: 410px;
               display: flex;
+              padding-top: 0px;
+              padding-left: 0px;
               padding-right: var(--dl-space-space-unit);
+              padding-bottom: 84px;
             }
             .navbar-links1 {
               align-items: center;
