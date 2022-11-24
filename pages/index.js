@@ -910,14 +910,11 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: center;
-            border-color: #dbdbdb;
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: center;
-            border-right-width: 1px;
-            border-bottom-width: 1px;
           }
           .home-caption1 {
             font-size: 40px;
@@ -948,13 +945,11 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: center;
-            border-color: #dbdbdb;
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: center;
-            border-bottom-width: 1px;
           }
           .home-caption2 {
             font-size: 40px;
@@ -977,14 +972,11 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: center;
-            border-color: #dbdbdb;
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: center;
-            border-left-width: 1px;
-            border-bottom-width: 1px;
           }
           .home-caption3 {
             font-size: 40px;
