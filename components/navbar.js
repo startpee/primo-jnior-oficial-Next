@@ -366,11 +366,12 @@ closeButton.addEventListener("click", function() {
           }
           @media (max-width: 479px) {
             .navbar-mobile {
-              width: 320px;
+              width: 478px;
               display: flex;
               align-items: center;
               padding-top: 9px;
-              padding-left: 3px;
+              margin-right: 17px;
+              padding-left: 0px;
               padding-right: 22px;
               padding-bottom: 84px;
               justify-content: center;
