@@ -1030,7 +1030,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
             padding-bottom: 50px;
-            background-color: #000000;
+            background-color: #1a1b29;
           }
           .home-content1 {
             gap: var(--dl-space-space-fiveunits);
@@ -1356,7 +1356,7 @@ const Home = (props) => {
             border-radius: 16px;
             flex-direction: column;
             justify-content: center;
-            background-color: #231d23;
+            background-color: #1a1b29;
           }
           .home-overlay {
             gap: var(--dl-space-space-threeunits);
@@ -1418,6 +1418,7 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
+            padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-oneandhalfunits);
             border-radius: 16px;
             padding-right: var(--dl-space-space-oneandhalfunits);
@@ -1484,7 +1485,7 @@ const Home = (props) => {
             border-radius: 16px;
             flex-direction: row;
             justify-content: flex-start;
-            background-color: #231d23;
+            background-color: #1a1b29;
             grid-template-columns: auto auto;
           }
           .home-plans {
@@ -2980,6 +2981,9 @@ const Home = (props) => {
             .home-pasted-image4 {
               width: 150px;
             }
+            .home-video {
+              background-color: #1a1b29;
+            }
             .home-iframe {
               width: 325px;
               height: 545px;
@@ -2997,6 +3001,7 @@ const Home = (props) => {
             }
             .home-banner {
               height: 100%;
+              background-color: #1a1b29;
             }
             .home-overlay {
               width: 333px;
@@ -3113,6 +3118,9 @@ const Home = (props) => {
               font-family: Poppins;
               font-weight: 500;
               line-height: 26px;
+            }
+            .home-button5 {
+              background-color: #1a1b29;
             }
             .home-text45 {
               color: rgb(255, 255, 255);

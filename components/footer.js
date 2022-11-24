@@ -265,7 +265,7 @@ const Footer = (props) => {
             line-height: 21px;
           }
           .footer-root-class-name {
-            background-color: #231d23;
+            background-color: #1a1b29;
           }
           @media (max-width: 991px) {
             .footer-footer {
@@ -318,6 +318,9 @@ const Footer = (props) => {
             .footer-links {
               width: 100%;
               flex-direction: column;
+            }
+            .footer-root-class-name {
+              background-color: #1a1b29;
             }
           }
         `}

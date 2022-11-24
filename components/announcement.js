@@ -58,7 +58,7 @@ const Announcement = (props) => {
           .announcement-root-class-name {
             flex: 0 0 auto;
             width: 100%;
-            background-color: #231d23;
+            background-color: #1a1b29;
           }
           .announcement-root-class-name1 {
             flex: 0 0 auto;
@@ -68,6 +68,10 @@ const Announcement = (props) => {
             .announcement-announcement {
               align-items: center;
               flex-direction: column;
+              background-color: #1a1b29;
+            }
+            .announcement-root-class-name {
+              background-color: #1a1b29;
             }
           }
         `}
