@@ -370,13 +370,16 @@ closeButton.addEventListener("click", function() {
             .navbar-mobile {
               width: 410px;
               display: flex;
-              padding-top: 0px;
+              padding-top: 5px;
               padding-left: 0px;
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 84px;
             }
             .navbar-links1 {
+              align-self: center;
               align-items: center;
+              margin-left: 9px;
+              margin-right: 9px;
             }
             .navbar-btn {
               background-color: #231d23;
