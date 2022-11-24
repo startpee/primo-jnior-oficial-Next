@@ -34,7 +34,7 @@ const Home = (props) => {
         <div className="home-header">
           <div className="home-heading">
             <div id="notifcation" className="home-notification">
-              <a href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1">
+              <a href="#pre">
                 <Announcement
                   rootClassName="announcement-root-class-name"
                   className="home-component"
@@ -289,7 +289,7 @@ const Home = (props) => {
                 <h2 className="home-text15">Meus serviços</h2>
               </div>
             </div>
-            <div className="home-pricing-plans">
+            <div id="pre" className="home-pricing-plans">
               <div className="home-plans">
                 <div className="home-plan">
                   <div className="home-top">
@@ -361,7 +361,7 @@ const Home = (props) => {
                         Criação de conteúdo Criativo
                       </span>
                       <span className="home-text25">
-                        Faço conteúdos para seu negócio se destacar e chamar
+                        Faço videos para seu negócio se destacar e chamar
                         atenção
                       </span>
                     </div>
@@ -1740,7 +1740,7 @@ const Home = (props) => {
             font-weight: 600;
           }
           .home-text25 {
-            color: #ffaf00;
+            color: rgb(255, 175, 0);
             font-size: 24px;
             font-style: normal;
             font-family: Poppins;
