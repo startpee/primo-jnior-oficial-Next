@@ -2911,6 +2911,9 @@ const Home = (props) => {
               background-repeat: no-repeat;
               background-position: top right;
             }
+            .home-button5 {
+              background-color: #1a1b29;
+            }
             .home-f-a-q {
               width: 100%;
             }
