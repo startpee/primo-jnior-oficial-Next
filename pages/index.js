@@ -466,7 +466,7 @@ const Home = (props) => {
                         Criação de conteúdo Criativo
                       </span>
                       <span className="home-text41">
-                        Faço conteúdos para seu negócio se destacar e chamar
+                        Faço videos para seu negócio se destacar e chamar
                         atenção
                       </span>
                     </div>
@@ -546,7 +546,7 @@ const Home = (props) => {
             </div>
             <div className="home-rows">
               <div className="home-column3">
-                <div className="Question">
+                <div className="home-question Question">
                   <span className="home-title1">
                     Você é muito inteligente porque não  faz um concurso 
                     público?
@@ -2318,6 +2318,9 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
+          .home-question {
+            border-color: #ffd77b;
+          }
           .home-title1 {
             font-size: 18px;
             font-style: normal;
@@ -2911,6 +2914,9 @@ const Home = (props) => {
               background-repeat: no-repeat;
               background-position: top right;
             }
+            .home-text41 {
+              color: var(--dl-color-gray-900);
+            }
             .home-button5 {
               background-color: #1a1b29;
             }
@@ -3109,18 +3115,10 @@ const Home = (props) => {
               font-weight: 500;
             }
             .home-text40 {
-              color: #ffaf00;
-              font-size: 18px;
-              font-style: normal;
-              font-weight: 600;
+              color: rgb(255, 175, 0);
             }
             .home-text41 {
-              color: #ffffff;
-              font-size: 20px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 500;
-              line-height: 26px;
+              color: rgb(255, 255, 255);
             }
             .home-button5 {
               background-color: #1a1b29;
