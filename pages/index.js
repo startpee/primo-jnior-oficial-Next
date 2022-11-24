@@ -1369,11 +1369,11 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: 103px;
-            background-size: cover;
+            background-size: auto;
             justify-content: center;
             background-image: url('/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-1200w.png');
-            background-repeat: no-repeat;
-            background-position: center;
+            background-repeat: repeat-y;
+            background-position: top;
           }
           .home-text12 {
             color: var(--dl-color-gray-900);
@@ -2994,6 +2994,12 @@ const Home = (props) => {
             .home-image05 {
               width: 100%;
               max-width: 400px;
+            }
+            .home-overlay {
+              padding-top: 135px;
+            }
+            .home-text12 {
+              text-align: center;
             }
             .home-book-btn {
               align-self: center;
