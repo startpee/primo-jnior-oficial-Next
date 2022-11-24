@@ -620,20 +620,10 @@ const Home = (props) => {
                     />
                   </span>
                   <span className="home-description6">
-                    <span>
-                      Antes eu não sabia dizer quando exatamente, hoje tenho um
-                      previsão para o final do ano de 2023 ou antes.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <br></br>
-                    <span>
-                      tudo depende da quantidade de pessoas que alcanço através
-                      do meu site. 
-                    </span>
+                    eu acredito que já sou, sobre a questão financeiro pra mim
+                    eu tenho uma previsão que lá para final do ano de 2023
+                    esteja com abundancia e realizando um dos meus sonhos de
+                    conquistar o meu primeiro milhão. 
                   </span>
                 </div>
                 <div className="home-question4 Question">
@@ -697,8 +687,8 @@ const Home = (props) => {
         <div className="home-get-started1">
           <div className="home-content8">
             <div className="home-heading11">
-              <h2 className="home-text80"> acompanhe o primo!</h2>
-              <span className="home-text81">em uma das nossas redes</span>
+              <h2 className="home-text77"> acompanhe o primo!</h2>
+              <span className="home-text78">em uma das nossas redes</span>
             </div>
             <div className="home-hero-buttons1">
               <div className="home-i-o-s-btn">
@@ -2425,7 +2415,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text80 {
+          .home-text77 {
             color: var(--dl-color-gray-black);
             font-size: 64px;
             font-style: normal;
@@ -2433,7 +2423,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text81 {
+          .home-text78 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -2730,10 +2720,10 @@ const Home = (props) => {
             .home-heading11 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text80 {
+            .home-text77 {
               font-size: 40px;
             }
-            .home-text81 {
+            .home-text78 {
               font-size: 18px;
             }
           }
@@ -2952,9 +2942,10 @@ const Home = (props) => {
               font-size: 16px;
               align-self: center;
               font-style: normal;
+              text-align: center;
               font-family: Poppins;
               font-weight: 400;
-              line-height: 24px;
+              line-height: 22px;
             }
             .home-hero-buttons {
               width: 100%;

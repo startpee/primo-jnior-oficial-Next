@@ -399,6 +399,7 @@ Navbar.defaultProps = {
   text1: 'Projetos',
   text12: 'Serviços',
   Branding_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
+  rootClassName: '',
   Link_1: 'inicio',
   text131: 'Contratar',
   image_alt: 'image',
@@ -410,7 +411,6 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   Branding_alt: 'pastedImage',
   text11: 'Rede social',
-  rootClassName: '',
 }
 
 Navbar.propTypes = {
@@ -418,6 +418,7 @@ Navbar.propTypes = {
   text1: PropTypes.string,
   text12: PropTypes.string,
   Branding_src: PropTypes.string,
+  rootClassName: PropTypes.string,
   Link_1: PropTypes.string,
   text131: PropTypes.string,
   image_alt: PropTypes.string,
@@ -429,7 +430,6 @@ Navbar.propTypes = {
   image_src: PropTypes.string,
   Branding_alt: PropTypes.string,
   text11: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Navbar
