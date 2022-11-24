@@ -34,12 +34,7 @@ const Home = (props) => {
         <div className="home-header">
           <div className="home-heading">
             <div id="notifcation" className="home-notification">
-              <a href="#pre">
-                <Announcement
-                  rootClassName="announcement-root-class-name"
-                  className="home-component"
-                ></Announcement>
-              </a>
+              <Announcement rootClassName="announcement-root-class-name"></Announcement>
             </div>
             <Navbar rootClassName="navbar-root-class-name"></Navbar>
           </div>
@@ -53,7 +48,7 @@ const Home = (props) => {
                 <div className="home-android-btn">
                   <a
                     href="https://www.instagram.com/oprimojunior/"
-                    className="home-link01"
+                    className="home-link"
                   >
                     <img
                       alt="image"
@@ -63,7 +58,7 @@ const Home = (props) => {
                   </a>
                   <a
                     href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
-                    className="home-link02"
+                    className="home-link01"
                   >
                     <img
                       alt="image"
@@ -73,7 +68,7 @@ const Home = (props) => {
                   </a>
                   <a
                     href="https://www.tiktok.com/@oprimojunior"
-                    className="home-link03"
+                    className="home-link02"
                   >
                     <img
                       alt="image"
@@ -165,7 +160,7 @@ const Home = (props) => {
                 <div className="home-explore">
                   <a
                     href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
-                    className="home-link04"
+                    className="home-link03"
                   >
                     Me acompanha  no youtube -&gt;
                   </a>
@@ -224,7 +219,7 @@ const Home = (props) => {
                   <Point text="Reprehenderit qui in ea voluptate velit"></Point>
                 </div>
                 <Link href="/">
-                  <a className="home-link05">
+                  <a className="home-link04">
                     <div className="home-get-started">
                       <span className="home-sign-up">Get started now</span>
                     </div>
@@ -258,7 +253,7 @@ const Home = (props) => {
               <span className="home-text12">Esse é o meu podcast</span>
               <a
                 href="https://open.spotify.com/show/0LzVGwtBYHnWAByDNLNn3b"
-                className="home-link06"
+                className="home-link05"
               >
                 <div className="home-book-btn">
                   <span className="home-text13">Aperta aqui</span>
@@ -310,7 +305,7 @@ const Home = (props) => {
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link07"
+                      className="home-link06"
                     >
                       <div className="home-button">
                         <span className="home-text19">Eu quero</span>
@@ -339,7 +334,7 @@ const Home = (props) => {
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link08"
+                      className="home-link07"
                     >
                       <div className="home-button1">
                         <span className="home-text23">Eu quero</span>
@@ -394,7 +389,7 @@ const Home = (props) => {
                   </div>
                   <a
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                    className="home-link09"
+                    className="home-link08"
                   >
                     <div className="home-button2">
                       <span className="home-text29">
@@ -450,7 +445,7 @@ const Home = (props) => {
                 <div className="home-bottom3">
                   <a
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                    className="home-link10"
+                    className="home-link09"
                   >
                     <div className="home-button4">
                       <span className="home-text39">Eu quero</span>
@@ -506,7 +501,7 @@ const Home = (props) => {
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link11"
+                    className="home-link10"
                   >
                     <div className="home-button5">
                       <span className="home-text45">
@@ -524,7 +519,7 @@ const Home = (props) => {
             <div className="home-explore2">
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="home-link12"
+                className="home-link11"
               >
                 Entre em contato agora mesmo -&gt;
               </a>
@@ -571,7 +566,7 @@ const Home = (props) => {
                     </span>
                   </span>
                 </div>
-                <div className="Question">
+                <div className="home-question1 Question">
                   <span className="home-title2">
                     Você tem namorada?
                     <span
@@ -615,7 +610,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-column4">
-                <div className="home-question3 Question">
+                <div className="Question">
                   <span className="home-title4">
                     Quando você vai ficar rico?
                     <span
@@ -699,7 +694,7 @@ const Home = (props) => {
               <div className="home-i-o-s-btn">
                 <a
                   href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ"
-                  className="home-link13"
+                  className="home-link12"
                 >
                   <img
                     alt="image"
@@ -711,7 +706,7 @@ const Home = (props) => {
               <div className="home-i-o-s-btn1">
                 <a
                   href="https://www.tiktok.com/@oprimojunior"
-                  className="home-link14"
+                  className="home-link13"
                 >
                   <img
                     alt="image"
@@ -723,7 +718,7 @@ const Home = (props) => {
               <div className="home-android-btn1">
                 <a
                   href="https://www.instagram.com/oprimojunior/"
-                  className="home-link15"
+                  className="home-link14"
                 >
                   <img
                     alt="image"
@@ -763,9 +758,6 @@ const Home = (props) => {
           }
           .home-notification {
             width: 100%;
-          }
-          .home-component {
-            text-decoration: none;
           }
           .home-hero {
             flex: 1;
@@ -829,7 +821,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-link01 {
+          .home-link {
             display: contents;
           }
           .home-image {
@@ -839,7 +831,7 @@ const Home = (props) => {
             margin-right: 10px;
             text-decoration: none;
           }
-          .home-link02 {
+          .home-link01 {
             display: contents;
           }
           .home-image01 {
@@ -849,7 +841,7 @@ const Home = (props) => {
             margin-right: 10px;
             text-decoration: none;
           }
-          .home-link03 {
+          .home-link02 {
             display: contents;
           }
           .home-image02 {
@@ -1105,7 +1097,7 @@ const Home = (props) => {
             color: rgba(255, 255, 255, 0.5);
             border-color: rgba(255, 255, 255, 0.3);
           }
-          .home-link04 {
+          .home-link03 {
             width: Size-XSmall;
             text-decoration: none;
           }
@@ -1247,7 +1239,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-link05 {
+          .home-link04 {
             display: contents;
           }
           .home-get-started {
@@ -1384,7 +1376,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-link06 {
+          .home-link05 {
             display: contents;
           }
           .home-book-btn {
@@ -1570,7 +1562,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-link07 {
+          .home-link06 {
             display: contents;
           }
           .home-button {
@@ -1669,7 +1661,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-link08 {
+          .home-link07 {
             display: contents;
           }
           .home-button1 {
@@ -1812,7 +1804,7 @@ const Home = (props) => {
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-link09 {
+          .home-link08 {
             display: contents;
           }
           .home-button2 {
@@ -2015,7 +2007,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-link10 {
+          .home-link09 {
             display: contents;
           }
           .home-button4 {
@@ -2190,7 +2182,7 @@ const Home = (props) => {
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-link11 {
+          .home-link10 {
             display: contents;
           }
           .home-button5 {
@@ -2241,7 +2233,7 @@ const Home = (props) => {
             color: rgba(0, 0, 0, 0.5);
             border-color: rgba(0, 0, 0, 0.3);
           }
-          .home-link12 {
+          .home-link11 {
             font-style: normal;
             font-weight: 600;
             text-decoration: none;
@@ -2319,7 +2311,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-question {
-            border-color: #ffd77b;
+            border-right-width: 0px;
           }
           .home-title1 {
             font-size: 18px;
@@ -2330,6 +2322,10 @@ const Home = (props) => {
           .home-description3 {
             font-family: Poppins;
             line-height: 24px;
+          }
+          .home-question1 {
+            border-right-width: 0px;
+            border-bottom-width: 0px;
           }
           .home-title2 {
             font-size: 18px;
@@ -2360,9 +2356,6 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-question3 {
-            border-right-width: 0px;
-          }
           .home-title4 {
             font-size: 18px;
             font-style: normal;
@@ -2375,6 +2368,7 @@ const Home = (props) => {
           }
           .home-question4 {
             border-right-width: 0px;
+            border-bottom-width: 0px;
           }
           .home-title5 {
             font-size: 18px;
@@ -2388,7 +2382,6 @@ const Home = (props) => {
           }
           .home-question5 {
             border-right-width: 0px;
-            border-bottom-width: 0px;
           }
           .home-title6 {
             font-size: 18px;
@@ -2463,7 +2456,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link13 {
+          .home-link12 {
             display: contents;
           }
           .home-image07 {
@@ -2487,7 +2480,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link14 {
+          .home-link13 {
             display: contents;
           }
           .home-image08 {
@@ -2511,7 +2504,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-link15 {
+          .home-link14 {
             display: contents;
           }
           .home-image09 {
