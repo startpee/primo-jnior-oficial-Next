@@ -365,6 +365,10 @@ closeButton.addEventListener("click", function() {
             }
           }
           @media (max-width: 479px) {
+            .navbar-branding {
+              margin-left: var(--dl-space-space-twounits);
+              margin-right: var(--dl-space-space-twounits);
+            }
             .navbar-mobile {
               width: 367px;
               display: flex;
