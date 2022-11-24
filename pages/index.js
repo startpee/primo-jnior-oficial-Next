@@ -45,7 +45,7 @@ const Home = (props) => {
           </div>
           <div className="home-hero">
             <div className="home-content">
-              <h1 className="home-title">O primo júnior</h1>
+              <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
                 Comecei minha jornada como influenciador  
               </span>
@@ -788,8 +788,8 @@ const Home = (props) => {
           .home-title {
             font-size: 64px;
             font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
+            font-family: Source Sans Pro;
+            font-weight: 700;
             line-height: 76px;
           }
           .home-caption {
