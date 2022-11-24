@@ -375,6 +375,10 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 84px;
             }
+            .navbar-top {
+              margin-left: 10px;
+              margin-right: 10px;
+            }
             .navbar-links1 {
               align-self: center;
               align-items: center;
