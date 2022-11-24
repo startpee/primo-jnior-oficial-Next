@@ -250,6 +250,11 @@ const Home = (props) => {
         <div className="home-banner-container">
           <div className="home-banner">
             <div className="home-overlay">
+              <div className="home-div1">
+                <DangerousHTML
+                  html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0LzVGwtBYHnWAByDNLNn3b?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
+                ></DangerousHTML>
+              </div>
               <span className="home-text12">Esse é o meu podcast</span>
               <a
                 href="https://open.spotify.com/show/0LzVGwtBYHnWAByDNLNn3b"
@@ -259,15 +264,10 @@ const Home = (props) => {
                   <span className="home-text13">Aperta aqui</span>
                 </div>
               </a>
-              <div className="home-div1">
-                <DangerousHTML
-                  html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0LzVGwtBYHnWAByDNLNn3b?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
-                ></DangerousHTML>
-              </div>
             </div>
             <img
               alt="pastedImage"
-              src="/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-1200w.png"
+              src="/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-800h.png"
               className="home-pasted-image5"
             />
           </div>
@@ -1347,7 +1347,7 @@ const Home = (props) => {
           }
           .home-banner {
             width: 100%;
-            height: 555px;
+            height: 667px;
             display: flex;
             overflow: hidden;
             max-width: 1200px;
@@ -1368,10 +1368,10 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-fiveunits);
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
-            padding-bottom: 103px;
+            padding-bottom: var(--dl-space-space-fourunits);
             background-size: auto;
             justify-content: center;
-            background-image: url('/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-1200w.png');
+            background-image: url('/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-800h.png');
             background-repeat: repeat-y;
             background-position: top;
           }
@@ -1411,11 +1411,6 @@ const Home = (props) => {
             font-family: Roboto Condensed;
             font-weight: 700;
           }
-          .home-div1 {
-            width: 668px;
-            height: 345px;
-            align-self: center;
-          }
           .home-pasted-image5 {
             display: none;
           }
@@ -1423,7 +1418,6 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-oneandhalfunits);
             border-radius: 16px;
             padding-right: var(--dl-space-space-oneandhalfunits);
@@ -2639,6 +2633,9 @@ const Home = (props) => {
             .home-content5 {
               margin-top: 0px;
             }
+            .home-pasted-image5 {
+              align-self: center;
+            }
             .home-pricing {
               padding-top: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
@@ -2995,8 +2992,21 @@ const Home = (props) => {
               width: 100%;
               max-width: 400px;
             }
+            .home-banner-container {
+              height: 652px;
+            }
+            .home-banner {
+              height: 100%;
+            }
             .home-overlay {
-              padding-top: 135px;
+              width: 333px;
+              height: 646px;
+              padding-top: var(--dl-space-space-twounits);
+              margin-bottom: 110px;
+              padding-bottom: 0px;
+            }
+            .home-div1 {
+              margin-top: var(--dl-space-space-twounits);
             }
             .home-text12 {
               text-align: center;
@@ -3004,12 +3014,10 @@ const Home = (props) => {
             .home-book-btn {
               align-self: center;
             }
-            .home-div1 {
-              width: 320px;
-              height: 362px;
-            }
             .home-pasted-image5 {
-              height: 225px;
+              width: auto;
+              height: 181px;
+              display: none;
             }
             .home-text16 {
               font-size: 20px;
