@@ -48,20 +48,19 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n      <script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n      <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="7d9e59c3-d71f-4371-a708-d5af20a49739";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script><noscript>',
+                "</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- StorifyMe scripts -->\n      <script type=\"text/javascript\" src=\"https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js\"></script>\n      <script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"7d9e59c3-d71f-4371-a708-d5af20a49739\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>\n      <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-W5TLPCK');</script>\n<!-- End Google Tag Manager --><noscript>",
             }}
           ></noscript>
         </Head>
         <body>
           <Main></Main>
           <NextScript></NextScript>
-          <script
-            type="text/javascript"
+          <div
             dangerouslySetInnerHTML={{
               __html:
-                "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n        })(window,document,'script','dataLayer','GTM-W5TLPCK');",
+                '<!-- Your body code here -->\n<!-- <script type="text/javascript"> ... </script> -->\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5TLPCK"\nheight="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->',
             }}
-          ></script>
+          ></div>
         </body>
       </Html>
     )
