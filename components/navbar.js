@@ -368,7 +368,7 @@ closeButton.addEventListener("click", function() {
           }
           @media (max-width: 479px) {
             .navbar-mobile {
-              width: 410px;
+              width: 395px;
               display: flex;
               padding-top: 5px;
               padding-left: 0px;
@@ -380,6 +380,10 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               margin-left: 9px;
               margin-right: 9px;
+            }
+            .navbar-buttons {
+              padding-left: 20px;
+              padding-right: 20px;
             }
             .navbar-btn {
               background-color: #231d23;
