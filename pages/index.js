@@ -909,7 +909,7 @@ const Home = (props) => {
             max-width: 1200px;
             margin-top: 100px;
             align-items: center;
-            padding-top: var(--dl-space-space-fiveunits);
+            padding-top: 254px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             margin-bottom: 10px;
             padding-right: var(--dl-space-space-oneandhalfunits);
