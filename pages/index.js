@@ -561,7 +561,7 @@ const Home = (props) => {
                     <br></br>
                     <span>
                       Só que não recomendo montar um negócio sem conhecimento, o
-                      caminho que escolhi foi oque fez aprender errando e ser
+                      caminho que escolhi foi oque me fez aprender errando e ser
                       essa pessoa inteligente.
                     </span>
                   </span>
@@ -578,16 +578,14 @@ const Home = (props) => {
                   <span className="home-description4">
                     <span>
                       Não, eu nunca me envolvi em nenhum relacionamento, por
-                      conta de um crença que tinha de quer mulher só dar
-                      problemas.
+                      achar que mulher só dar problemas.
                     </span>
                     <br></br>
                     <br></br>
                     <span>
-                      isso não é verdade tirei essa crença da cabeça, no caso se
-                      eu encontrar uma mulher que seja esforçada e que tenha
-                      objetivos de crescer na vida nunca que seria problema
-                      seria um apoio.  
+                      Acabei mudando de ideia  no caso se eu encontrar uma
+                      mulher que seja esforçada e que tenha objetivos de crescer
+                      na vida nunca que seria problema seria um apoio.  
                     </span>
                     <br></br>
                     <br></br>
@@ -604,8 +602,8 @@ const Home = (props) => {
                   </span>
                   <span className="home-description5">
                     No momento não, comecei minha jornada na internet apartir do
-                    meu site que lancei em novembro de 2022 em ferveriro de 2023
-                    já quero está morando no meu apê .
+                    meu site que lancei em novembro de 2022 em julho de 2023 já
+                    quero está morando no meu apê .
                   </span>
                 </div>
               </div>
@@ -667,8 +665,8 @@ const Home = (props) => {
                     <br></br>
                     <br></br>
                     <span>
-                      o sonho é algo distante mais que levou tempo para
-                      organizar e se tornar um objetivo para minha vida.
+                      tive que pegar um dos meus sonhos e organizar para tornar
+                      um objetivo na minha vida.
                     </span>
                     <br></br>
                     <br></br>
@@ -1027,6 +1025,7 @@ const Home = (props) => {
           .home-content1 {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
+            height: 909px;
             display: flex;
             max-width: 1200px;
             align-items: center;
