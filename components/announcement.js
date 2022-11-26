@@ -81,7 +81,7 @@ const Announcement = (props) => {
 }
 
 Announcement.defaultProps = {
-  Title: 'Faço videos criativos para o seu Produto',
+  Title: 'Criação de site Profissional',
   rootClassName: '',
   Button: 'Clique aqui ->',
 }
