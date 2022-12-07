@@ -2042,6 +2042,12 @@ const Home = (props) => {
             .home-heading3 {
               width: 441px;
             }
+            .home-text14 {
+              width: 320px;
+              height: 63px;
+              font-size: 25px;
+              align-self: center;
+            }
             .home-text15 {
               font-size: 30px;
               font-style: normal;
