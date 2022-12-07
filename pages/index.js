@@ -159,7 +159,7 @@ const Home = (props) => {
             ></iframe>
             <div className="home-video-container">
               <div className="home-heading-container">
-                <div className="home-heading01">
+                <div className="home-heading1">
                   <span className="home-text01">Assista esse video </span>
                 </div>
                 <div className="home-explore">
@@ -208,7 +208,7 @@ const Home = (props) => {
           </div>
           <div className="home-section1">
             <div className="home-content3">
-              <div className="home-heading02">
+              <div className="home-heading2">
                 <h2 className="home-text07">
                   Keep track with all transactions
                 </h2>
@@ -284,139 +284,35 @@ const Home = (props) => {
                   />
                 </span>
               </div>
-              <div className="home-heading03">
-                <h2 className="home-text14">Meus serviços</h2>
-              </div>
-            </div>
-            <div id="pre" className="home-pricing-plans">
-              <div className="home-plans">
+              <div className="home-heading3">
+                <h2 className="home-text14">Meu principal serviço</h2>
                 <div className="home-plan">
                   <div className="home-top">
-                    <div className="home-heading04">
-                      <span className="home-text15">
-                        Abrir seu próprio negócio 
-                      </span>
+                    <div className="home-heading4">
+                      <span className="home-text15">infoprodutor</span>
                       <span className="home-text16">
-                        em breve vou lançar um app  
+                        Ajudo a criar o seu produto digital e lançar na internet
                       </span>
+                      <img
+                        alt="image"
+                        src="/playground_assets/2541715-700h.png"
+                        className="home-image06"
+                      />
                     </div>
-                    <div className="home-cost">
-                      <span className="home-text17">Grátis</span>
-                    </div>
+                    <div className="home-cost"></div>
                   </div>
                   <div className="home-bottom">
                     <div className="home-check-list">
-                      <Check Feature="Planejamento"></Check>
-                      <Check Feature="Ideias de negócios"></Check>
+                      <Check Feature="estrutura digital"></Check>
+                      <Check Feature="estratégia de marketing"></Check>
+                      <Check Feature=" plano de negócios"></Check>
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
                       className="home-link07"
                     >
                       <div className="home-button">
-                        <span className="home-text18">Eu quero</span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="home-plan1">
-                  <div className="home-top1">
-                    <div className="home-heading05">
-                      <span className="home-text19">infoprodutor</span>
-                      <span className="home-text20">
-                        Ajudo a criar o seu produto digital e lançar na internet
-                      </span>
-                      <img
-                        alt="image"
-                        src="/playground_assets/2541715-1800h.png"
-                        className="home-image06"
-                      />
-                    </div>
-                    <div className="home-cost1"></div>
-                  </div>
-                  <div className="home-bottom1">
-                    <div className="home-check-list1">
-                      <Check Feature="estrutura digital"></Check>
-                      <Check Feature="estratégia de marketing"></Check>
-                      <Check Feature=" plano de negócios"></Check>
-                    </div>
-                    <a
-                      href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link08"
-                    >
-                      <div className="home-button1">
-                        <span className="home-text21">Saiba mais</span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="home-plans1">
-              <div className="home-plan2">
-                <div className="home-top2">
-                  <div className="home-heading06">
-                    <div className="home-plan3">
-                      <div className="home-top3">
-                        <div className="home-heading07">
-                          <span className="home-text22">
-                            Abrir seu próprio negócio 
-                          </span>
-                          <span className="home-text23">
-                            em breve vou lançar um app  
-                          </span>
-                        </div>
-                        <div className="home-cost2">
-                          <span className="home-text24">Grátis</span>
-                        </div>
-                      </div>
-                      <div className="home-bottom2">
-                        <div className="home-check-list2">
-                          <Check Feature="Planejamento"></Check>
-                          <Check Feature="Ideias de negócios"></Check>
-                        </div>
-                        <a
-                          href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                          className="home-link09"
-                        >
-                          <div className="home-button2">
-                            <span className="home-text25">Eu quero</span>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="home-cost3"></div>
-                </div>
-              </div>
-              <div className="home-plan4">
-                <div className="home-plan5">
-                  <div className="home-top4">
-                    <div className="home-heading08">
-                      <span className="home-text26">infoprodutor</span>
-                      <span className="home-text27">
-                        Ajudo a criar o seu produto digital e lançar na internet
-                      </span>
-                      <img
-                        alt="image"
-                        src="/playground_assets/2541715-1800h.png"
-                        className="home-image07"
-                      />
-                    </div>
-                    <div className="home-cost4"></div>
-                  </div>
-                  <div className="home-bottom3">
-                    <div className="home-check-list3">
-                      <Check Feature="estrutura digital"></Check>
-                      <Check Feature="estratégia de marketing"></Check>
-                      <Check Feature=" plano de negócios"></Check>
-                    </div>
-                    <a
-                      href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link10"
-                    >
-                      <div className="home-button3">
-                        <span className="home-text28">Sob consulta</span>
+                        <span className="home-text17">Saiba mais</span>
                       </div>
                     </a>
                   </div>
@@ -425,11 +321,11 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-help">
-            <span className="home-text29">precisa de ajuda?</span>
+            <span className="home-text18">precisa de ajuda?</span>
             <div className="home-explore2">
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="home-link11"
+                className="home-link08"
               >
                 Entre em contato agora mesmo -&gt;
               </a>
@@ -440,13 +336,13 @@ const Home = (props) => {
           <div className="home-content7">
             <div className="home-header3">
               <div className="home-tag1">
-                <span className="home-text30">
+                <span className="home-text19">
                   <span>FAQ</span>
                   <br></br>
                 </span>
               </div>
-              <div className="home-heading09">
-                <h2 className="home-text33">perguntas que as pessoas me faz</h2>
+              <div className="home-heading5">
+                <h2 className="home-text22">perguntas que as pessoas me faz</h2>
               </div>
             </div>
             <div className="home-rows">
@@ -578,44 +474,44 @@ const Home = (props) => {
         </div>
         <div className="home-get-started1">
           <div className="home-content8">
-            <div className="home-heading10">
-              <h2 className="home-text49"> acompanhe o primo!</h2>
-              <span className="home-text50">em uma das nossas redes</span>
+            <div className="home-heading6">
+              <h2 className="home-text38"> acompanhe o primo!</h2>
+              <span className="home-text39">em uma das nossas redes</span>
             </div>
             <div className="home-hero-buttons1">
               <div className="home-i-o-s-btn">
                 <a
                   href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ"
-                  className="home-link12"
+                  className="home-link09"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/youtube-1500h.png"
-                    className="home-image08"
+                    className="home-image07"
                   />
                 </a>
               </div>
               <div className="home-i-o-s-btn1">
                 <a
                   href="https://www.tiktok.com/@oprimojunior"
-                  className="home-link13"
+                  className="home-link10"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/tik-tok-1500h.png"
-                    className="home-image09"
+                    className="home-image08"
                   />
                 </a>
               </div>
               <div className="home-android-btn1">
                 <a
                   href="https://www.instagram.com/oprimojunior/"
-                  className="home-link14"
+                  className="home-link11"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/instagram-1500h.png"
-                    className="home-image10"
+                    className="home-image09"
                   />
                 </a>
               </div>
@@ -964,7 +860,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading01 {
+          .home-heading1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1102,7 +998,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading02 {
+          .home-heading2 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1339,10 +1235,15 @@ const Home = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .home-heading03 {
+          .home-heading3 {
             gap: var(--dl-space-space-unit);
+            width: 505px;
+            height: 705px;
             display: flex;
             align-items: flex-start;
+            border-color: rgba(0, 0, 0, 0.34);
+            border-style: solid;
+            border-width: 1px;
             flex-direction: column;
             justify-content: flex-start;
           }
@@ -1356,41 +1257,19 @@ const Home = (props) => {
             font-weight: 600;
             line-height: 56px;
           }
-          .home-pricing-plans {
-            flex: 1;
-            width: 603px;
-            display: grid;
-            overflow: hidden;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            border-width: 1px;
-            border-radius: 16px;
-            flex-direction: row;
-            justify-content: flex-start;
-            background-color: #1a1b29;
-            grid-template-columns: auto auto;
-          }
-          .home-plans {
-            flex: 1;
-            height: 100%;
-            display: grid;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: TwoUnits;
-            padding-bottom: var(--dl-space-space-twounits);
-            background-color: #ffffff;
-            grid-template-columns: auto auto auto;
-          }
           .home-plan {
-            width: 100%;
-            height: 100%;
+            width: 418px;
+            height: 602px;
             display: flex;
             max-width: 300px;
+            align-self: center;
             align-items: flex-start;
+            padding-top: var(--dl-space-space-twounits);
             border-color: #dbdbdb;
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: space-between;
             border-right-width: 1px;
           }
           .home-top {
@@ -1403,7 +1282,7 @@ const Home = (props) => {
             justify-content: flex-start;
             border-bottom-width: 1px;
           }
-          .home-heading04 {
+          .home-heading4 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1411,30 +1290,28 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-text15 {
-            font-size: 20px;
+            font-size: 30px;
             font-style: normal;
-            text-align: center;
             font-family: Poppins;
             font-weight: 600;
           }
           .home-text16 {
-            text-align: center;
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-cost {
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
+          .home-image06 {
+            width: 114px;
+            align-self: center;
+            object-fit: cover;
           }
-          .home-text17 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
+          .home-cost {
+            gap: var(--dl-space-space-halfunit);
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+            justify-content: flex-start;
           }
           .home-bottom {
             width: 100%;
@@ -1476,360 +1353,7 @@ const Home = (props) => {
           .home-button:hover {
             background-color: rgba(173, 226, 223, 0.5);
           }
-          .home-text18 {
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-plan1 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-            border-right-width: 1px;
-          }
-          .home-top1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading05 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text19 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text20 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-image06 {
-            width: 114px;
-            align-self: center;
-            object-fit: cover;
-          }
-          .home-cost1 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: flex-end;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-bottom1 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-check-list1 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-link08 {
-            display: contents;
-          }
-          .home-button1 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            text-decoration: none;
-            background-color: #ffaf00;
-          }
-          .home-button1:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text21 {
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-plans1 {
-            width: 100%;
-            height: 100%;
-            display: none;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-plan2 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: flex-start;
-            border-right-width: 1px;
-          }
-          .home-top2 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading06 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-plan3 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: flex-start;
-            border-right-width: 1px;
-          }
-          .home-top3 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading07 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text22 {
-            font-size: 20px;
-            font-style: normal;
-            text-align: center;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text23 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-cost2 {
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text24 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
-          }
-          .home-bottom2 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-check-list2 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-link09 {
-            display: contents;
-          }
-          .home-button2 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            text-decoration: none;
-            background-color: #ffaf00;
-          }
-          .home-button2:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text25 {
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-cost3 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-plan4 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-            border-right-width: 1px;
-          }
-          .home-plan5 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-            border-right-width: 1px;
-          }
-          .home-top4 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: flex-start;
-            border-bottom-width: 1px;
-          }
-          .home-heading08 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text26 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text27 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-image07 {
-            width: 114px;
-            align-self: center;
-            object-fit: cover;
-          }
-          .home-cost4 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: flex-end;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-bottom3 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-check-list3 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-link10 {
-            display: contents;
-          }
-          .home-button3 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            text-decoration: none;
-            background-color: #ffaf00;
-          }
-          .home-button3:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text28 {
+          .home-text17 {
             font-style: normal;
             font-weight: 500;
           }
@@ -1840,7 +1364,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-threeunits);
             flex-direction: row;
           }
-          .home-text29 {
+          .home-text18 {
             font-family: Poppins;
           }
           .home-explore2 {
@@ -1857,7 +1381,7 @@ const Home = (props) => {
             color: rgba(0, 0, 0, 0.5);
             border-color: rgba(0, 0, 0, 0.3);
           }
-          .home-link11 {
+          .home-link08 {
             font-style: normal;
             font-weight: 600;
             text-decoration: none;
@@ -1901,18 +1425,18 @@ const Home = (props) => {
             justify-content: center;
             background-color: #d6f1f0;
           }
-          .home-text30 {
+          .home-text19 {
             font-style: normal;
             font-weight: 500;
           }
-          .home-heading09 {
+          .home-heading5 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text33 {
+          .home-text22 {
             width: 100%;
             font-size: 40px;
             max-width: 500px;
@@ -2035,13 +1559,13 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-heading10 {
+          .home-heading6 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text49 {
+          .home-text38 {
             color: var(--dl-color-gray-white);
             font-size: 64px;
             font-style: normal;
@@ -2049,7 +1573,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text50 {
+          .home-text39 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -2080,10 +1604,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link12 {
+          .home-link09 {
             display: contents;
           }
-          .home-image08 {
+          .home-image07 {
             width: 100px;
             object-fit: cover;
             text-decoration: none;
@@ -2104,10 +1628,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link13 {
+          .home-link10 {
             display: contents;
           }
-          .home-image09 {
+          .home-image08 {
             width: 100px;
             object-fit: cover;
             text-decoration: none;
@@ -2128,10 +1652,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-link14 {
+          .home-link11 {
             display: contents;
           }
-          .home-image10 {
+          .home-image09 {
             width: 100px;
             object-fit: cover;
             text-decoration: none;
@@ -2269,18 +1793,10 @@ const Home = (props) => {
             .home-header2 {
               gap: var(--dl-space-space-unit);
             }
-            .home-pricing-plans {
-              grid-template-columns: none;
+            .home-heading3 {
+              width: 588px;
             }
-            .home-plans {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .home-text20 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-text27 {
+            .home-text16 {
               font-family: Poppins;
               line-height: 24px;
             }
@@ -2291,13 +1807,13 @@ const Home = (props) => {
             .home-content8 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-heading10 {
+            .home-heading6 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text49 {
+            .home-text38 {
               font-size: 40px;
             }
-            .home-text50 {
+            .home-text39 {
               font-size: 18px;
             }
           }
@@ -2342,7 +1858,7 @@ const Home = (props) => {
             .home-video-container {
               gap: var(--dl-space-space-threeunits);
             }
-            .home-heading01 {
+            .home-heading1 {
               gap: var(--dl-space-space-halfunit);
             }
             .home-text01 {
@@ -2393,56 +1909,11 @@ const Home = (props) => {
             }
             .home-content6 {
               width: 531px;
-              height: 1720px;
+              height: 733px;
             }
             .home-text14 {
               font-size: 32px;
               line-height: 44px;
-            }
-            .home-pricing-plans {
-              display: none;
-            }
-            .home-plans1 {
-              gap: var(--dl-space-space-oneandhalfunits);
-              display: flex;
-            }
-            .home-plan2 {
-              height: 615px;
-              max-width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              border-width: 1px;
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              border-radius: 16px;
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: 0px;
-              background-color: #ffffff;
-            }
-            .home-top2 {
-              width: 476px;
-              align-self: center;
-              padding-left: 52px;
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-heading06 {
-              gap: var(--dl-space-space-halfunit);
-            }
-            .home-plan3 {
-              align-self: center;
-            }
-            .home-plan4 {
-              width: 486px;
-              max-width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              border-width: 1px;
-              padding-left: var(--dl-space-space-sixunits);
-              border-radius: 16px;
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-              background-color: #ffffff;
-              border-right-width: 1px;
-            }
-            .home-text26 {
-              align-self: center;
             }
             .home-f-a-q {
               width: 100%;
@@ -2450,10 +1921,10 @@ const Home = (props) => {
             .home-content7 {
               gap: var(--dl-space-space-twounits);
             }
-            .home-text30 {
+            .home-text19 {
               font-size: 14px;
             }
-            .home-text33 {
+            .home-text22 {
               font-size: 32px;
               line-height: 44px;
             }
@@ -2566,10 +2037,13 @@ const Home = (props) => {
             }
             .home-content6 {
               width: 435px;
-              height: 1352px;
+              height: 783px;
+            }
+            .home-heading3 {
+              width: 441px;
             }
             .home-text15 {
-              font-size: 20px;
+              font-size: 30px;
               font-style: normal;
               font-family: Poppins;
               font-weight: 600;
@@ -2578,67 +2052,12 @@ const Home = (props) => {
               font-family: Poppins;
               line-height: 24px;
             }
-            .home-text19 {
-              font-size: 20px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
-            }
-            .home-text20 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-plans1 {
-              width: 478px;
-            }
-            .home-plan2 {
-              width: 479px;
-              height: 570px;
-              padding-right: 166px;
-            }
-            .home-top2 {
-              width: 479px;
-              height: 492px;
-              align-self: center;
-              padding-left: 136px;
-            }
-            .home-text22 {
-              font-size: 20px;
-            }
-            .home-text23 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-plan4 {
-              width: 436px;
-              border-color: var(--dl-color-gray-700);
-              border-width: 2px;
-              padding-left: 0px;
-              border-right-width: 2px;
-            }
-            .home-plan5 {
-              align-self: center;
-            }
-            .home-text26 {
-              font-size: 20px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
-            }
-            .home-text27 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-text28 {
-              font-style: normal;
-              font-weight: 500;
-            }
             .home-help {
               align-items: center;
               padding-top: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-text33 {
+            .home-text22 {
               font-size: 32px;
               font-style: normal;
               font-family: Poppins;
