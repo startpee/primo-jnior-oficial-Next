@@ -20,13 +20,13 @@ const Navbar = (props) => {
               </a>
             </div>
             <div className="navbar-links">
-              <a href="https://primojunior.com/" className="navbar-link01 link">
+              <a href="https://primojunior.com/" className="navbar-link1 link">
                 {props.Link_1}
               </a>
-              <a href="https://primojunior.com/" className="navbar-link02 link">
+              <a href="https://primojunior.com/" className="navbar-link2 link">
                 {props.Link_2}
               </a>
-              <a href="https://primojunior.com/" className="navbar-link03 link">
+              <a href="https://primojunior.com/" className="navbar-link3 link">
                 {props.Link_3}
               </a>
             </div>
@@ -40,7 +40,7 @@ const Navbar = (props) => {
             </a>
             <a
               href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-              className="navbar-link04"
+              className="navbar-link4"
             >
               <div className="navbar-sign-up-btn">
                 <span className="navbar-sign-up">Patrocinar</span>
@@ -71,25 +71,11 @@ const Navbar = (props) => {
           </div>
           <div className="navbar-links1">
             <Link href="/">
-              <a className="navbar-link05">{props.text1}</a>
+              <a className="navbar-link5">{props.text1}</a>
             </Link>
-            <Link href="/">
-              <a className="navbar-link06">{props.text11}</a>
-            </Link>
-            <Link href="/">
-              <a className="navbar-link07">{props.text12}</a>
-            </Link>
-            <a
-              href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="navbar-link08"
-            >
-              {props.text13}
-            </a>
             <div className="navbar-buttons">
               <Link href="/">
-                <a className="navbar-link09">
+                <a className="navbar-link6">
                   <div className="navbar-btn">
                     <span className="navbar-text">{props.text131}</span>
                   </div>
@@ -97,7 +83,7 @@ const Navbar = (props) => {
               </Link>
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="navbar-link10"
+                className="navbar-link7"
               >
                 <div className="navbar-btn1">
                   <span className="navbar-text1">{props.text1311}</span>
@@ -186,13 +172,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: 12px;
             justify-content: center;
           }
-          .navbar-link01 {
+          .navbar-link1 {
             text-decoration: none;
           }
-          .navbar-link02 {
+          .navbar-link2 {
             text-decoration: none;
           }
-          .navbar-link03 {
+          .navbar-link3 {
             text-decoration: none;
           }
           .navbar-quick-actions {
@@ -205,7 +191,7 @@ closeButton.addEventListener("click", function() {
           .navbar-log-in {
             text-decoration: none;
           }
-          .navbar-link04 {
+          .navbar-link4 {
             display: contents;
           }
           .navbar-sign-up-btn {
@@ -275,16 +261,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .navbar-link05 {
-            text-decoration: none;
-          }
-          .navbar-link06 {
-            text-decoration: none;
-          }
-          .navbar-link07 {
-            text-decoration: none;
-          }
-          .navbar-link08 {
+          .navbar-link5 {
             text-decoration: none;
           }
           .navbar-buttons {
@@ -297,7 +274,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link09 {
+          .navbar-link6 {
             display: contents;
           }
           .navbar-btn {
@@ -315,7 +292,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-link10 {
+          .navbar-link7 {
             display: contents;
           }
           .navbar-btn1 {
@@ -370,7 +347,7 @@ closeButton.addEventListener("click", function() {
               margin-right: var(--dl-space-space-twounits);
             }
             .navbar-mobile {
-              width: 367px;
+              width: 399px;
               display: flex;
               align-items: center;
               margin-left: 0px;
@@ -423,8 +400,7 @@ closeButton.addEventListener("click", function() {
 
 Navbar.defaultProps = {
   Link_3: 'Projetos',
-  text1: 'Projetos',
-  text12: 'Serviços',
+  text1: 'Portfólio',
   Branding_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   rootClassName: '',
   Link_1: 'inicio',
@@ -432,18 +408,15 @@ Navbar.defaultProps = {
   image_alt: 'image',
   pastedImage_src: '/playground_assets/pastedimage-8o98.svg',
   text1311: 'Patrocinar',
-  text13: 'Contato',
   Link_2: 'Sobre',
   pastedImage_alt: 'pastedImage',
   image_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   Branding_alt: 'pastedImage',
-  text11: 'Rede social',
 }
 
 Navbar.propTypes = {
   Link_3: PropTypes.string,
   text1: PropTypes.string,
-  text12: PropTypes.string,
   Branding_src: PropTypes.string,
   rootClassName: PropTypes.string,
   Link_1: PropTypes.string,
@@ -451,12 +424,10 @@ Navbar.propTypes = {
   image_alt: PropTypes.string,
   pastedImage_src: PropTypes.string,
   text1311: PropTypes.string,
-  text13: PropTypes.string,
   Link_2: PropTypes.string,
   pastedImage_alt: PropTypes.string,
   image_src: PropTypes.string,
   Branding_alt: PropTypes.string,
-  text11: PropTypes.string,
 }
 
 export default Navbar
