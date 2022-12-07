@@ -32,7 +32,7 @@ const Footer = (props) => {
               </a>
               <a
                 href="https://www.instagram.com/oprimojunior/"
-                className="footer-link01"
+                className="footer-link1"
               >
                 <Social
                   Insider_src="/playground_assets/pastedimage-k0l6.svg"
@@ -49,19 +49,18 @@ const Footer = (props) => {
           <div className="footer-links">
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
-              <a href="https://blog.startpee.site/" className="footer-link02">
+              <a href="https://blog.startpee.site/" className="footer-link2">
                 {props.Link}
               </a>
-              <span className="footer-link03">{props.Link1}</span>
-              <span className="footer-link04">{props.Link2}</span>
-              <span className="footer-link05">{props.Link4}</span>
+              <span className="footer-link3">{props.Link1}</span>
+              <span className="footer-link4">{props.Link2}</span>
+              <span className="footer-link5">{props.Link4}</span>
             </div>
             <div className="footer-column1">
               <span className="footer-header1">{props.Header1}</span>
-              <span className="footer-link06">{props.Link5}</span>
-              <span className="footer-link07">{props.Link6}</span>
-              <span className="footer-link08">{props.Link7}</span>
-              <span className="footer-link09">{props.Link10}</span>
+              <span className="footer-link6">{props.Link5}</span>
+              <span className="footer-link7">{props.Link6}</span>
+              <span className="footer-link8">{props.Link10}</span>
             </div>
           </div>
         </div>
@@ -133,7 +132,7 @@ const Footer = (props) => {
           .footer-component {
             text-decoration: none;
           }
-          .footer-link01 {
+          .footer-link1 {
             display: contents;
           }
           .footer-component1 {
@@ -161,7 +160,7 @@ const Footer = (props) => {
             font-weight: 500;
             line-height: 30px;
           }
-          .footer-link02 {
+          .footer-link2 {
             color: #c4c4c4;
             cursor: pointer;
             font-size: 14px;
@@ -169,37 +168,37 @@ const Footer = (props) => {
             line-height: 21px;
             text-decoration: none;
           }
-          .footer-link02:hover {
+          .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link03 {
+          .footer-link3 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link03:hover {
+          .footer-link3:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link04 {
+          .footer-link4 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link04:hover {
+          .footer-link4:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link05 {
+          .footer-link5 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link05:hover {
+          .footer-link5:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-column1 {
@@ -216,45 +215,34 @@ const Footer = (props) => {
             font-weight: 500;
             line-height: 30px;
           }
-          .footer-link06 {
+          .footer-link6 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link06:hover {
+          .footer-link6:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link07 {
+          .footer-link7 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link07:hover {
+          .footer-link7:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link08 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            text-align: center;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link08:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link09 {
+          .footer-link8 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link09:hover {
+          .footer-link8:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -338,12 +326,11 @@ Footer.defaultProps = {
   Header1: 'Serviços',
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   pastedImage_alt: 'pastedImage',
-  Link7: 'Loja',
   Link2: 'Patrocinar',
   Link5: 'Criação de site',
   text: '© 2022 Oprimojunior. todos os direitos reservados.',
   Header: 'Links importante',
-  Link6: 'Criação de conteúdo',
+  Link6: 'infoprodutor',
   Link4: 'Assessória',
 }
 
@@ -356,7 +343,6 @@ Footer.propTypes = {
   Header1: PropTypes.string,
   pastedImage_src: PropTypes.string,
   pastedImage_alt: PropTypes.string,
-  Link7: PropTypes.string,
   Link2: PropTypes.string,
   Link5: PropTypes.string,
   text: PropTypes.string,
