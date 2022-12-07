@@ -1992,7 +1992,6 @@ const Home = (props) => {
             max-width: 300px;
             align-items: flex-start;
             border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
@@ -2925,26 +2924,33 @@ const Home = (props) => {
               gap: var(--dl-space-space-halfunit);
             }
             .home-plan4 {
+              width: 486px;
               max-width: 100%;
               padding-top: var(--dl-space-space-threeunits);
               border-width: 1px;
-              padding-left: 288px;
+              padding-left: var(--dl-space-space-sixunits);
               border-radius: 16px;
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
               background-color: #ffffff;
               border-right-width: 1px;
             }
+            .home-text34 {
+              align-self: center;
+            }
             .home-expand1 {
               flex: 0 0 auto;
-              width: 100%;
+              width: 486px;
               border-radius: 16px;
+              padding-right: 0px;
               background-color: #375ee0;
             }
             .home-overlay2 {
+              width: 100%;
               align-items: center;
-              padding-left: 155px;
-              padding-right: 148px;
+              margin-right: 0px;
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-twounits);
               background-size: contain;
               justify-content: center;
               background-repeat: no-repeat;
@@ -3112,12 +3118,10 @@ const Home = (props) => {
             }
             .home-top2 {
               align-self: center;
+              padding-left: 223px;
             }
             .home-text30 {
               font-size: 20px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
             }
             .home-text31 {
               font-family: Poppins;
@@ -3126,6 +3130,7 @@ const Home = (props) => {
             .home-plan4 {
               border-color: var(--dl-color-gray-700);
               border-width: 2px;
+              padding-left: 0px;
               border-right-width: 2px;
             }
             .home-plan5 {
