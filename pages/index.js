@@ -345,7 +345,7 @@ const Home = (props) => {
                       className="home-link08"
                     >
                       <div className="home-button1">
-                        <span className="home-text21">Eu quero</span>
+                        <span className="home-text21">Sob consulta</span>
                       </div>
                     </a>
                   </div>
