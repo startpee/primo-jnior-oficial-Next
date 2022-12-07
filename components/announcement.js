@@ -81,7 +81,7 @@ const Announcement = (props) => {
 }
 
 Announcement.defaultProps = {
-  Title: 'Criação de site Profissional',
+  Title: 'Te ajudo a criar o seu Produto digital',
   rootClassName: '',
   Button: 'Clique aqui ->',
 }

@@ -43,7 +43,7 @@ const Check = (props) => {
 
 Check.defaultProps = {
   rootClassName: '',
-  Feature: 'Curso para começar empreender',
+  Feature: 'plano de negócios',
 }
 
 Check.propTypes = {

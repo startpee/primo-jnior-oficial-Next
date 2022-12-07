@@ -47,7 +47,7 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
-                Comecei minha jornada como influenciador  
+                Desenvolvimento pessoal e negócios 
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
@@ -293,7 +293,9 @@ const Home = (props) => {
                 <div className="home-plan">
                   <div className="home-top">
                     <div className="home-heading04">
-                      <span className="home-text15">Dicas para empreender</span>
+                      <span className="home-text15">
+                        Abrir seu próprio negócio 
+                      </span>
                       <span className="home-text16">
                         em breve vou lançar um app  
                       </span>
@@ -304,7 +306,7 @@ const Home = (props) => {
                   </div>
                   <div className="home-bottom">
                     <div className="home-check-list">
-                      <Check></Check>
+                      <Check Feature="Planejamento"></Check>
                       <Check Feature="Ideias de negócios"></Check>
                     </div>
                     <a
@@ -320,38 +322,30 @@ const Home = (props) => {
                 <div className="home-plan1">
                   <div className="home-top1">
                     <div className="home-heading05">
-                      <span className="home-text19">Criação de site Pro</span>
+                      <span className="home-text19">infoprodutor</span>
                       <span className="home-text20">
-                        <span>Faço paginas profissionais</span>
-                        <br></br>
-                        <span>
-                          que ajuda a você vender o seu produto ou Serviços. 
-                        </span>
+                        Ajudo a criar o seu produto digital e lançar na internet
                       </span>
+                      <img
+                        src="/playground_assets/2541715-200h.png"
+                        alt="image"
+                        className="home-image06"
+                      />
                     </div>
-                    <div className="home-cost1">
-                      <span className="home-text24">
-                        <span className="home-text25">de R$1.500</span>
-                        <span> por  R$250</span>
-                      </span>
-                    </div>
-                    <span className="home-text27">
-                      promoção valida até  19/12/2022  
-                    </span>
+                    <div className="home-cost1"></div>
                   </div>
                   <div className="home-bottom1">
                     <div className="home-check-list1">
-                      <Check Feature="Seu negócio fica mais profissional"></Check>
-                      <Check Feature="Consultoria de marketing"></Check>
-                      <Check Feature=" mensalidade R$25 até 2024 "></Check>
-                      <Check Feature="Chat de atendimento Grátis"></Check>
+                      <Check Feature="estrutura digital"></Check>
+                      <Check Feature="estratégia de marketing"></Check>
+                      <Check Feature=" plano de negócios"></Check>
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
                       className="home-link08"
                     >
                       <div className="home-button1">
-                        <span className="home-text28">Eu quero</span>
+                        <span className="home-text21">Eu quero</span>
                       </div>
                     </a>
                   </div>
@@ -362,14 +356,14 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/advertising-200h.png"
-                    className="home-image06"
+                    className="home-image07"
                   />
                   <div className="home-header3">
                     <div className="home-heading06">
-                      <span className="home-text29">
+                      <span className="home-text22">
                         Criação de conteúdo Criativo
                       </span>
-                      <span className="home-text30">
+                      <span className="home-text23">
                         Faço videos para seu negócio se destacar e chamar
                         atenção
                       </span>
@@ -379,7 +373,7 @@ const Home = (props) => {
                         <svg viewBox="0 0 1024 1024" className="home-icon">
                           <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                         </svg>
-                        <span className="home-text31">
+                        <span className="home-text24">
                           instagram,tik tok, youtube
                         </span>
                       </div>
@@ -387,7 +381,7 @@ const Home = (props) => {
                         <svg viewBox="0 0 1024 1024" className="home-icon02">
                           <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                         </svg>
-                        <span className="home-text32">
+                        <span className="home-text25">
                           criação de estratégia 
                         </span>
                       </div>
@@ -395,7 +389,7 @@ const Home = (props) => {
                         <svg viewBox="0 0 1024 1024" className="home-icon04">
                           <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                         </svg>
-                        <span className="home-text33">
+                        <span className="home-text26">
                           Anuncios patrocinado
                         </span>
                       </div>
@@ -406,7 +400,7 @@ const Home = (props) => {
                     className="home-link09"
                   >
                     <div className="home-button2">
-                      <span className="home-text34">
+                      <span className="home-text27">
                         <span>sob consulta</span>
                         <br></br>
                       </span>
@@ -419,61 +413,67 @@ const Home = (props) => {
               <div className="home-plan2">
                 <div className="home-top2">
                   <div className="home-heading07">
-                    <span className="home-text37">Dicas para empreender</span>
-                    <span className="home-text38">
-                      em breve vou lançar um serie de videos 
-                    </span>
+                    <div className="home-plan3">
+                      <div className="home-top3">
+                        <div className="home-heading08">
+                          <span className="home-text30">
+                            Abrir seu próprio negócio 
+                          </span>
+                          <span className="home-text31">
+                            em breve vou lançar um app  
+                          </span>
+                        </div>
+                        <div className="home-cost2">
+                          <span className="home-text32">Grátis</span>
+                        </div>
+                      </div>
+                      <div className="home-bottom2">
+                        <div className="home-check-list3">
+                          <Check Feature="Planejamento"></Check>
+                          <Check Feature="Ideias de negócios"></Check>
+                        </div>
+                        <a
+                          href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
+                          className="home-link10"
+                        >
+                          <div className="home-button3">
+                            <span className="home-text33">Eu quero</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div className="home-cost2">
-                    <span className="home-text39">Grátis</span>
-                  </div>
-                  <div className="home-check-list3">
-                    <Check></Check>
-                    <Check Feature="Ideias de negócios"></Check>
-                  </div>
-                </div>
-                <div className="home-bottom2">
-                  <div className="home-button3">
-                    <span className="home-text40">Eu quero</span>
-                  </div>
+                  <div className="home-cost3"></div>
                 </div>
               </div>
-              <div className="home-plan3">
-                <div className="home-plan4">
-                  <div className="home-top3">
-                    <div className="home-heading08">
-                      <span className="home-text41">Criação de site Pro</span>
-                      <span className="home-text42">
-                        <span>Faço paginas profissionais</span>
-                        <br></br>
-                        <span>
-                          que ajuda a você vender o seu produto ou Serviços. 
-                        </span>
+              <div className="home-plan4">
+                <div className="home-plan5">
+                  <div className="home-top4">
+                    <div className="home-heading09">
+                      <span className="home-text34">infoprodutor</span>
+                      <span className="home-text35">
+                        Ajudo a criar o seu produto digital e lançar na internet
                       </span>
+                      <img
+                        src="/playground_assets/2541715-200h.png"
+                        alt="image"
+                        className="home-image08"
+                      />
                     </div>
-                    <div className="home-cost3">
-                      <span className="home-text46">
-                        <span className="home-text47">de R$1.500</span>
-                        <span> por  R$250</span>
-                      </span>
-                    </div>
-                    <span className="home-text49">
-                      promoção valida até  19/12/2022  
-                    </span>
+                    <div className="home-cost4"></div>
                   </div>
                   <div className="home-bottom3">
                     <div className="home-check-list4">
-                      <Check Feature="Seu negócio fica mais profissional"></Check>
-                      <Check Feature="Consultoria de marketing"></Check>
-                      <Check Feature=" mensalidade R$25 até 2024 "></Check>
-                      <Check Feature="Chat de atendimento Grátis"></Check>
+                      <Check Feature="estrutura digital"></Check>
+                      <Check Feature="estratégia de marketing"></Check>
+                      <Check Feature=" plano de negócios"></Check>
                     </div>
                     <a
                       href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                      className="home-link10"
+                      className="home-link11"
                     >
                       <div className="home-button4">
-                        <span className="home-text50">Eu quero</span>
+                        <span className="home-text36">Sob consulta</span>
                       </div>
                     </a>
                   </div>
@@ -482,11 +482,11 @@ const Home = (props) => {
               <div className="home-expand1">
                 <div className="home-overlay2">
                   <div className="home-header4">
-                    <div className="home-heading09">
-                      <span className="home-text51">
+                    <div className="home-heading10">
+                      <span className="home-text37">
                         Criação de conteúdo Criativo
                       </span>
-                      <span className="home-text52">
+                      <span className="home-text38">
                         Faço videos para seu negócio se destacar e chamar
                         atenção
                       </span>
@@ -500,7 +500,7 @@ const Home = (props) => {
                           <svg viewBox="0 0 1024 1024" className="home-icon06">
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
-                          <span className="home-text53">
+                          <span className="home-text39">
                             instagram,tik tok, youtube
                           </span>
                         </div>
@@ -508,7 +508,7 @@ const Home = (props) => {
                           <svg viewBox="0 0 1024 1024" className="home-icon08">
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
-                          <span className="home-text54">
+                          <span className="home-text40">
                             criação de estratégia 
                           </span>
                         </div>
@@ -516,7 +516,7 @@ const Home = (props) => {
                           <svg viewBox="0 0 1024 1024" className="home-icon10">
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
-                          <span className="home-text55">
+                          <span className="home-text41">
                             Anuncios patrocinado
                           </span>
                         </div>
@@ -527,10 +527,10 @@ const Home = (props) => {
                     href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link11"
+                    className="home-link12"
                   >
                     <div className="home-button5">
-                      <span className="home-text56">
+                      <span className="home-text42">
                         <span>Sob consulta</span>
                         <br></br>
                       </span>
@@ -541,11 +541,11 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-help">
-            <span className="home-text59">precisa de ajuda?</span>
+            <span className="home-text45">precisa de ajuda?</span>
             <div className="home-explore2">
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="home-link12"
+                className="home-link13"
               >
                 Entre em contato agora mesmo -&gt;
               </a>
@@ -556,13 +556,13 @@ const Home = (props) => {
           <div className="home-content7">
             <div className="home-header5">
               <div className="home-tag1">
-                <span className="home-text60">
+                <span className="home-text46">
                   <span>FAQ</span>
                   <br></br>
                 </span>
               </div>
-              <div className="home-heading10">
-                <h2 className="home-text63">perguntas que as pessoas me faz</h2>
+              <div className="home-heading11">
+                <h2 className="home-text49">perguntas que as pessoas me faz</h2>
               </div>
             </div>
             <div className="home-rows">
@@ -603,8 +603,8 @@ const Home = (props) => {
                   </span>
                   <span className="home-description4">
                     <span>
-                      Não, eu nunca me envolvi em nenhum relacionamento, por
-                      achar que mulher só dar problemas.
+                      Não tenho, eu nunca me envolvi em nenhum relacionamento,
+                      por achar que mulher só dar problemas.
                     </span>
                     <br></br>
                     <br></br>
@@ -660,18 +660,9 @@ const Home = (props) => {
                     />
                   </span>
                   <span className="home-description7">
-                    <span>
-                      antes eu dizia que era empreendedor, por ter apenas o
-                      ensino médio, mas eu quero me tornar o maior Business
-                      Development Manager do brasil .
-                    </span>
-                    <br></br>
-                    <br></br>
-                    <span>
-                      vou lançar uma startup de educação empreendedora que vai
-                      ser conhecida em alguns anos.
-                    </span>
-                    <br></br>
+                    em tempo integral atualmente me dedico na minha carreira
+                    como Bizdev &quot; sou especialista em desenvolver novos
+                    negócios&quot; 
                   </span>
                 </div>
                 <div className="home-question5 Question">
@@ -703,44 +694,44 @@ const Home = (props) => {
         </div>
         <div className="home-get-started1">
           <div className="home-content8">
-            <div className="home-heading11">
-              <h2 className="home-text84"> acompanhe o primo!</h2>
-              <span className="home-text85">em uma das nossas redes</span>
+            <div className="home-heading12">
+              <h2 className="home-text65"> acompanhe o primo!</h2>
+              <span className="home-text66">em uma das nossas redes</span>
             </div>
             <div className="home-hero-buttons1">
               <div className="home-i-o-s-btn">
                 <a
                   href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ"
-                  className="home-link13"
+                  className="home-link14"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/youtube-1500h.png"
-                    className="home-image07"
+                    className="home-image09"
                   />
                 </a>
               </div>
               <div className="home-i-o-s-btn1">
                 <a
                   href="https://www.tiktok.com/@oprimojunior"
-                  className="home-link14"
+                  className="home-link15"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/tik-tok-1500h.png"
-                    className="home-image08"
+                    className="home-image10"
                   />
                 </a>
               </div>
               <div className="home-android-btn1">
                 <a
                   href="https://www.instagram.com/oprimojunior/"
-                  className="home-link15"
+                  className="home-link16"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/instagram-1500h.png"
-                    className="home-image09"
+                    className="home-image11"
                   />
                 </a>
               </div>
@@ -804,6 +795,7 @@ const Home = (props) => {
           }
           .home-title {
             font-size: 64px;
+            align-self: center;
             font-style: normal;
             font-family: Source Sans Pro;
             font-weight: 700;
@@ -811,6 +803,7 @@ const Home = (props) => {
           }
           .home-caption {
             font-size: 18px;
+            align-self: center;
             font-style: normal;
             font-family: Poppins;
             font-weight: 400;
@@ -1480,7 +1473,7 @@ const Home = (props) => {
           }
           .home-pricing-plans {
             flex: 1;
-            width: 100%;
+            width: 939px;
             display: grid;
             overflow: hidden;
             align-items: flex-start;
@@ -1535,6 +1528,7 @@ const Home = (props) => {
           .home-text15 {
             font-size: 20px;
             font-style: normal;
+            text-align: center;
             font-family: Poppins;
             font-weight: 600;
           }
@@ -1640,34 +1634,19 @@ const Home = (props) => {
             font-family: Poppins;
             line-height: 24px;
           }
+          .home-image06 {
+            width: 114px;
+            align-self: center;
+            object-fit: cover;
+          }
           .home-cost1 {
             gap: var(--dl-space-space-halfunit);
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: flex-start;
-          }
-          .home-text24 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
-          }
-          .home-text25 {
-            color: #fa7930;
-            text-decoration: line-through;
-          }
-          .home-text27 {
-            color: var(--dl-color-danger-700);
-            font-size: 19px;
-            align-self: center;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 700;
-            line-height: 24px;
-            text-transform: uppercase;
           }
           .home-bottom1 {
             width: 100%;
@@ -1709,7 +1688,7 @@ const Home = (props) => {
           .home-button1:hover {
             background-color: rgba(173, 226, 223, 0.5);
           }
-          .home-text28 {
+          .home-text21 {
             font-style: normal;
             font-weight: 500;
           }
@@ -1729,7 +1708,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image06 {
+          .home-image07 {
             width: 100px;
             object-fit: cover;
           }
@@ -1750,17 +1729,19 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text29 {
+          .home-text22 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text30 {
+          .home-text23 {
             color: rgb(255, 175, 0);
             font-size: 24px;
+            align-self: center;
             font-style: normal;
+            text-align: center;
             font-family: Poppins;
             font-weight: 500;
             line-height: 31px;
@@ -1769,6 +1750,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-halfunit);
             width: 100%;
             display: flex;
+            align-self: center;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
@@ -1786,7 +1768,7 @@ const Home = (props) => {
             width: 18px;
             height: 18px;
           }
-          .home-text31 {
+          .home-text24 {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-family: Poppins;
@@ -1805,7 +1787,7 @@ const Home = (props) => {
             width: 18px;
             height: 18px;
           }
-          .home-text32 {
+          .home-text25 {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-family: Poppins;
@@ -1824,7 +1806,7 @@ const Home = (props) => {
             width: 18px;
             height: 18px;
           }
-          .home-text33 {
+          .home-text26 {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-family: Poppins;
@@ -1852,7 +1834,7 @@ const Home = (props) => {
           .home-button2:hover {
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .home-text34 {
+          .home-text27 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
@@ -1896,70 +1878,6 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text37 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-          }
-          .home-text38 {
-            font-family: Poppins;
-            line-height: 24px;
-          }
-          .home-cost2 {
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text39 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 40px;
-          }
-          .home-check-list3 {
-            gap: var(--dl-space-space-halfunit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
-          }
-          .home-bottom2 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .home-button3 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: center;
-            background-color: #ade2df;
-          }
-          .home-button3:hover {
-            background-color: rgba(173, 226, 223, 0.5);
-          }
-          .home-text40 {
-            font-style: normal;
-            font-weight: 500;
-          }
           .home-plan3 {
             width: 100%;
             height: 100%;
@@ -1970,20 +1888,7 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
-            justify-content: space-between;
-            border-right-width: 1px;
-          }
-          .home-plan4 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            max-width: 300px;
-            align-items: flex-start;
-            border-color: #dbdbdb;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
+            justify-content: flex-start;
             border-right-width: 1px;
           }
           .home-top3 {
@@ -2003,44 +1908,149 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text41 {
+          .home-text30 {
             font-size: 20px;
             font-style: normal;
+            text-align: center;
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text42 {
+          .home-text31 {
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-cost3 {
-            gap: var(--dl-space-space-halfunit);
+          .home-cost2 {
             width: 100%;
             display: flex;
-            align-items: flex-end;
-            flex-direction: row;
+            align-items: flex-start;
+            flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text46 {
+          .home-text32 {
             font-size: 40px;
             font-style: normal;
             font-family: Poppins;
             font-weight: 600;
             line-height: 40px;
           }
-          .home-text47 {
-            color: #fa7930;
-            text-decoration: line-through;
+          .home-bottom2 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
           }
-          .home-text49 {
-            color: var(--dl-color-danger-700);
-            font-size: 19px;
-            align-self: center;
+          .home-check-list3 {
+            gap: var(--dl-space-space-halfunit);
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-threeunits);
+            justify-content: flex-start;
+          }
+          .home-link10 {
+            display: contents;
+          }
+          .home-button3 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            padding-left: var(--dl-space-space-twounits);
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            justify-content: center;
+            text-decoration: none;
+            background-color: #ffaf00;
+          }
+          .home-button3:hover {
+            background-color: rgba(173, 226, 223, 0.5);
+          }
+          .home-text33 {
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-cost3 {
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-plan4 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            max-width: 300px;
+            align-items: flex-start;
+            border-color: #dbdbdb;
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
+            border-right-width: 1px;
+          }
+          .home-plan5 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            max-width: 300px;
+            align-items: flex-start;
+            border-color: #dbdbdb;
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
+            border-right-width: 1px;
+          }
+          .home-top4 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: flex-start;
+            border-color: #dbdbdb;
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
+            justify-content: flex-start;
+            border-bottom-width: 1px;
+          }
+          .home-heading09 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-text34 {
+            font-size: 20px;
             font-style: normal;
             font-family: Poppins;
-            font-weight: 700;
+            font-weight: 600;
+          }
+          .home-text35 {
+            font-family: Poppins;
             line-height: 24px;
-            text-transform: uppercase;
+          }
+          .home-image08 {
+            width: 114px;
+            align-self: center;
+            object-fit: cover;
+          }
+          .home-cost4 {
+            gap: var(--dl-space-space-halfunit);
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+            justify-content: flex-start;
           }
           .home-bottom3 {
             width: 100%;
@@ -2060,7 +2070,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
-          .home-link10 {
+          .home-link11 {
             display: contents;
           }
           .home-button4 {
@@ -2082,7 +2092,7 @@ const Home = (props) => {
           .home-button4:hover {
             background-color: rgba(173, 226, 223, 0.5);
           }
-          .home-text50 {
+          .home-text36 {
             font-style: normal;
             font-weight: 500;
           }
@@ -2112,7 +2122,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-heading09 {
+          .home-heading10 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -2121,13 +2131,13 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text51 {
+          .home-text37 {
             color: #ffffff;
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-text52 {
+          .home-text38 {
             color: rgb(193, 255, 252);
             font-size: 20px;
             font-style: normal;
@@ -2191,7 +2201,7 @@ const Home = (props) => {
             width: 18px;
             height: 18px;
           }
-          .home-text53 {
+          .home-text39 {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-family: Poppins;
@@ -2210,7 +2220,7 @@ const Home = (props) => {
             width: 18px;
             height: 18px;
           }
-          .home-text54 {
+          .home-text40 {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-family: Poppins;
@@ -2229,13 +2239,13 @@ const Home = (props) => {
             width: 18px;
             height: 18px;
           }
-          .home-text55 {
+          .home-text41 {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-family: Poppins;
             line-height: 24px;
           }
-          .home-link11 {
+          .home-link12 {
             display: contents;
           }
           .home-button5 {
@@ -2257,7 +2267,7 @@ const Home = (props) => {
           .home-button5:hover {
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .home-text56 {
+          .home-text42 {
             color: rgb(255, 255, 255);
             font-style: normal;
             font-weight: 500;
@@ -2269,7 +2279,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-threeunits);
             flex-direction: row;
           }
-          .home-text59 {
+          .home-text45 {
             font-family: Poppins;
           }
           .home-explore2 {
@@ -2286,7 +2296,7 @@ const Home = (props) => {
             color: rgba(0, 0, 0, 0.5);
             border-color: rgba(0, 0, 0, 0.3);
           }
-          .home-link12 {
+          .home-link13 {
             font-style: normal;
             font-weight: 600;
             text-decoration: none;
@@ -2330,18 +2340,18 @@ const Home = (props) => {
             justify-content: center;
             background-color: #d6f1f0;
           }
-          .home-text60 {
+          .home-text46 {
             font-style: normal;
             font-weight: 500;
           }
-          .home-heading10 {
+          .home-heading11 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text63 {
+          .home-text49 {
             width: 100%;
             font-size: 40px;
             max-width: 500px;
@@ -2464,13 +2474,13 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-heading11 {
+          .home-heading12 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text84 {
+          .home-text65 {
             color: var(--dl-color-gray-white);
             font-size: 64px;
             font-style: normal;
@@ -2478,7 +2488,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text85 {
+          .home-text66 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -2509,10 +2519,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link13 {
+          .home-link14 {
             display: contents;
           }
-          .home-image07 {
+          .home-image09 {
             width: 100px;
             object-fit: cover;
             text-decoration: none;
@@ -2533,10 +2543,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-link14 {
+          .home-link15 {
             display: contents;
           }
-          .home-image08 {
+          .home-image10 {
             width: 100px;
             object-fit: cover;
             text-decoration: none;
@@ -2557,10 +2567,10 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-link15 {
+          .home-link16 {
             display: contents;
           }
-          .home-image09 {
+          .home-image11 {
             width: 100px;
             object-fit: cover;
             text-decoration: none;
@@ -2688,10 +2698,12 @@ const Home = (props) => {
             }
             .home-pricing {
               padding-top: var(--dl-space-space-fourunits);
+              padding-right: 5px;
               padding-bottom: var(--dl-space-space-fourunits);
             }
             .home-content6 {
               gap: var(--dl-space-space-threeunits);
+              width: 911px;
             }
             .home-header2 {
               gap: var(--dl-space-space-unit);
@@ -2704,10 +2716,6 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
             }
             .home-text20 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-text27 {
               font-family: Poppins;
               line-height: 24px;
             }
@@ -2727,30 +2735,26 @@ const Home = (props) => {
               gap: var(--dl-space-space-halfunit);
               max-width: 600px;
             }
-            .home-text29 {
+            .home-text22 {
               font-size: 18px;
             }
-            .home-text30 {
+            .home-text23 {
               font-size: 20px;
               line-height: 26px;
             }
-            .home-text31 {
+            .home-text24 {
               line-height: 21px;
             }
-            .home-text32 {
+            .home-text25 {
               line-height: 21px;
             }
-            .home-text33 {
+            .home-text26 {
               line-height: 21px;
             }
             .home-button2 {
               margin-top: var(--dl-space-space-threeunits);
             }
-            .home-text42 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-text49 {
+            .home-text35 {
               font-family: Poppins;
               line-height: 24px;
             }
@@ -2761,24 +2765,24 @@ const Home = (props) => {
             .home-header4 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-heading09 {
+            .home-heading10 {
               gap: var(--dl-space-space-halfunit);
               max-width: 600px;
             }
-            .home-text51 {
+            .home-text37 {
               font-size: 18px;
             }
-            .home-text52 {
+            .home-text38 {
               font-size: 20px;
               line-height: 26px;
             }
-            .home-text53 {
+            .home-text39 {
               line-height: 21px;
             }
-            .home-text54 {
+            .home-text40 {
               line-height: 21px;
             }
-            .home-text55 {
+            .home-text41 {
               line-height: 21px;
             }
             .home-button5 {
@@ -2791,13 +2795,13 @@ const Home = (props) => {
             .home-content8 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-heading11 {
+            .home-heading12 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text84 {
+            .home-text65 {
               font-size: 40px;
             }
-            .home-text85 {
+            .home-text66 {
               font-size: 18px;
             }
           }
@@ -2913,27 +2917,18 @@ const Home = (props) => {
               background-color: #ffffff;
             }
             .home-top2 {
-              width: 100%;
+              width: 766px;
+              padding-left: 262px;
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .home-heading07 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text37 {
-              font-size: 18px;
-            }
-            .home-text39 {
-              font-size: 32px;
-              line-height: 32px;
-            }
-            .home-button3 {
-              background-color: #ffaf00;
-            }
-            .home-plan3 {
+            .home-plan4 {
               max-width: 100%;
               padding-top: var(--dl-space-space-threeunits);
               border-width: 1px;
-              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-left: 288px;
               border-radius: 16px;
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
@@ -2948,12 +2943,14 @@ const Home = (props) => {
             }
             .home-overlay2 {
               align-items: center;
+              padding-left: 155px;
+              padding-right: 148px;
               background-size: contain;
               justify-content: center;
               background-repeat: no-repeat;
               background-position: top right;
             }
-            .home-text52 {
+            .home-text38 {
               color: var(--dl-color-gray-900);
             }
             .home-button5 {
@@ -2965,10 +2962,10 @@ const Home = (props) => {
             .home-content7 {
               gap: var(--dl-space-space-twounits);
             }
-            .home-text60 {
+            .home-text46 {
               font-size: 14px;
             }
-            .home-text63 {
+            .home-text49 {
               font-size: 32px;
               line-height: 44px;
             }
@@ -3099,17 +3096,13 @@ const Home = (props) => {
               font-family: Poppins;
               line-height: 24px;
             }
-            .home-text27 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-text29 {
+            .home-text22 {
               color: rgb(255, 255, 255);
               font-size: 20px;
               font-style: normal;
               font-weight: 600;
             }
-            .home-text30 {
+            .home-text23 {
               color: rgb(255, 175, 0);
               font-size: 24px;
               font-style: normal;
@@ -3117,63 +3110,58 @@ const Home = (props) => {
               font-weight: 500;
               line-height: 31px;
             }
-            .home-text37 {
-              font-size: 18px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
+            .home-top2 {
+              align-self: center;
             }
-            .home-text38 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-text39 {
-              font-size: 32px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
-              line-height: 32px;
-            }
-            .home-button3 {
-              background-color: #ffaf00;
-            }
-            .home-text40 {
-              font-weight: 500;
-            }
-            .home-plan3 {
-              border-color: var(--dl-color-gray-700);
-              border-width: 2px;
-              border-right-width: 2px;
-            }
-            .home-text41 {
+            .home-text30 {
               font-size: 20px;
               font-style: normal;
               font-family: Poppins;
               font-weight: 600;
             }
-            .home-text42 {
+            .home-text31 {
               font-family: Poppins;
               line-height: 24px;
             }
-            .home-text49 {
-              color: var(--dl-color-danger-700);
-              font-size: 19px;
+            .home-plan4 {
+              border-color: var(--dl-color-gray-700);
+              border-width: 2px;
+              border-right-width: 2px;
+            }
+            .home-plan5 {
+              align-self: center;
+            }
+            .home-text34 {
+              font-size: 20px;
               font-style: normal;
               font-family: Poppins;
-              font-weight: 700;
-              line-height: 24px;
-              text-transform: uppercase;
+              font-weight: 600;
             }
-            .home-text51 {
+            .home-text35 {
+              font-family: Poppins;
+              line-height: 24px;
+            }
+            .home-text36 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-heading10 {
+              align-self: center;
+            }
+            .home-text37 {
               color: rgb(255, 175, 0);
             }
-            .home-text52 {
+            .home-text38 {
               color: rgb(255, 255, 255);
+              align-self: center;
+            }
+            .home-check-list5 {
+              align-self: center;
             }
             .home-button5 {
               background-color: #1a1b29;
             }
-            .home-text56 {
+            .home-text42 {
               color: rgb(255, 255, 255);
               font-style: normal;
               font-weight: 500;
@@ -3183,7 +3171,7 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-text63 {
+            .home-text49 {
               font-size: 32px;
               font-style: normal;
               font-family: Poppins;
