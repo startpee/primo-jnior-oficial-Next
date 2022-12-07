@@ -2918,7 +2918,7 @@ const Home = (props) => {
             }
             .home-top2 {
               width: 766px;
-              padding-left: 262px;
+              padding-left: 272px;
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .home-heading07 {
