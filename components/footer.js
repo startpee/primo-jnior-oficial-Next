@@ -303,6 +303,10 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .footer-socials {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
             .footer-links {
               width: 100%;
               flex-direction: column;

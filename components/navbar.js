@@ -359,8 +359,10 @@ closeButton.addEventListener("click", function() {
               justify-content: center;
             }
             .navbar-top {
+              margin-top: var(--dl-space-space-unit);
               margin-left: 10px;
               margin-right: 10px;
+              margin-bottom: var(--dl-space-space-unit);
             }
             .navbar-image {
               margin-left: var(--dl-space-space-threeunits);
@@ -375,11 +377,16 @@ closeButton.addEventListener("click", function() {
               margin-left: 9px;
               margin-right: 9px;
             }
+            .navbar-link5 {
+              margin-top: var(--dl-space-space-unit);
+              margin-bottom: var(--dl-space-space-unit);
+            }
             .navbar-buttons {
               padding-left: 20px;
               padding-right: 20px;
             }
             .navbar-btn {
+              padding: var(--dl-space-space-oneandhalfunits);
               background-color: #231d23;
             }
             .navbar-text {
