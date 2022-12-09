@@ -393,6 +393,7 @@ closeButton.addEventListener("click", function() {
               color: #ffffff;
             }
             .navbar-btn1 {
+              padding: var(--dl-space-space-oneandhalfunits);
               background-color: #ffaf00;
             }
             .navbar-root-class-name {
