@@ -47,7 +47,8 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
-                Desenvolvimento pessoal e negócios 
+                meus vídeos pode te ajudar a despertar o seu potencial como
+                pessoa.
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
@@ -119,9 +120,6 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <span className="home-caption1">
-          meus vídeos pode te ajudar a despertar o seu potencial como pessoa.
-        </span>
         <div className="home-div">
           <DangerousHTML
             html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-49065/widget/custom/6949"></storifyme-collection>`}
@@ -560,12 +558,18 @@ const Home = (props) => {
             line-height: 76px;
           }
           .home-caption {
-            font-size: 18px;
+            font-size: 26px;
             align-self: center;
             font-style: normal;
+            margin-top: var(--dl-space-space-unit);
+            text-align: center;
             font-family: Poppins;
-            font-weight: 400;
-            line-height: 27px;
+            font-weight: 600;
+            line-height: 33px;
+            margin-left: 145px;
+            margin-right: 145px;
+            margin-bottom: var(--dl-space-space-unit);
+            text-transform: inherit;
           }
           .home-hero-buttons {
             gap: var(--dl-space-space-unit);
@@ -672,20 +676,6 @@ const Home = (props) => {
           }
           .home-pasted-image4 {
             width: 240px;
-          }
-          .home-caption1 {
-            font-size: 26px;
-            align-self: center;
-            font-style: normal;
-            margin-top: 300px;
-            text-align: center;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 33px;
-            margin-left: 145px;
-            margin-right: 145px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            text-transform: inherit;
           }
           .home-div {
             width: 100%;
@@ -1557,7 +1547,8 @@ const Home = (props) => {
               line-height: 58px;
             }
             .home-caption {
-              font-size: 16px;
+              text-align: center;
+              line-height: 32px;
             }
             .home-hero-buttons {
               width: 100%;
@@ -1585,10 +1576,6 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 200px;
-            }
-            .home-caption1 {
-              text-align: center;
-              line-height: 32px;
             }
             .home-content1 {
               gap: var(--dl-space-space-threeunits);
@@ -1672,14 +1659,10 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 16px;
-              line-height: 24px;
+              font-size: 32px;
             }
             .home-images {
               bottom: -250px;
-            }
-            .home-caption1 {
-              font-size: 32px;
             }
             .home-text {
               width: 100%;
@@ -1779,13 +1762,14 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 14px;
+              font-size: 18px;
               align-self: center;
               font-style: normal;
-              text-align: center;
               font-family: Poppins;
-              font-weight: 400;
-              line-height: 22px;
+              font-weight: 600;
+              line-height: 18px;
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
             }
             .home-hero-buttons {
               width: 100%;
@@ -1811,16 +1795,6 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 150px;
-            }
-            .home-caption1 {
-              font-size: 18px;
-              align-self: center;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 600;
-              line-height: 18px;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
             }
             .home-video {
               background-color: #1a1b29;
