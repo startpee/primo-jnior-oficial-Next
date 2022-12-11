@@ -88,31 +88,31 @@ const Home = (props) => {
               <div className="home-column">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/1234-1500h.png"
+                  src="/playground_assets/1234-700h.png"
                   className="home-pasted-image"
                 />
               </div>
               <div className="home-column1">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vvvv-1500h.png"
+                  src="/playground_assets/vvvv-700h.png"
                   className="home-pasted-image1"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/332221-1500h.png"
+                  src="/playground_assets/332221-700h.png"
                   className="home-pasted-image2"
                 />
               </div>
               <div className="home-column2">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vii-1500h.png"
+                  src="/playground_assets/vii-700h.png"
                   className="home-pasted-image3"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/dssassse-1500h.png"
+                  src="/playground_assets/dssassse-700h.png"
                   className="home-pasted-image4"
                 />
               </div>
@@ -626,7 +626,8 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             right: -210px;
             bottom: -300px;
-            margin: auto;
+            height: 679px;
+            margin: var(--dl-space-space-oneandhalfunits);
             display: flex;
             overflow: hidden;
             position: absolute;
