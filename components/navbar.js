@@ -130,13 +130,15 @@ closeButton.addEventListener("click", function() {
             align-items: flex-start;
             padding-top: var(--dl-space-space-twounits);
             padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
+            padding-right: 58px;
             flex-direction: row;
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
           .navbar-desktop {
             flex: 1;
+            width: 1103px;
+            height: 51px;
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -222,9 +224,9 @@ closeButton.addEventListener("click", function() {
             transition: 0.3s;
             align-items: flex-start;
             padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-left: var(--dl-space-space-threeunits);
             border-radius: var(--dl-radius-radius-radius8);
-            padding-right: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-threeunits);
             flex-direction: row;
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
