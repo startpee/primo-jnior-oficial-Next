@@ -126,7 +126,6 @@ const Home = (props) => {
               pessoa.
             </span>
           </div>
-          <div className="home-container1"></div>
         </div>
         <div className="home-div">
           <DangerousHTML
@@ -712,15 +711,6 @@ const Home = (props) => {
             font-weight: 600;
             line-height: 33px;
             text-transform: inherit;
-          }
-          .home-container1 {
-            flex: 0 0 auto;
-            width: auto;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
           }
           .home-div {
             width: 100%;
@@ -1869,6 +1859,13 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 150px;
+            }
+            .home-stats {
+              height: 666px;
+              padding-bottom: 169px;
+            }
+            .home-stat {
+              height: 130px;
             }
             .home-caption1 {
               font-size: 18px;
