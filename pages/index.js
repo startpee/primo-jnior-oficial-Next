@@ -47,8 +47,7 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
-                meus vídeos pode te ajudar a despertar o seu potencial como
-                pessoa.
+                Desenvolvimento pessoal e negócios 
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
@@ -89,38 +88,41 @@ const Home = (props) => {
               <div className="home-column">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/1234-600h.png"
+                  src="/playground_assets/1234-1500h.png"
                   className="home-pasted-image"
                 />
               </div>
               <div className="home-column1">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vvvv-700h.png"
+                  src="/playground_assets/vvvv-1500h.png"
                   className="home-pasted-image1"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/332221-700h.png"
+                  src="/playground_assets/332221-1500h.png"
                   className="home-pasted-image2"
                 />
               </div>
               <div className="home-column2">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vii-1000h.png"
+                  src="/playground_assets/vii-1500h.png"
                   className="home-pasted-image3"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/dssassse-1000h.png"
+                  src="/playground_assets/dssassse-1500h.png"
                   className="home-pasted-image4"
                 />
               </div>
             </div>
           </div>
-          <div className="home-container1"></div>
         </div>
+        <div className="home-stat"></div>
+        <span className="home-caption1">
+          meus vídeos pode te ajudar a despertar o seu potencial como pessoa.
+        </span>
         <div className="home-div">
           <DangerousHTML
             html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-49065/widget/custom/6949"></storifyme-collection>`}
@@ -138,7 +140,9 @@ const Home = (props) => {
             ></iframe>
             <div className="home-video-container">
               <div className="home-heading-container">
-                <div className="home-heading1"></div>
+                <div className="home-heading1">
+                  <span className="home-text01">Assista esse video </span>
+                </div>
                 <div className="home-explore">
                   <a
                     href="https://www.youtube.com/channel/UCJm1tVBdjFofO3cNz1g6pxQ/"
@@ -155,7 +159,7 @@ const Home = (props) => {
           <div className="home-section">
             <div className="home-image03">
               <div className="home-image-highlight">
-                <span className="home-text01">
+                <span className="home-text02">
                   <span>
                     always know your in and out
                     <span
@@ -169,7 +173,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-content2">
-              <h2 className="home-text04">Everything you get with Finbest</h2>
+              <h2 className="home-text05">Everything you get with Finbest</h2>
               <Highlight
                 Title="Lorem ipsum dolor sit amet, consectetur "
                 Description="Sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam, quis nostrud"
@@ -186,10 +190,10 @@ const Home = (props) => {
           <div className="home-section1">
             <div className="home-content3">
               <div className="home-heading2">
-                <h2 className="home-text06">
+                <h2 className="home-text07">
                   Keep track with all transactions
                 </h2>
-                <span className="home-text07">
+                <span className="home-text08">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt.
                 </span>
@@ -216,7 +220,7 @@ const Home = (props) => {
               <div className="home-image-overlay"></div>
             </div>
             <div className="home-content5">
-              <h2 className="home-text08">
+              <h2 className="home-text09">
                 <span>Create milestones</span>
                 <br></br>
               </h2>
@@ -237,7 +241,7 @@ const Home = (props) => {
                 className="home-link06"
               >
                 <div className="home-book-btn">
-                  <span className="home-text11">Aperta aqui-&gt;</span>
+                  <span className="home-text12">Aperta aqui-&gt;</span>
                 </div>
               </a>
             </div>
@@ -252,7 +256,7 @@ const Home = (props) => {
           <div id="meuservi" className="home-content6">
             <div className="home-header2">
               <div className="home-tag">
-                <span className="home-text12">
+                <span className="home-text13">
                   tabela de Preço
                   <span
                     dangerouslySetInnerHTML={{
@@ -262,12 +266,12 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-heading3">
-                <h2 className="home-text13">Meu principal serviço</h2>
+                <h2 className="home-text14">Meu principal serviço</h2>
                 <div className="home-plan">
                   <div className="home-top">
                     <div className="home-heading4">
-                      <span className="home-text14">infoprodutor</span>
-                      <span className="home-text15">
+                      <span className="home-text15">infoprodutor</span>
+                      <span className="home-text16">
                         Ajudo a criar o seu produto digital e lançar na internet
                       </span>
                       <img
@@ -289,7 +293,7 @@ const Home = (props) => {
                       className="home-link07"
                     >
                       <div className="home-button">
-                        <span className="home-text16">Saiba mais</span>
+                        <span className="home-text17">Saiba mais</span>
                       </div>
                     </a>
                   </div>
@@ -298,7 +302,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-help">
-            <span className="home-text17">precisa de ajuda?</span>
+            <span className="home-text18">precisa de ajuda?</span>
             <div className="home-explore2">
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
@@ -313,13 +317,13 @@ const Home = (props) => {
           <div className="home-content7">
             <div className="home-header3">
               <div className="home-tag1">
-                <span className="home-text18">
+                <span className="home-text19">
                   <span>FAQ</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-heading5">
-                <h2 className="home-text21">perguntas que as pessoas me faz</h2>
+                <h2 className="home-text22">perguntas que as pessoas me faz</h2>
               </div>
             </div>
             <div className="home-rows">
@@ -452,8 +456,8 @@ const Home = (props) => {
         <div className="home-get-started1">
           <div className="home-content8">
             <div className="home-heading6">
-              <h2 className="home-text37"> acompanhe o primo!</h2>
-              <span className="home-text38">em uma das nossas redes</span>
+              <h2 className="home-text38"> acompanhe o primo!</h2>
+              <span className="home-text39">em uma das nossas redes</span>
             </div>
             <div className="home-hero-buttons1">
               <div className="home-i-o-s-btn">
@@ -559,18 +563,12 @@ const Home = (props) => {
             line-height: 76px;
           }
           .home-caption {
-            font-size: 26px;
+            font-size: 18px;
             align-self: center;
             font-style: normal;
-            margin-top: var(--dl-space-space-unit);
-            text-align: center;
             font-family: Poppins;
-            font-weight: 600;
-            line-height: 33px;
-            margin-left: 145px;
-            margin-right: 145px;
-            margin-bottom: var(--dl-space-space-unit);
-            text-transform: inherit;
+            font-weight: 400;
+            line-height: 27px;
           }
           .home-hero-buttons {
             gap: var(--dl-space-space-unit);
@@ -629,20 +627,18 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             right: -210px;
             bottom: -300px;
-            height: 972px;
-            margin: var(--dl-space-space-oneandhalfunits);
+            margin: auto;
             display: flex;
             overflow: hidden;
             position: absolute;
             transform: rotate(-30deg);
             align-items: center;
-            margin-bottom: 172px;
             flex-direction: row;
             justify-content: center;
           }
           .home-column {
             gap: var(--dl-space-space-oneandhalfunits);
-            height: 520px;
+            height: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -653,7 +649,7 @@ const Home = (props) => {
           }
           .home-column1 {
             gap: var(--dl-space-space-oneandhalfunits);
-            height: 656px;
+            height: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -679,17 +675,36 @@ const Home = (props) => {
           .home-pasted-image4 {
             width: 240px;
           }
-          .home-container1 {
-            width: 100%;
-            height: 274px;
+          .home-stat {
+            gap: var(--dl-space-space-oneandhalfunits);
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-fiveunits);
+            justify-content: center;
+          }
+          .home-caption1 {
+            font-size: 26px;
+            align-self: center;
+            font-style: normal;
+            margin-top: 199px;
+            text-align: center;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 33px;
+            margin-left: 145px;
+            margin-right: 145px;
+            margin-bottom: var(--dl-space-space-halfunit);
+            text-transform: inherit;
           }
           .home-div {
             width: 100%;
             height: var(--dl-size-size-medium);
-            margin-top: var(--dl-space-space-threeunits);
-            margin-bottom: 16px;
+            margin-top: 30px;
+            margin-bottom: var(--dl-space-space-sixunits);
           }
           .home-video {
             color: white;
@@ -749,10 +764,18 @@ const Home = (props) => {
           }
           .home-heading1 {
             gap: var(--dl-space-space-unit);
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+          }
+          .home-text01 {
+            font-size: 24px;
+            align-self: center;
+            font-style: normal;
+            text-align: center;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 36px;
           }
           .home-explore {
             color: #fff;
@@ -821,7 +844,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #375ee0;
           }
-          .home-text01 {
+          .home-text02 {
             color: rgb(193, 255, 252);
             width: 100%;
             max-width: 90px;
@@ -837,7 +860,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text04 {
+          .home-text05 {
             font-size: 40px;
             max-width: 535px;
             font-style: normal;
@@ -884,7 +907,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text06 {
+          .home-text07 {
             font-size: 40px;
             max-width: 535px;
             font-style: normal;
@@ -892,7 +915,7 @@ const Home = (props) => {
             font-weight: 600;
             line-height: 56px;
           }
-          .home-text07 {
+          .home-text08 {
             font-size: 18px;
             max-width: 535px;
             font-family: Poppins;
@@ -994,7 +1017,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text08 {
+          .home-text09 {
             font-size: 40px;
             max-width: 640px;
             font-style: normal;
@@ -1058,7 +1081,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #ffaf00;
           }
-          .home-text11 {
+          .home-text12 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 22px;
@@ -1110,7 +1133,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #d6f1f0;
           }
-          .home-text12 {
+          .home-text13 {
             font-style: normal;
             font-weight: 500;
           }
@@ -1126,7 +1149,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text13 {
+          .home-text14 {
             width: 100%;
             font-size: 40px;
             max-width: 600px;
@@ -1168,13 +1191,13 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text14 {
+          .home-text15 {
             font-size: 30px;
             font-style: normal;
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text15 {
+          .home-text16 {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1232,7 +1255,7 @@ const Home = (props) => {
           .home-button:hover {
             background-color: rgba(173, 226, 223, 0.5);
           }
-          .home-text16 {
+          .home-text17 {
             font-style: normal;
             font-weight: 500;
           }
@@ -1243,7 +1266,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-threeunits);
             flex-direction: row;
           }
-          .home-text17 {
+          .home-text18 {
             font-family: Poppins;
           }
           .home-explore2 {
@@ -1304,7 +1327,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #d6f1f0;
           }
-          .home-text18 {
+          .home-text19 {
             font-style: normal;
             font-weight: 500;
           }
@@ -1315,7 +1338,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text21 {
+          .home-text22 {
             width: 100%;
             font-size: 40px;
             max-width: 500px;
@@ -1444,7 +1467,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text37 {
+          .home-text38 {
             color: var(--dl-color-gray-white);
             font-size: 64px;
             font-style: normal;
@@ -1452,7 +1475,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text38 {
+          .home-text39 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -1555,8 +1578,7 @@ const Home = (props) => {
               line-height: 58px;
             }
             .home-caption {
-              text-align: center;
-              line-height: 32px;
+              font-size: 16px;
             }
             .home-hero-buttons {
               width: 100%;
@@ -1584,6 +1606,16 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 200px;
+            }
+            .home-stat {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+              padding-bottom: var(--dl-space-space-threeunits);
+              border-right-width: 0px;
+            }
+            .home-caption1 {
+              text-align: center;
+              line-height: 32px;
             }
             .home-content1 {
               gap: var(--dl-space-space-threeunits);
@@ -1640,7 +1672,7 @@ const Home = (props) => {
             .home-heading3 {
               width: 588px;
             }
-            .home-text15 {
+            .home-text16 {
               font-family: Poppins;
               line-height: 24px;
             }
@@ -1654,10 +1686,10 @@ const Home = (props) => {
             .home-heading6 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text37 {
+            .home-text38 {
               font-size: 40px;
             }
-            .home-text38 {
+            .home-text39 {
               font-size: 18px;
             }
           }
@@ -1667,10 +1699,14 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 32px;
+              font-size: 16px;
+              line-height: 24px;
             }
             .home-images {
               bottom: -250px;
+            }
+            .home-caption1 {
+              font-size: 32px;
             }
             .home-text {
               width: 100%;
@@ -1683,15 +1719,19 @@ const Home = (props) => {
             .home-heading1 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text04 {
-              font-size: 32px;
-              line-height: 44px;
+            .home-text01 {
+              font-size: 20px;
+              line-height: 30px;
             }
-            .home-text06 {
+            .home-text05 {
               font-size: 32px;
               line-height: 44px;
             }
             .home-text07 {
+              font-size: 32px;
+              line-height: 44px;
+            }
+            .home-text08 {
               font-size: 16px;
               line-height: 24px;
             }
@@ -1729,7 +1769,7 @@ const Home = (props) => {
               width: 531px;
               height: 733px;
             }
-            .home-text13 {
+            .home-text14 {
               font-size: 32px;
               line-height: 44px;
             }
@@ -1739,10 +1779,10 @@ const Home = (props) => {
             .home-content7 {
               gap: var(--dl-space-space-twounits);
             }
-            .home-text18 {
+            .home-text19 {
               font-size: 14px;
             }
-            .home-text21 {
+            .home-text22 {
               font-size: 32px;
               line-height: 44px;
             }
@@ -1770,14 +1810,13 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 18px;
+              font-size: 14px;
               align-self: center;
               font-style: normal;
+              text-align: center;
               font-family: Poppins;
-              font-weight: 600;
-              line-height: 18px;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
+              font-weight: 400;
+              line-height: 22px;
             }
             .home-hero-buttons {
               width: 100%;
@@ -1792,9 +1831,6 @@ const Home = (props) => {
             .home-pasted-image {
               width: 150px;
             }
-            .home-column1 {
-              height: 367px;
-            }
             .home-pasted-image1 {
               width: 150px;
             }
@@ -1806,6 +1842,19 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 150px;
+            }
+            .home-stat {
+              height: 130px;
+            }
+            .home-caption1 {
+              font-size: 18px;
+              align-self: center;
+              font-style: normal;
+              font-family: Poppins;
+              font-weight: 600;
+              line-height: 18px;
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
             }
             .home-video {
               background-color: #1a1b29;
@@ -1845,7 +1894,7 @@ const Home = (props) => {
             .home-book-btn {
               align-self: center;
             }
-            .home-text11 {
+            .home-text12 {
               color: var(--dl-color-gray-black);
               font-size: 22px;
               font-style: normal;
@@ -1864,19 +1913,19 @@ const Home = (props) => {
             .home-heading3 {
               width: 441px;
             }
-            .home-text13 {
+            .home-text14 {
               width: 320px;
               height: 63px;
               font-size: 25px;
               align-self: center;
             }
-            .home-text14 {
+            .home-text15 {
               font-size: 30px;
               font-style: normal;
               font-family: Poppins;
               font-weight: 600;
             }
-            .home-text15 {
+            .home-text16 {
               font-family: Poppins;
               line-height: 24px;
             }
@@ -1885,7 +1934,7 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-text21 {
+            .home-text22 {
               font-size: 32px;
               font-style: normal;
               font-family: Poppins;
