@@ -49,18 +49,15 @@ const Footer = (props) => {
           <div className="footer-links">
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
-              <a href="https://blog.startpee.site/" className="footer-link2">
-                {props.Link}
-              </a>
-              <span className="footer-link3">{props.Link1}</span>
-              <span className="footer-link4">{props.Link2}</span>
-              <span className="footer-link5">{props.Link4}</span>
+              <span className="footer-link2">{props.Link1}</span>
+              <span className="footer-link3">{props.Link2}</span>
+              <span className="footer-link4">{props.Link4}</span>
             </div>
             <div className="footer-column1">
               <span className="footer-header1">{props.Header1}</span>
-              <span className="footer-link6">{props.Link5}</span>
-              <span className="footer-link7">{props.Link6}</span>
-              <span className="footer-link8">{props.Link10}</span>
+              <span className="footer-link5">{props.Link5}</span>
+              <span className="footer-link6">{props.Link6}</span>
+              <span className="footer-link7">{props.Link10}</span>
             </div>
           </div>
         </div>
@@ -161,12 +158,11 @@ const Footer = (props) => {
             line-height: 30px;
           }
           .footer-link2 {
-            color: #c4c4c4;
+            color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
-            text-decoration: none;
           }
           .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
@@ -191,16 +187,6 @@ const Footer = (props) => {
           .footer-link4:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link5 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link5:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
           .footer-column1 {
             gap: var(--dl-space-space-unit);
             display: flex;
@@ -214,6 +200,16 @@ const Footer = (props) => {
             font-family: Poppins;
             font-weight: 500;
             line-height: 30px;
+          }
+          .footer-link5 {
+            color: rgb(196, 196, 196);
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            line-height: 21px;
+          }
+          .footer-link5:hover {
+            color: rgba(196, 196, 196, 0.5);
           }
           .footer-link6 {
             color: rgb(196, 196, 196);
@@ -233,16 +229,6 @@ const Footer = (props) => {
             line-height: 21px;
           }
           .footer-link7:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link8 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link8:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -315,9 +301,27 @@ const Footer = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
+            .footer-link2 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
+            .footer-link3 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
+            .footer-link4 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
             .footer-column1 {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-link5 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
+            .footer-link6 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
+            .footer-link7 {
+              margin-top: var(--dl-space-space-halfunit);
             }
             .footer-root-class-name {
               background-color: #1a1b29;
@@ -332,7 +336,6 @@ const Footer = (props) => {
 Footer.defaultProps = {
   Link1: 'Projetos',
   rootClassName: '',
-  Link: 'blog',
   Link10: 'Portfólio',
   text1: 'Seja uma pessoa ilimitada',
   Header1: 'Serviços',
@@ -349,7 +352,6 @@ Footer.defaultProps = {
 Footer.propTypes = {
   Link1: PropTypes.string,
   rootClassName: PropTypes.string,
-  Link: PropTypes.string,
   Link10: PropTypes.string,
   text1: PropTypes.string,
   Header1: PropTypes.string,

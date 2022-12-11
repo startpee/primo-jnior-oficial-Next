@@ -41,16 +41,16 @@ const Social = (props) => {
           }
           @media (max-width: 479px) {
             .social-root-class-name {
-              margin-left: var(--dl-space-space-oneandhalfunits);
-              margin-right: var(--dl-space-space-oneandhalfunits);
+              margin-left: var(--dl-space-space-unit);
+              margin-right: var(--dl-space-space-unit);
             }
             .social-root-class-name1 {
-              margin-left: var(--dl-space-space-oneandhalfunits);
-              margin-right: var(--dl-space-space-oneandhalfunits);
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
             }
             .social-root-class-name2 {
-              margin-left: var(--dl-space-space-oneandhalfunits);
-              margin-right: var(--dl-space-space-oneandhalfunits);
+              margin-left: var(--dl-space-space-unit);
+              margin-right: var(--dl-space-space-halfunit);
             }
           }
         `}
