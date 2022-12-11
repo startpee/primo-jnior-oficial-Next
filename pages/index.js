@@ -17,18 +17,18 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Primo júnior influenciador digital</title>
+          <title>O Primo Júnior | sabedoria para jovens</title>
           <meta
             name="description"
-            content="criador de conteúdos na internet de desenvolvimento pessoal e negócios.\nfundador da startpee uma startup desenvolvedora de novos negócios "
+            content="meus vídeos pode te ajudar a despertar o seu potencial como pessoa.\ndesenvolvimento pessoal &amp; empreendedorismo  \n"
           />
           <meta
             property="og:title"
-            content="Primo júnior influenciador digital "
+            content="O Primo Júnior | sabedoria para jovens "
           />
           <meta
             property="og:description"
-            content="criador de conteúdos na internet de desenvolvimento pessoal e negócios.\nfundador da startpee uma startup desenvolvedora de novos negócios "
+            content="meus vídeos pode te ajudar a despertar o seu potencial como pessoa.\ndesenvolvimento pessoal &amp; empreendedorismo  \n"
           />
         </Head>
         <div className="home-header">
