@@ -687,6 +687,7 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-caption1 {
+            color: rgba(140, 97, 97, 0);
             font-size: 26px;
             align-self: center;
             font-style: normal;
