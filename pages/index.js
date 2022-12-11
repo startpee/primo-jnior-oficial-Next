@@ -47,7 +47,8 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
-                Desenvolvimento pessoal e negócios 
+                meus vídeos pode te ajudar a despertar o seu potencial como
+                pessoa.
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
@@ -119,7 +120,6 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-stat"></div>
         <span className="home-caption1">
           meus vídeos pode te ajudar a despertar o seu potencial como pessoa.
         </span>
@@ -563,12 +563,13 @@ const Home = (props) => {
             line-height: 76px;
           }
           .home-caption {
-            font-size: 18px;
+            font-size: 26px;
             align-self: center;
             font-style: normal;
+            text-align: center;
             font-family: Poppins;
             font-weight: 400;
-            line-height: 27px;
+            line-height: 35px;
           }
           .home-hero-buttons {
             gap: var(--dl-space-space-unit);
@@ -674,17 +675,6 @@ const Home = (props) => {
           }
           .home-pasted-image4 {
             width: 240px;
-          }
-          .home-stat {
-            gap: var(--dl-space-space-oneandhalfunits);
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-fiveunits);
-            justify-content: center;
           }
           .home-caption1 {
             color: rgba(140, 97, 97, 0);
@@ -1608,12 +1598,6 @@ const Home = (props) => {
             .home-pasted-image4 {
               width: 200px;
             }
-            .home-stat {
-              gap: var(--dl-space-space-halfunit);
-              width: 100%;
-              padding-bottom: var(--dl-space-space-threeunits);
-              border-right-width: 0px;
-            }
             .home-caption1 {
               text-align: center;
               line-height: 32px;
@@ -1811,7 +1795,7 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 14px;
+              font-size: 22px;
               align-self: center;
               font-style: normal;
               text-align: center;
@@ -1843,9 +1827,6 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 150px;
-            }
-            .home-stat {
-              height: 130px;
             }
             .home-caption1 {
               font-size: 18px;
