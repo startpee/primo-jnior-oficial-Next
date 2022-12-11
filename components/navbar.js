@@ -347,7 +347,7 @@ closeButton.addEventListener("click", function() {
               margin-right: var(--dl-space-space-twounits);
             }
             .navbar-mobile {
-              width: 399px;
+              width: 320px;
               display: flex;
               align-items: center;
               margin-left: 0px;
@@ -386,14 +386,16 @@ closeButton.addEventListener("click", function() {
               padding-right: 20px;
             }
             .navbar-btn {
-              padding: var(--dl-space-space-oneandhalfunits);
+              padding: var(--dl-space-space-twounits);
+              justify-content: center;
               background-color: #231d23;
             }
             .navbar-text {
               color: #ffffff;
             }
             .navbar-btn1 {
-              padding: var(--dl-space-space-oneandhalfunits);
+              padding: var(--dl-space-space-twounits);
+              justify-content: center;
               background-color: #ffaf00;
             }
             .navbar-root-class-name {
@@ -412,10 +414,10 @@ Navbar.defaultProps = {
   Branding_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   rootClassName: '',
   Link_1: 'inicio',
-  text131: 'Contratar',
+  text131: 'Desenvolvimento pessoal',
   image_alt: 'image',
   pastedImage_src: '/playground_assets/pastedimage-8o98.svg',
-  text1311: 'Patrocinar',
+  text1311: 'Negócios',
   Link_2: 'Sobre',
   pastedImage_alt: 'pastedImage',
   image_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',

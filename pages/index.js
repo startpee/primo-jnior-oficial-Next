@@ -120,13 +120,14 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-stats">
+          <div className="home-container1"></div>
           <div className="home-stat">
             <span className="home-caption1">R$1M</span>
             <span className="home-description">
               Meu objetivo em 12 meses na internet
             </span>
           </div>
-          <div className="home-container1">
+          <div className="home-container2">
             <div className="home-stat1">
               <span className="home-caption2">R$100k</span>
               <span className="home-description1">
@@ -709,6 +710,14 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
+          .home-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100px;
+            display: flex;
+            align-items: flex-start;
+          }
           .home-stat {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
@@ -736,7 +745,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 27px;
           }
-          .home-container1 {
+          .home-container2 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
