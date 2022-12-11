@@ -311,6 +311,14 @@ const Footer = (props) => {
               width: 100%;
               flex-direction: column;
             }
+            .footer-column {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-column1 {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
             .footer-root-class-name {
               background-color: #1a1b29;
             }
