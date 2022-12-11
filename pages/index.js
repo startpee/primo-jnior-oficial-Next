@@ -1869,6 +1869,13 @@ const Home = (props) => {
             .home-pasted-image4 {
               width: 150px;
             }
+            .home-caption1 {
+              font-size: 18px;
+              font-style: normal;
+              font-family: Poppins;
+              font-weight: 600;
+              line-height: 18px;
+            }
             .home-video {
               background-color: #1a1b29;
             }
