@@ -371,7 +371,7 @@ closeButton.addEventListener("click", function() {
               margin-right: var(--dl-space-space-twounits);
             }
             .navbar-mobile {
-              width: 478px;
+              width: 296px;
               display: flex;
               align-items: center;
               margin-left: 0px;
