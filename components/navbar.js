@@ -72,23 +72,22 @@ const Navbar = (props) => {
             </svg>
           </div>
           <div className="navbar-links1">
-            <Link href="/">
-              <a className="navbar-link6">{props.text1}</a>
-            </Link>
             <div className="navbar-buttons">
               <Link href="/">
-                <a className="navbar-link7">
+                <a className="navbar-link6">
                   <div className="navbar-btn">
                     <span className="navbar-text">{props.text131}</span>
                   </div>
                 </a>
               </Link>
+            </div>
+            <div className="navbar-buttons1">
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="navbar-link8"
+                className="navbar-link7"
               >
                 <div className="navbar-btn1">
-                  <span className="navbar-text1">{props.text1311}</span>
+                  <span className="navbar-text1">{props.text13111}</span>
                 </div>
               </a>
             </div>
@@ -285,9 +284,6 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .navbar-link6 {
-            text-decoration: none;
-          }
           .navbar-buttons {
             gap: var(--dl-space-space-halfunit);
             width: 100%;
@@ -298,7 +294,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link7 {
+          .navbar-link6 {
             display: contents;
           }
           .navbar-btn {
@@ -316,7 +312,17 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-link8 {
+          .navbar-buttons1 {
+            gap: var(--dl-space-space-halfunit);
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding-top: var(--dl-space-space-unit);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: center;
+          }
+          .navbar-link7 {
             display: contents;
           }
           .navbar-btn1 {
@@ -401,10 +407,6 @@ closeButton.addEventListener("click", function() {
               margin-left: 9px;
               margin-right: 9px;
             }
-            .navbar-link6 {
-              margin-top: var(--dl-space-space-unit);
-              margin-bottom: var(--dl-space-space-unit);
-            }
             .navbar-buttons {
               padding-left: 20px;
               padding-right: 20px;
@@ -416,6 +418,10 @@ closeButton.addEventListener("click", function() {
             }
             .navbar-text {
               color: #ffffff;
+            }
+            .navbar-buttons1 {
+              padding-left: 20px;
+              padding-right: 20px;
             }
             .navbar-btn1 {
               padding: var(--dl-space-space-twounits);
@@ -434,34 +440,32 @@ closeButton.addEventListener("click", function() {
 
 Navbar.defaultProps = {
   Link_3: 'Projetos',
-  text1: 'Portfólio',
   Branding_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   rootClassName: '',
   Link_1: 'inicio',
   text131: 'Desenvolvimento pessoal',
   image_alt: 'image',
   pastedImage_src: '/playground_assets/pastedimage-8o98.svg',
-  text1311: 'Negócios',
   Link_2: 'Sobre',
   pastedImage_alt: 'pastedImage',
   image_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   Branding_alt: 'pastedImage',
+  text13111: 'Negócios',
 }
 
 Navbar.propTypes = {
   Link_3: PropTypes.string,
-  text1: PropTypes.string,
   Branding_src: PropTypes.string,
   rootClassName: PropTypes.string,
   Link_1: PropTypes.string,
   text131: PropTypes.string,
   image_alt: PropTypes.string,
   pastedImage_src: PropTypes.string,
-  text1311: PropTypes.string,
   Link_2: PropTypes.string,
   pastedImage_alt: PropTypes.string,
   image_src: PropTypes.string,
   Branding_alt: PropTypes.string,
+  text13111: PropTypes.string,
 }
 
 export default Navbar
