@@ -34,16 +34,18 @@ const Navbar = (props) => {
           <div className="navbar-quick-actions">
             <a
               href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-              className="navbar-log-in link"
-            >
-              Contato
-            </a>
-            <a
-              href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
               className="navbar-link4"
             >
               <div className="navbar-sign-up-btn">
-                <span className="navbar-sign-up">Patrocinar</span>
+                <span className="navbar-sign-up">Desenvolvimento pessoal</span>
+              </div>
+            </a>
+            <a
+              href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
+              className="navbar-link5"
+            >
+              <div className="navbar-sign-up-btn1">
+                <span className="navbar-sign-up1">Negócios</span>
               </div>
             </a>
             <img
@@ -71,11 +73,11 @@ const Navbar = (props) => {
           </div>
           <div className="navbar-links1">
             <Link href="/">
-              <a className="navbar-link5">{props.text1}</a>
+              <a className="navbar-link6">{props.text1}</a>
             </Link>
             <div className="navbar-buttons">
               <Link href="/">
-                <a className="navbar-link6">
+                <a className="navbar-link7">
                   <div className="navbar-btn">
                     <span className="navbar-text">{props.text131}</span>
                   </div>
@@ -83,7 +85,7 @@ const Navbar = (props) => {
               </Link>
               <a
                 href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="navbar-link7"
+                className="navbar-link8"
               >
                 <div className="navbar-btn1">
                   <span className="navbar-text1">{props.text1311}</span>
@@ -188,9 +190,6 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .navbar-log-in {
-            text-decoration: none;
-          }
           .navbar-link4 {
             display: contents;
           }
@@ -206,12 +205,37 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
             text-decoration: none;
-            background-color: #ffaf00;
+            background-color: #000000;
           }
           .navbar-sign-up-btn:hover {
             background-color: rgba(173, 226, 223, 0.5);
           }
           .navbar-sign-up {
+            color: rgb(255, 255, 255);
+            font-style: normal;
+            font-weight: 500;
+          }
+          .navbar-link5 {
+            display: contents;
+          }
+          .navbar-sign-up-btn1 {
+            display: flex;
+            transition: 0.3s;
+            align-items: flex-start;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: center;
+            text-decoration: none;
+            background-color: #ffaf00;
+          }
+          .navbar-sign-up-btn1:hover {
+            background-color: rgba(173, 226, 223, 0.5);
+          }
+          .navbar-sign-up1 {
             font-style: normal;
             font-weight: 500;
           }
@@ -261,7 +285,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .navbar-link5 {
+          .navbar-link6 {
             text-decoration: none;
           }
           .navbar-buttons {
@@ -274,7 +298,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link6 {
+          .navbar-link7 {
             display: contents;
           }
           .navbar-btn {
@@ -292,7 +316,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-link7 {
+          .navbar-link8 {
             display: contents;
           }
           .navbar-btn1 {
@@ -320,10 +344,10 @@ closeButton.addEventListener("click", function() {
             .navbar-links {
               display: none;
             }
-            .navbar-log-in {
+            .navbar-sign-up-btn {
               display: none;
             }
-            .navbar-sign-up-btn {
+            .navbar-sign-up-btn1 {
               display: none;
             }
             .navbar-hamburger-menu {
@@ -377,7 +401,7 @@ closeButton.addEventListener("click", function() {
               margin-left: 9px;
               margin-right: 9px;
             }
-            .navbar-link5 {
+            .navbar-link6 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
