@@ -39,6 +39,20 @@ const Social = (props) => {
               padding: 12px;
             }
           }
+          @media (max-width: 479px) {
+            .social-root-class-name {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .social-root-class-name1 {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .social-root-class-name2 {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-right: var(--dl-space-space-oneandhalfunits);
+            }
+          }
         `}
       </style>
     </>
