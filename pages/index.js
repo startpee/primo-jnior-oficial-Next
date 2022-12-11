@@ -89,7 +89,7 @@ const Home = (props) => {
               <div className="home-column">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/1234-900h.png"
+                  src="/playground_assets/1234-600h.png"
                   className="home-pasted-image"
                 />
               </div>
@@ -108,17 +108,18 @@ const Home = (props) => {
               <div className="home-column2">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vii-900h.png"
+                  src="/playground_assets/vii-1000h.png"
                   className="home-pasted-image3"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/dssassse-900h.png"
+                  src="/playground_assets/dssassse-1000h.png"
                   className="home-pasted-image4"
                 />
               </div>
             </div>
           </div>
+          <div className="home-container1"></div>
         </div>
         <div className="home-div">
           <DangerousHTML
@@ -628,7 +629,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             right: -210px;
             bottom: -300px;
-            height: 879px;
+            height: 972px;
             margin: var(--dl-space-space-oneandhalfunits);
             display: flex;
             overflow: hidden;
@@ -641,7 +642,7 @@ const Home = (props) => {
           }
           .home-column {
             gap: var(--dl-space-space-oneandhalfunits);
-            height: 100%;
+            height: 520px;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -677,6 +678,13 @@ const Home = (props) => {
           }
           .home-pasted-image4 {
             width: 240px;
+          }
+          .home-container1 {
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 274px;
+            display: flex;
+            align-items: flex-start;
           }
           .home-div {
             width: 100%;
