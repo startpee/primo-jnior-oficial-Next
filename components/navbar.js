@@ -209,7 +209,7 @@ closeButton.addEventListener("click", function() {
             background-color: #000000;
           }
           .navbar-sign-up-btn:hover {
-            background-color: rgba(173, 226, 223, 0.5);
+            background-color: var(--dl-color-success-700);
           }
           .navbar-sign-up {
             color: rgb(255, 255, 255);
@@ -234,7 +234,7 @@ closeButton.addEventListener("click", function() {
             background-color: #ffaf00;
           }
           .navbar-sign-up-btn1:hover {
-            background-color: rgba(173, 226, 223, 0.5);
+            background-color: var(--dl-color-success-700);
           }
           .navbar-sign-up1 {
             font-style: normal;
