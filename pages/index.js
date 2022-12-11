@@ -120,28 +120,13 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-stats">
-          <div className="home-container1"></div>
           <div className="home-stat">
-            <span className="home-caption1">R$1M</span>
-            <span className="home-description">
-              Meu objetivo em 12 meses na internet
+            <span className="home-caption1">
+              meus vídeos pode te ajudar a despertar o seu potencial como
+              pessoa.
             </span>
           </div>
-          <div className="home-container2">
-            <div className="home-stat1">
-              <span className="home-caption2">R$100k</span>
-              <span className="home-description1">
-                Que vou doar para um dos meus seguidores após bater meu primeiro
-                milhão
-              </span>
-            </div>
-          </div>
-          <div className="home-stat2">
-            <span className="home-caption3">10.000 +</span>
-            <span className="home-description2">
-              impactada pelo meus conteúdos é meu objetivo
-            </span>
-          </div>
+          <div className="home-container1"></div>
         </div>
         <div className="home-div">
           <DangerousHTML
@@ -358,7 +343,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-description3">
+                  <span className="home-description">
                     <span>
                       nunca tive vontade, porque sou empreendedor nato, meu pai
                       dizia: &quot; eu que não vou trabalhar para os
@@ -382,7 +367,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-description4">
+                  <span className="home-description1">
                     <span>
                       Não tenho, eu nunca me envolvi em nenhum relacionamento,
                       por achar que mulher só dar problemas.
@@ -407,7 +392,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-description5">
+                  <span className="home-description2">
                     No momento não, comecei minha jornada na internet apartir do
                     meu site que lancei em novembro de 2022 em julho de 2023 já
                     quero está morando no meu apê .
@@ -424,7 +409,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-description6">
+                  <span className="home-description3">
                     eu acredito que já sou, sobre a questão financeiro pra mim
                     eu tenho uma previsão que lá para final do ano de 2023
                     esteja com abundancia e realizando um dos meus sonhos de
@@ -440,7 +425,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-description7">
+                  <span className="home-description4">
                     em tempo integral atualmente me dedico na minha carreira
                     como Bizdev &quot; sou especialista em desenvolver novos
                     negócios&quot; 
@@ -455,7 +440,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-description8">
+                  <span className="home-description5">
                     <span>
                       antes eu dizia que tinha muitos Sonhos, mas hoje eu me
                       vejo com objetivo.
@@ -710,14 +695,6 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container1 {
-            flex: 0 0 auto;
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100px;
-            display: flex;
-            align-items: flex-start;
-          }
           .home-stat {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
@@ -735,77 +712,14 @@ const Home = (props) => {
             font-weight: 600;
             line-height: 56px;
           }
-          .home-description {
-            width: 100%;
-            font-size: 18px;
-            max-width: 350px;
-            font-style: normal;
-            text-align: center;
-            font-family: Poppins;
-            font-weight: 700;
-            line-height: 27px;
-          }
-          .home-container2 {
+          .home-container1 {
             flex: 0 0 auto;
             width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
-          }
-          .home-stat1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-fiveunits);
-            justify-content: center;
-          }
-          .home-caption2 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 56px;
-          }
-          .home-description1 {
-            width: 100%;
-            font-size: 18px;
-            max-width: 350px;
-            font-style: normal;
-            text-align: center;
-            font-family: Poppins;
-            font-weight: 700;
-            line-height: 27px;
-          }
-          .home-stat2 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-fiveunits);
-            justify-content: center;
-          }
-          .home-caption3 {
-            font-size: 40px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 600;
-            line-height: 56px;
-          }
-          .home-description2 {
-            width: 100%;
-            font-size: 18px;
-            max-width: 350px;
-            font-style: normal;
-            text-align: center;
-            font-family: Poppins;
-            font-weight: 700;
-            line-height: 27px;
           }
           .home-div {
             width: 100%;
@@ -1476,7 +1390,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 700;
           }
-          .home-description3 {
+          .home-description {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1490,7 +1404,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 700;
           }
-          .home-description4 {
+          .home-description1 {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1503,7 +1417,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 700;
           }
-          .home-description5 {
+          .home-description2 {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1519,7 +1433,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 700;
           }
-          .home-description6 {
+          .home-description3 {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1533,7 +1447,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 700;
           }
-          .home-description7 {
+          .home-description4 {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1546,7 +1460,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 700;
           }
-          .home-description8 {
+          .home-description5 {
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1729,27 +1643,6 @@ const Home = (props) => {
               text-align: center;
               line-height: 32px;
             }
-            .home-stat1 {
-              gap: var(--dl-space-space-halfunit);
-              width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-caption2 {
-              text-align: center;
-              line-height: 32px;
-            }
-            .home-stat2 {
-              gap: var(--dl-space-space-halfunit);
-              width: 100%;
-              padding-top: var(--dl-space-space-threeunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-              border-left-width: 0px;
-            }
-            .home-caption3 {
-              text-align: center;
-              line-height: 32px;
-            }
             .home-content1 {
               gap: var(--dl-space-space-threeunits);
             }
@@ -1840,24 +1733,6 @@ const Home = (props) => {
             }
             .home-caption1 {
               font-size: 32px;
-            }
-            .home-description {
-              font-size: 16px;
-              line-height: 24px;
-            }
-            .home-caption2 {
-              font-size: 32px;
-            }
-            .home-description1 {
-              font-size: 16px;
-              line-height: 24px;
-            }
-            .home-caption3 {
-              font-size: 32px;
-            }
-            .home-description2 {
-              font-size: 16px;
-              line-height: 24px;
             }
             .home-text {
               width: 100%;
@@ -2079,19 +1954,19 @@ const Home = (props) => {
               font-weight: 600;
               line-height: 44px;
             }
+            .home-description {
+              font-family: Poppins;
+              line-height: 24px;
+            }
+            .home-description1 {
+              font-family: Poppins;
+              line-height: 24px;
+            }
             .home-description3 {
               font-family: Poppins;
               line-height: 24px;
             }
-            .home-description4 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-description6 {
-              font-family: Poppins;
-              line-height: 24px;
-            }
-            .home-description8 {
+            .home-description5 {
               line-height: 24px;
             }
             .home-hero-buttons1 {
