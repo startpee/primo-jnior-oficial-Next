@@ -706,11 +706,12 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-caption1 {
-            font-size: 40px;
+            font-size: 26px;
             font-style: normal;
             font-family: Poppins;
             font-weight: 600;
-            line-height: 56px;
+            line-height: 33px;
+            text-transform: inherit;
           }
           .home-container1 {
             flex: 0 0 auto;
