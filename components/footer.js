@@ -346,7 +346,7 @@ Footer.defaultProps = {
   text: '© 2022 Oprimojunior. todos os direitos reservados.',
   Header: 'Links importante',
   Link6: 'infoprodutor',
-  Link4: 'Assessória',
+  Link4: 'Assessoria',
 }
 
 Footer.propTypes = {
