@@ -681,7 +681,6 @@ const Home = (props) => {
           }
           .home-container1 {
             width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 274px;
             display: flex;
             align-items: flex-start;
