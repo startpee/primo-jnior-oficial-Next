@@ -23,7 +23,10 @@ const Navbar = (props) => {
               <a href="https://primojunior.com/" className="navbar-link1 link">
                 {props.Link_1}
               </a>
-              <a href="https://primojunior.com/" className="navbar-link2 link">
+              <a
+                href="https://www.instagram.com/oprimojunior/"
+                className="navbar-link2 link"
+              >
                 {props.Link_2}
               </a>
               <a href="https://primojunior.com/" className="navbar-link3 link">
