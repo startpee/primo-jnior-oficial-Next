@@ -680,8 +680,8 @@ const Home = (props) => {
           .home-div {
             width: 100%;
             height: var(--dl-size-size-medium);
-            margin-top: 30px;
-            margin-bottom: var(--dl-space-space-sixunits);
+            margin-top: 300px;
+            margin-bottom: 300px;
           }
           .home-video {
             color: white;
