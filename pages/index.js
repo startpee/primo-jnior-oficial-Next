@@ -119,14 +119,10 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-stats">
-          <div className="home-stat">
-            <span className="home-caption1">
-              meus vídeos pode te ajudar a despertar o seu potencial como
-              pessoa.
-            </span>
-          </div>
-        </div>
+        <div className="home-stat"></div>
+        <span className="home-caption1">
+          meus vídeos pode te ajudar a despertar o seu potencial como pessoa.
+        </span>
         <div className="home-div">
           <DangerousHTML
             html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-49065/widget/custom/6949"></storifyme-collection>`}
@@ -679,23 +675,9 @@ const Home = (props) => {
           .home-pasted-image4 {
             width: 240px;
           }
-          .home-stats {
-            width: 100%;
-            height: 505px;
-            display: flex;
-            z-index: 10;
-            max-width: 1200px;
-            margin-top: 100px;
-            align-items: center;
-            padding-top: 254px;
-            padding-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: 10px;
-            padding-right: var(--dl-space-space-oneandhalfunits);
-            flex-direction: row;
-            justify-content: center;
-          }
           .home-stat {
             gap: var(--dl-space-space-oneandhalfunits);
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
             padding-left: var(--dl-space-space-threeunits);
@@ -706,10 +688,16 @@ const Home = (props) => {
           }
           .home-caption1 {
             font-size: 26px;
+            align-self: center;
             font-style: normal;
+            margin-top: 199px;
+            text-align: center;
             font-family: Poppins;
             font-weight: 600;
             line-height: 33px;
+            margin-left: 145px;
+            margin-right: 145px;
+            margin-bottom: var(--dl-space-space-halfunit);
             text-transform: inherit;
           }
           .home-div {
@@ -1619,11 +1607,6 @@ const Home = (props) => {
             .home-pasted-image4 {
               width: 200px;
             }
-            .home-stats {
-              height: 834px;
-              padding-top: var(--dl-space-space-threeunits);
-              flex-direction: column;
-            }
             .home-stat {
               gap: var(--dl-space-space-halfunit);
               width: 100%;
@@ -1860,19 +1843,18 @@ const Home = (props) => {
             .home-pasted-image4 {
               width: 150px;
             }
-            .home-stats {
-              height: 666px;
-              padding-bottom: 169px;
-            }
             .home-stat {
               height: 130px;
             }
             .home-caption1 {
               font-size: 18px;
+              align-self: center;
               font-style: normal;
               font-family: Poppins;
               font-weight: 600;
               line-height: 18px;
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
             }
             .home-video {
               background-color: #1a1b29;
