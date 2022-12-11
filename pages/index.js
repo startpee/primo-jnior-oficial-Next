@@ -628,7 +628,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             right: -210px;
             bottom: -300px;
-            margin: var(--dl-space-space-fourunits);
+            margin: var(--dl-space-space-threeunits);
             display: flex;
             overflow: hidden;
             position: absolute;
