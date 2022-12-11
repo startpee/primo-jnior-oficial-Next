@@ -89,7 +89,7 @@ const Home = (props) => {
               <div className="home-column">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/1234-700h.png"
+                  src="/playground_assets/1234-900h.png"
                   className="home-pasted-image"
                 />
               </div>
@@ -108,12 +108,12 @@ const Home = (props) => {
               <div className="home-column2">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vii-700h.png"
+                  src="/playground_assets/vii-900h.png"
                   className="home-pasted-image3"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/dssassse-700h.png"
+                  src="/playground_assets/dssassse-900h.png"
                   className="home-pasted-image4"
                 />
               </div>
@@ -628,13 +628,14 @@ const Home = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             right: -210px;
             bottom: -300px;
-            height: 679px;
+            height: 879px;
             margin: var(--dl-space-space-oneandhalfunits);
             display: flex;
             overflow: hidden;
             position: absolute;
             transform: rotate(-30deg);
             align-items: center;
+            margin-bottom: 172px;
             flex-direction: row;
             justify-content: center;
           }
@@ -651,7 +652,7 @@ const Home = (props) => {
           }
           .home-column1 {
             gap: var(--dl-space-space-oneandhalfunits);
-            height: 100%;
+            height: 656px;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -680,8 +681,8 @@ const Home = (props) => {
           .home-div {
             width: 100%;
             height: var(--dl-size-size-medium);
-            margin-top: 300px;
-            margin-bottom: 300px;
+            margin-top: 16px;
+            margin-bottom: 16px;
           }
           .home-video {
             color: white;
@@ -1783,6 +1784,9 @@ const Home = (props) => {
             }
             .home-pasted-image {
               width: 150px;
+            }
+            .home-column1 {
+              height: 367px;
             }
             .home-pasted-image1 {
               width: 150px;
