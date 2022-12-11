@@ -119,7 +119,6 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-stat"></div>
         <span className="home-caption1">
           meus vídeos pode te ajudar a despertar o seu potencial como pessoa.
         </span>
@@ -675,22 +674,11 @@ const Home = (props) => {
           .home-pasted-image4 {
             width: 240px;
           }
-          .home-stat {
-            gap: var(--dl-space-space-oneandhalfunits);
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-fiveunits);
-            justify-content: center;
-          }
           .home-caption1 {
             font-size: 26px;
             align-self: center;
             font-style: normal;
-            margin-top: 199px;
+            margin-top: 300px;
             text-align: center;
             font-family: Poppins;
             font-weight: 600;
@@ -1607,12 +1595,6 @@ const Home = (props) => {
             .home-pasted-image4 {
               width: 200px;
             }
-            .home-stat {
-              gap: var(--dl-space-space-halfunit);
-              width: 100%;
-              padding-bottom: var(--dl-space-space-threeunits);
-              border-right-width: 0px;
-            }
             .home-caption1 {
               text-align: center;
               line-height: 32px;
@@ -1842,9 +1824,6 @@ const Home = (props) => {
             }
             .home-pasted-image4 {
               width: 150px;
-            }
-            .home-stat {
-              height: 130px;
             }
             .home-caption1 {
               font-size: 18px;
