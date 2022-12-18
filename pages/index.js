@@ -47,8 +47,7 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
-                meus vídeos pode te ajudar a despertar o seu potencial como
-                pessoa.
+                meus vídeos pode despertar a sua sabedoria
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
