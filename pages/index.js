@@ -47,7 +47,7 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">@oprimojunior</h1>
               <span className="home-caption">
-                meus vídeos pode despertar a sua sabedoria
+                Os meus vídeos pode despertar a sua sabedoria
               </span>
               <div className="home-hero-buttons">
                 <div className="home-android-btn">
@@ -1775,6 +1775,8 @@ const Home = (props) => {
             .home-content {
               width: 269px;
               height: 272px;
+              margin-top: var(--dl-space-space-unit);
+              margin-bottom: var(--dl-space-space-unit);
             }
             .home-title {
               font-size: 40px;
@@ -1799,6 +1801,8 @@ const Home = (props) => {
             }
             .home-android-btn {
               width: 100%;
+              padding-top: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-twounits);
             }
             .home-images {
               bottom: -300px;
