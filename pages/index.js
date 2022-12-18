@@ -1809,13 +1809,13 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-unit);
             }
             .home-image {
-              width: var(--dl-size-size-small);
+              width: 60px;
             }
             .home-image01 {
-              width: var(--dl-size-size-small);
+              width: 60px;
             }
             .home-image02 {
-              width: var(--dl-size-size-small);
+              width: 60px;
             }
             .home-images {
               bottom: -300px;
