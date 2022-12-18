@@ -1846,6 +1846,9 @@ const Home = (props) => {
               margin-left: var(--dl-space-space-halfunit);
               margin-right: var(--dl-space-space-halfunit);
             }
+            .home-div {
+              height: var(--dl-size-size-large);
+            }
             .home-video {
               background-color: #0a0a0a;
             }
