@@ -88,31 +88,31 @@ const Home = (props) => {
               <div className="home-column">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/1234-1500h.png"
+                  src="/playground_assets/1234-600h.png"
                   className="home-pasted-image"
                 />
               </div>
               <div className="home-column1">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vvvv-1500h.png"
+                  src="/playground_assets/vvvv-600h.png"
                   className="home-pasted-image1"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/332221-1500h.png"
+                  src="/playground_assets/332221-600h.png"
                   className="home-pasted-image2"
                 />
               </div>
               <div className="home-column2">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/vii-1500h.png"
+                  src="/playground_assets/vii-600h.png"
                   className="home-pasted-image3"
                 />
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/dssassse-1500h.png"
+                  src="/playground_assets/dssassse-600h.png"
                   className="home-pasted-image4"
                 />
               </div>
@@ -1771,8 +1771,9 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-hero {
+              height: 510px;
               padding-top: var(--dl-space-space-halfunit);
-              padding-bottom: var(--dl-space-space-halfunit);
+              padding-bottom: 275px;
             }
             .home-content {
               width: 269px;
@@ -1803,8 +1804,9 @@ const Home = (props) => {
             }
             .home-android-btn {
               width: 330px;
-              padding-top: var(--dl-space-space-twounits);
-              padding-bottom: var(--dl-space-space-twounits);
+              padding-top: 20px;
+              padding-right: 137px;
+              padding-bottom: var(--dl-space-space-unit);
             }
             .home-image {
               width: var(--dl-size-size-small);
