@@ -58,7 +58,7 @@ const Home = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/playground_assets/instagram-1500h.png"
+                      src="/playground_assets/instagram-300h.png"
                       className="home-image"
                     />
                   </a>
@@ -68,7 +68,7 @@ const Home = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/playground_assets/youtube-1500h.png"
+                      src="/playground_assets/youtube-300h.png"
                       className="home-image01"
                     />
                   </a>
@@ -78,7 +78,7 @@ const Home = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/playground_assets/tik-tok-1500h.png"
+                      src="/playground_assets/tik-tok-300h.png"
                       className="home-image02"
                     />
                   </a>
@@ -465,7 +465,7 @@ const Home = (props) => {
                 >
                   <img
                     alt="image"
-                    src="/playground_assets/youtube-1500h.png"
+                    src="/playground_assets/youtube-300h.png"
                     className="home-image07"
                   />
                 </a>
@@ -477,7 +477,7 @@ const Home = (props) => {
                 >
                   <img
                     alt="image"
-                    src="/playground_assets/tik-tok-1500h.png"
+                    src="/playground_assets/tik-tok-300h.png"
                     className="home-image08"
                   />
                 </a>
@@ -489,7 +489,7 @@ const Home = (props) => {
                 >
                   <img
                     alt="image"
-                    src="/playground_assets/instagram-1500h.png"
+                    src="/playground_assets/instagram-300h.png"
                     className="home-image09"
                   />
                 </a>
@@ -1773,6 +1773,10 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
             }
+            .home-content {
+              width: 269px;
+              height: 272px;
+            }
             .home-title {
               font-size: 40px;
               align-self: center;
@@ -1782,7 +1786,7 @@ const Home = (props) => {
               line-height: 48px;
             }
             .home-caption {
-              font-size: 20px;
+              font-size: 16px;
               align-self: center;
               font-style: normal;
               text-align: center;
