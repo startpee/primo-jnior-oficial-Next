@@ -545,8 +545,10 @@ const Home = (props) => {
             flex: 0.5;
             display: flex;
             z-index: 20;
+            margin-top: var(--dl-space-space-twounits);
             align-items: flex-start;
             padding-top: var(--dl-space-space-sixunits);
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
@@ -1800,9 +1802,18 @@ const Home = (props) => {
               flex-direction: column;
             }
             .home-android-btn {
-              width: 100%;
+              width: 330px;
               padding-top: var(--dl-space-space-twounits);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-image {
+              width: var(--dl-size-size-small);
+            }
+            .home-image01 {
+              width: var(--dl-size-size-small);
+            }
+            .home-image02 {
+              width: var(--dl-size-size-small);
             }
             .home-images {
               bottom: -300px;
