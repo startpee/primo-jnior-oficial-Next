@@ -1806,6 +1806,7 @@ const Home = (props) => {
             }
             .home-images {
               bottom: -300px;
+              margin: var(--dl-space-space-oneandhalfunits);
             }
             .home-pasted-image {
               width: 150px;
