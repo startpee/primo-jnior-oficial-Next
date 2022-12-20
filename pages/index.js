@@ -230,7 +230,7 @@ const Home = (props) => {
             <div className="home-overlay">
               <div className="home-div1">
                 <DangerousHTML
-                  html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7yNG9mBlqcJHpIIdRGEbHu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
+                  html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/64G21G59ouRGSrckXtKy3K?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
                 ></DangerousHTML>
               </div>
               <a
