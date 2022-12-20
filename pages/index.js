@@ -230,7 +230,7 @@ const Home = (props) => {
             <div className="home-overlay">
               <div className="home-div1">
                 <DangerousHTML
-                  html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0LzVGwtBYHnWAByDNLNn3b?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
+                  html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7yNG9mBlqcJHpIIdRGEbHu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
                 ></DangerousHTML>
               </div>
               <a
@@ -244,7 +244,7 @@ const Home = (props) => {
             </div>
             <img
               alt="pastedImage"
-              src="/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-800h.png"
+              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               className="home-pasted-image5"
             />
           </div>
@@ -1040,11 +1040,8 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
-            background-size: auto;
             justify-content: center;
-            background-image: url('/playground_assets/2333277-ai%20%5B3%5D%20%5B3%5D-800h.png');
-            background-repeat: repeat-y;
-            background-position: top;
+            background-color: #c97707;
           }
           .home-link06 {
             display: contents;
@@ -1053,8 +1050,10 @@ const Home = (props) => {
             cursor: pointer;
             display: flex;
             align-self: flex-start;
-            align-items: flex-start;
+            align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-gray-black);
+            border-width: 3px;
             padding-left: var(--dl-space-space-threeunits);
             border-radius: var(--dl-radius-radius-radius8);
             padding-right: var(--dl-space-space-threeunits);
@@ -1226,6 +1225,8 @@ const Home = (props) => {
             transition: 0.3s;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-gray-black);
+            border-width: 3px;
             padding-left: var(--dl-space-space-twounits);
             border-radius: var(--dl-radius-radius-radius8);
             padding-right: var(--dl-space-space-twounits);
@@ -1872,7 +1873,7 @@ const Home = (props) => {
             }
             .home-banner {
               height: 100%;
-              background-color: #1a1b29;
+              background-color: #c97707;
             }
             .home-overlay {
               width: 333px;
