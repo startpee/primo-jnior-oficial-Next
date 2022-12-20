@@ -8,7 +8,12 @@ const Announcement = (props) => {
       <div className={`announcement-announcement ${props.rootClassName} `}>
         <span className="announcement-title">{props.Title}</span>
         <div className="announcement-button">
-          <span className="announcement-button-text">{props.Button}</span>
+          <a
+            href="https://open.spotify.com/episode/64G21G59ouRGSrckXtKy3K"
+            className="announcement-button-text"
+          >
+            {props.Button}
+          </a>
         </div>
       </div>
       <style jsx>
@@ -54,6 +59,7 @@ const Announcement = (props) => {
             font-style: normal;
             font-weight: 700;
             line-height: 21px;
+            text-decoration: none;
           }
           .announcement-root-class-name {
             flex: 0 0 auto;
@@ -81,7 +87,7 @@ const Announcement = (props) => {
 }
 
 Announcement.defaultProps = {
-  Title: 'Te ajudo a criar o seu Produto digital',
+  Title: 'Te ajudo a despertar a sua sabedoria',
   rootClassName: '',
   Button: 'Clique aqui ->',
 }
