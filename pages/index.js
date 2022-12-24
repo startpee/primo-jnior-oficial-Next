@@ -17,18 +17,18 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>O Primo Júnior | sabedoria para jovens</title>
+          <title>O Primo Júnior | Sabedoria jovem</title>
           <meta
             name="description"
-            content="meus vídeos pode te ajudar a despertar o seu potencial como pessoa.\ndesenvolvimento pessoal &amp; empreendedorismo  \n"
+            content="meus vídeos pode te ajudar a despertar o seu potencial como pessoa.\n\n"
           />
           <meta
             property="og:title"
-            content="O Primo Júnior | sabedoria para jovens "
+            content="O Primo Júnior | Sabedoria jovem"
           />
           <meta
             property="og:description"
-            content="meus vídeos pode te ajudar a despertar o seu potencial como pessoa.\ndesenvolvimento pessoal &amp; empreendedorismo  \n"
+            content="meus vídeos pode te ajudar a despertar o seu potencial como pessoa.\n\n"
           />
         </Head>
         <div className="home-header">
@@ -1429,7 +1429,7 @@ const Home = (props) => {
           }
           .home-text29 {
             color: var(--dl-color-gray-white);
-            font-size: 64px;
+            font-size: 40px;
             font-style: normal;
             text-align: center;
             font-family: Poppins;
