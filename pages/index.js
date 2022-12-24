@@ -1831,6 +1831,7 @@ const Home = (props) => {
               height: var(--dl-size-size-large);
             }
             .home-video {
+              height: 628px;
               background-color: #0a0a0a;
             }
             .home-iframe {
