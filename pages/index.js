@@ -1053,7 +1053,7 @@ const Home = (props) => {
           }
           .home-pricing {
             width: 100%;
-            display: flex;
+            display: none;
             align-items: center;
             padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-oneandhalfunits);
