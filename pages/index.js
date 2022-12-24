@@ -133,7 +133,7 @@ const Home = (props) => {
               <h2 className="home-text">Aperte o play</h2>
             </div>
             <iframe
-              src="https://www.youtube.com/embed/_Z4u2gjMdUY"
+              src="https://www.youtube.com/embed/bMGz1xP2hYU"
               allowFullScreen
               className="home-iframe"
             ></iframe>
