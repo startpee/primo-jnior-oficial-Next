@@ -337,7 +337,7 @@ const Home = (props) => {
                   </span>
                   <span className="home-description">
                     Eu faço escolha baseado no  meu próprosito e nâo pelo
-                    dinheiro, 
+                    dinheiro. 
                   </span>
                 </div>
                 <div className="home-question1 Question">
@@ -711,8 +711,8 @@ const Home = (props) => {
             font-weight: 600;
           }
           .home-iframe {
-            width: 668px;
-            height: 741px;
+            width: 932px;
+            height: 663px;
           }
           .home-video-container {
             gap: var(--dl-space-space-fiveunits);
@@ -1667,6 +1667,10 @@ const Home = (props) => {
               font-size: 32px;
               max-width: 640px;
             }
+            .home-iframe {
+              width: 766px;
+              height: 627px;
+            }
             .home-video-container {
               gap: var(--dl-space-space-threeunits);
             }
@@ -1830,8 +1834,8 @@ const Home = (props) => {
               background-color: #0a0a0a;
             }
             .home-iframe {
-              width: 325px;
-              height: 545px;
+              width: 434px;
+              height: 356px;
             }
             .home-link04 {
               text-decoration: none;
@@ -1912,7 +1916,6 @@ const Home = (props) => {
               line-height: 44px;
             }
             .home-description {
-              font-family: Poppins;
               line-height: 24px;
             }
             .home-description1 {
