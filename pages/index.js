@@ -1834,8 +1834,8 @@ const Home = (props) => {
               background-color: #0a0a0a;
             }
             .home-iframe {
-              width: 434px;
-              height: 356px;
+              width: 389px;
+              height: 284px;
             }
             .home-link04 {
               text-decoration: none;
