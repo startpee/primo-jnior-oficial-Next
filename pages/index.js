@@ -336,18 +336,8 @@ const Home = (props) => {
                     />
                   </span>
                   <span className="home-description">
-                    <span>
-                      nunca tive vontade, porque sou empreendedor nato, meu pai
-                      dizia: &quot; eu que não vou trabalhar para os
-                      outros&quot; então aprendi com ele.
-                    </span>
-                    <br></br>
-                    <br></br>
-                    <span>
-                      Só que não recomendo montar um negócio sem conhecimento, o
-                      caminho que escolhi foi oque me fez aprender errando e ser
-                      essa pessoa inteligente.
-                    </span>
+                    Eu faço escolha baseado no  meu próprosito e nâo pelo
+                    dinheiro, 
                   </span>
                 </div>
                 <div className="home-question1 Question">
@@ -361,23 +351,15 @@ const Home = (props) => {
                   </span>
                   <span className="home-description1">
                     <span>
-                      Não tenho, eu nunca me envolvi em nenhum relacionamento,
-                      por achar que mulher só dar problemas.
+                      No momento não, mais espero encontrar uma mulher que
+                      deseje compartilhar o mesmo caminho.
                     </span>
-                    <br></br>
-                    <br></br>
-                    <span>
-                      Acabei mudando de ideia  no caso se eu encontrar uma
-                      mulher que seja esforçada e que tenha objetivos de crescer
-                      na vida nunca que seria problema, seria um apoio.  
-                    </span>
-                    <br></br>
                     <br></br>
                   </span>
                 </div>
                 <div className="home-question2 Question">
                   <span className="home-title3">
-                    você tem moradia próprio?
+                    você mora aonde?
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -385,9 +367,7 @@ const Home = (props) => {
                     />
                   </span>
                   <span className="home-description2">
-                    No momento não, comecei minha jornada na internet apartir do
-                    meu site que lancei em novembro de 2022 em julho de 2023 já
-                    quero está morando no meu apê .
+                    Na capital de são Paulo no  apê de uma prima .
                   </span>
                 </div>
               </div>
@@ -402,10 +382,12 @@ const Home = (props) => {
                     />
                   </span>
                   <span className="home-description3">
-                    eu acredito que já sou, sobre a questão financeiro pra mim
-                    eu tenho uma previsão que lá para final do ano de 2023
-                    esteja com abundancia e realizando um dos meus sonhos de
-                    conquistar o meu primeiro milhão. 
+                    <span>
+                      já sou rico, a riqueza verdadeira não está em bens
+                      materiais e sim na sabedoria.
+                    </span>
+                    <br></br>
+                    <br></br>
                   </span>
                 </div>
                 <div className="home-question4 Question">
@@ -418,8 +400,8 @@ const Home = (props) => {
                     />
                   </span>
                   <span className="home-description4">
-                    em tempo integral atualmente me dedico na minha carreira
-                    como Bizdev &quot; sou especialista em desenvolver novos
+                    em tempo integral atualmente me dedico na minha empresa
+                    &quot;vou me tornar especialista em desenvolver novos
                     negócios&quot; 
                   </span>
                 </div>
@@ -434,12 +416,6 @@ const Home = (props) => {
                   </span>
                   <span className="home-description5">
                     <span>
-                      antes eu dizia que tinha muitos Sonhos, mas hoje eu me
-                      vejo com objetivo.
-                    </span>
-                    <br></br>
-                    <br></br>
-                    <span>
                       tive que pegar um dos meus sonhos e organizar para tornar
                       um objetivo na minha vida.
                     </span>
@@ -453,8 +429,8 @@ const Home = (props) => {
         <div className="home-get-started1">
           <div className="home-content8">
             <div className="home-heading6">
-              <h2 className="home-text37"> acompanhe o primo!</h2>
-              <span className="home-text38">em uma das nossas redes</span>
+              <h2 className="home-text29"> acompanhe o primo!</h2>
+              <span className="home-text30">em uma das nossas redes</span>
             </div>
             <div className="home-hero-buttons1">
               <div className="home-i-o-s-btn">
@@ -1451,7 +1427,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text37 {
+          .home-text29 {
             color: var(--dl-color-gray-white);
             font-size: 64px;
             font-style: normal;
@@ -1459,7 +1435,7 @@ const Home = (props) => {
             font-family: Poppins;
             font-weight: 600;
           }
-          .home-text38 {
+          .home-text30 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -1664,10 +1640,10 @@ const Home = (props) => {
             .home-heading6 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text37 {
+            .home-text29 {
               font-size: 40px;
             }
-            .home-text38 {
+            .home-text30 {
               font-size: 18px;
             }
           }
