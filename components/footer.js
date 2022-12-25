@@ -342,7 +342,7 @@ Footer.defaultProps = {
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   pastedImage_alt: 'pastedImage',
   Link2: 'Patrocinar',
-  Link5: 'Criação de site',
+  Link5: 'Copywriting',
   text: '© 2022 Oprimojunior. todos os direitos reservados.',
   Header: 'Links importante',
   Link6: 'infoprodutor',
