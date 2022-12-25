@@ -687,8 +687,8 @@ const Home = (props) => {
           }
           .home-content1 {
             gap: var(--dl-space-space-fiveunits);
-            width: 100%;
-            height: 909px;
+            width: 1089px;
+            height: 833px;
             display: flex;
             max-width: 1200px;
             align-items: center;
@@ -711,8 +711,8 @@ const Home = (props) => {
             font-weight: 600;
           }
           .home-iframe {
-            width: 932px;
-            height: 663px;
+            width: 681px;
+            height: 514px;
           }
           .home-video-container {
             gap: var(--dl-space-space-fiveunits);
