@@ -1007,7 +1007,7 @@ const Home = (props) => {
           }
           .home-overlay {
             gap: var(--dl-space-space-threeunits);
-            width: 100%;
+            width: 721px;
             height: 739px;
             display: flex;
             align-items: flex-start;
