@@ -62,6 +62,7 @@ const Ecommerce = (props) => {
             height: 688px;
             display: flex;
             max-width: 1200px;
+            margin-top: var(--dl-space-space-twounits);
             align-items: center;
             flex-direction: column;
             background-color: #0a0a0a;
