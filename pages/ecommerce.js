@@ -144,8 +144,8 @@ const Ecommerce = (props) => {
           }
           @media (max-width: 479px) {
             .ecommerce-content {
-              width: 434px;
-              height: 327px;
+              width: 384px;
+              height: 312px;
               margin-top: var(--dl-space-space-twounits);
               margin-right: 0px;
             }
