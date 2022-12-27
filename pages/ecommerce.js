@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
-
 const Ecommerce = (props) => {
   return (
     <>
@@ -35,15 +33,12 @@ const Ecommerce = (props) => {
             </div>
           </div>
         </div>
-        <div className="ecommerce-div">
-          <DangerousHTML
-            html={`<!-- static button start -->
-<link href="https://meetings.sendinblue.com/assets/styles/popup.css" rel="stylesheet" />
-<script src="https://meetings.sendinblue.com/assets/libs/popup.min.js" type="text/javascript"></script>
-<a href="" onclick="SendinblueBookingPage.initStaticButton({ url: 'https://meet.sendinblue.com/startpee/borderless?l=e-commerce-ajuda' });return false;" style="cursor: pointer; font-family: Roboto; font-weight: 500; background-color: #1d1b29; color: white; padding: 0.8rem 2rem; border: 0px; box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 0px inset; border-radius: 4px; text-decoration: none; display: inline-block;">Agendar agora</a>
-<!-- static button end -->`}
-          ></DangerousHTML>
-        </div>
+        <a
+          href="https://meet.sendinblue.com/startpee?t=0&amp;l=e-commerce-ajuda"
+          className="ecommerce-link button"
+        >
+          Agendar agora
+        </a>
       </div>
       <style jsx>
         {`
@@ -110,21 +105,20 @@ const Ecommerce = (props) => {
             color: rgba(255, 255, 255, 0.5);
             border-color: rgba(255, 255, 255, 0.3);
           }
-          .ecommerce-div {
-            width: 214px;
-            height: 57px;
-            margin-top: var(--dl-space-space-twounits);
+          .ecommerce-link {
+            color: var(--dl-color-gray-white);
+            width: 215px;
+            height: 58px;
+            font-size: 24px;
+            border-color: #ffffff;
+            border-width: 3px;
+            border-radius: var(--dl-radius-radius-radius8);
+            text-decoration: none;
+            background-color: rgb(23, 22, 32);
           }
           @media (max-width: 991px) {
             .ecommerce-content {
               gap: var(--dl-space-space-threeunits);
-            }
-            .ecommerce-div {
-              width: 221px;
-              height: 53px;
-              margin-top: var(--dl-space-space-threeunits);
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 767px) {
@@ -152,11 +146,6 @@ const Ecommerce = (props) => {
             .ecommerce-iframe {
               width: 389px;
               height: 284px;
-            }
-            .ecommerce-div {
-              width: 176px;
-              height: 50px;
-              align-self: center;
             }
           }
         `}
