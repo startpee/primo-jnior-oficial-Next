@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 const VidaOrganizada = (props) => {
   return (
     <>
@@ -37,10 +39,15 @@ const VidaOrganizada = (props) => {
               </div>
             </div>
           </div>
-          <button className="vida-organizada-button button">
-            Quero conversar
-          </button>
-          <button className="vida-organizada-button1 button"> Contratar</button>
+        </div>
+        <div className="vida-organizada-div">
+          <DangerousHTML
+            html={`<!-- static button start -->
+<link href="https://meetings.sendinblue.com/assets/styles/popup.css" rel="stylesheet" />
+<script src="https://meetings.sendinblue.com/assets/libs/popup.min.js" type="text/javascript"></script>
+<a href="" onclick="SendinblueBookingPage.initStaticButton({ url: 'https://meet.sendinblue.com/startpee/borderless?l=e-commerce-ajuda' });return false;" style="cursor: pointer; font-family: Roboto; font-weight: 500; background-color: #1d1b29; color: white; padding: 0.8rem 2rem; border: 0px; box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 0px inset; border-radius: 4px; text-decoration: none; display: inline-block;">Agendar agora</a>
+<!-- static button end -->`}
+          ></DangerousHTML>
         </div>
       </div>
       <style jsx>
@@ -134,30 +141,16 @@ const VidaOrganizada = (props) => {
             color: rgba(255, 255, 255, 0.5);
             border-color: rgba(255, 255, 255, 0.3);
           }
-          .vida-organizada-button {
-            width: 274px;
-            height: 56px;
-            font-size: 25px;
-            font-style: normal;
-            text-align: center;
-            font-weight: 700;
-            border-radius: var(--dl-radius-radius-radius8);
-            background-color: rgb(255, 175, 0);
-          }
-          .vida-organizada-button1 {
-            width: 274px;
-            height: 56px;
-            font-size: 30px;
-            font-style: normal;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            text-align: center;
-            font-weight: 700;
-            border-radius: var(--dl-radius-radius-radius8);
-            background-color: rgb(255, 175, 0);
-          }
           @media (max-width: 991px) {
             .vida-organizada-content {
               gap: var(--dl-space-space-threeunits);
+            }
+            .vida-organizada-div {
+              width: 221px;
+              height: 53px;
+              margin-top: var(--dl-space-space-threeunits);
+              margin-left: var(--dl-space-space-unit);
+              margin-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 767px) {
