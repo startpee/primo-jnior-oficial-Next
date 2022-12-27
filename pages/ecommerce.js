@@ -23,7 +23,6 @@ const Ecommerce = (props) => {
           />
         </Head>
         <div className="ecommerce-content">
-          <div className="ecommerce-header"></div>
           <iframe
             src="https://www.youtube.com/embed/bMGz1xP2hYU"
             allowFullScreen
@@ -59,20 +58,13 @@ const Ecommerce = (props) => {
           }
           .ecommerce-content {
             gap: var(--dl-space-space-fiveunits);
-            width: 1089px;
+            width: 688px;
             height: 688px;
             display: flex;
             max-width: 1200px;
             align-items: center;
             flex-direction: column;
             background-color: #0a0a0a;
-          }
-          .ecommerce-header {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
           }
           .ecommerce-iframe {
             width: 681px;
@@ -135,6 +127,9 @@ const Ecommerce = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .ecommerce-content {
+              width: 100%;
+            }
             .ecommerce-iframe {
               width: 766px;
               height: 627px;
@@ -148,11 +143,19 @@ const Ecommerce = (props) => {
           }
           @media (max-width: 479px) {
             .ecommerce-content {
-              height: 431px;
+              width: 434px;
+              height: 327px;
+              margin-top: var(--dl-space-space-twounits);
+              margin-right: 0px;
             }
             .ecommerce-iframe {
               width: 389px;
               height: 284px;
+            }
+            .ecommerce-div {
+              width: 176px;
+              height: 50px;
+              align-self: center;
             }
           }
         `}
