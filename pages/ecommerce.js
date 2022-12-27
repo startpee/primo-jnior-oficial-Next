@@ -34,7 +34,7 @@ const Ecommerce = (props) => {
           </div>
         </div>
         <a
-          href="https://meet.sendinblue.com/startpee?t=0&amp;l=e-commerce-ajuda"
+          href="https://meet.sendinblue.com/startpee?t=0&amp;l=ajuda-no-e-commerce"
           className="ecommerce-link button"
         >
           Agendar agora
