@@ -50,9 +50,7 @@ const Footer = (props) => {
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
               <span className="footer-link2">{props.Link2}</span>
-              <a href="https://startpee.site/" className="footer-link3">
-                {props.Link4}
-              </a>
+              <span className="footer-link3">{props.Link4}</span>
             </div>
           </div>
         </div>
@@ -168,7 +166,6 @@ const Footer = (props) => {
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
-            text-decoration: none;
           }
           .footer-link3:hover {
             color: rgba(196, 196, 196, 0.5);
