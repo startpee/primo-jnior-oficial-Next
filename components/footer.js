@@ -49,15 +49,16 @@ const Footer = (props) => {
           <div className="footer-links">
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
-              <span className="footer-link2">{props.Link1}</span>
-              <span className="footer-link3">{props.Link2}</span>
-              <span className="footer-link4">{props.Link4}</span>
+              <span className="footer-link2">{props.Link2}</span>
+              <a href="https://startpee.site/" className="footer-link3">
+                {props.Link4}
+              </a>
             </div>
             <div className="footer-column1">
               <span className="footer-header1">{props.Header1}</span>
-              <span className="footer-link5">{props.Link5}</span>
-              <span className="footer-link6">{props.Link6}</span>
-              <span className="footer-link7">{props.Link10}</span>
+              <span className="footer-link4">{props.Link5}</span>
+              <span className="footer-link5">{props.Link6}</span>
+              <span className="footer-link6">{props.Link10}</span>
             </div>
           </div>
         </div>
@@ -173,18 +174,9 @@ const Footer = (props) => {
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
+            text-decoration: none;
           }
           .footer-link3:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link4 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link4:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-column1 {
@@ -200,6 +192,16 @@ const Footer = (props) => {
             font-family: Poppins;
             font-weight: 500;
             line-height: 30px;
+          }
+          .footer-link4 {
+            color: rgb(196, 196, 196);
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            line-height: 21px;
+          }
+          .footer-link4:hover {
+            color: rgba(196, 196, 196, 0.5);
           }
           .footer-link5 {
             color: rgb(196, 196, 196);
@@ -219,16 +221,6 @@ const Footer = (props) => {
             line-height: 21px;
           }
           .footer-link6:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link7 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link7:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -307,20 +299,17 @@ const Footer = (props) => {
             .footer-link3 {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-link4 {
-              margin-top: var(--dl-space-space-halfunit);
-            }
             .footer-column1 {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-link4 {
+              margin-top: var(--dl-space-space-halfunit);
             }
             .footer-link5 {
               margin-top: var(--dl-space-space-halfunit);
             }
             .footer-link6 {
-              margin-top: var(--dl-space-space-halfunit);
-            }
-            .footer-link7 {
               margin-top: var(--dl-space-space-halfunit);
             }
             .footer-root-class-name {
@@ -334,7 +323,6 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  Link1: 'Projetos',
   rootClassName: '',
   Link10: 'Portfólio',
   text1: 'Seja uma pessoa ilimitada',
@@ -345,12 +333,11 @@ Footer.defaultProps = {
   Link5: 'Copywriting',
   text: '© 2022 Oprimojunior. todos os direitos reservados.',
   Header: 'Links importante',
-  Link6: 'infoprodutor',
-  Link4: 'Assessoria',
+  Link6: 'Assessoria e-commerce',
+  Link4: 'Minha startup',
 }
 
 Footer.propTypes = {
-  Link1: PropTypes.string,
   rootClassName: PropTypes.string,
   Link10: PropTypes.string,
   text1: PropTypes.string,
