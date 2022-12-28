@@ -35,18 +35,12 @@ const Navbar = (props) => {
             </div>
           </div>
           <div className="navbar-quick-actions">
-            <a
-              href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-              className="navbar-link4"
-            >
+            <a href="https://www.sabedoriajovem.site/" className="navbar-link4">
               <div className="navbar-sign-up-btn">
                 <span className="navbar-sign-up">Desenvolvimento pessoal</span>
               </div>
             </a>
-            <a
-              href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-              className="navbar-link5"
-            >
+            <a href="https://startpee.site" className="navbar-link5">
               <div className="navbar-sign-up-btn1">
                 <span className="navbar-sign-up1">Negócios</span>
               </div>
