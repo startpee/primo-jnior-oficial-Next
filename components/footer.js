@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import Social from './social'
-
 const Footer = (props) => {
   return (
     <>
@@ -18,39 +16,13 @@ const Footer = (props) => {
               />
               <span className="footer-text">{props.text1}</span>
             </div>
-            <div className="footer-socials">
-              <a
-                href="https://www.linkedin.com/in/oprimojunior/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="footer-link"
-              >
-                <Social
-                  rootClassName="social-root-class-name"
-                  className="footer-component"
-                ></Social>
-              </a>
-              <a
-                href="https://www.instagram.com/oprimojunior/"
-                className="footer-link1"
-              >
-                <Social
-                  Insider_src="/playground_assets/pastedimage-k0l6.svg"
-                  rootClassName="social-root-class-name1"
-                  className="footer-component1"
-                ></Social>
-              </a>
-              <Social
-                Insider_src="/playground_assets/pastedimage-ld65.svg"
-                rootClassName="social-root-class-name2"
-              ></Social>
-            </div>
+            <div className="footer-socials"></div>
           </div>
           <div className="footer-links">
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
-              <span className="footer-link2">{props.Link2}</span>
-              <span className="footer-link3">{props.Link4}</span>
+              <span className="footer-link">{props.Link2}</span>
+              <span className="footer-link1">{props.Link4}</span>
             </div>
           </div>
         </div>
@@ -110,23 +82,12 @@ const Footer = (props) => {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             width: 100%;
-            display: flex;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: none;
             max-width: 265px;
             align-items: flex-start;
             flex-direction: row;
             justify-content: flex-start;
-          }
-          .footer-link {
-            display: contents;
-          }
-          .footer-component {
-            text-decoration: none;
-          }
-          .footer-link1 {
-            display: contents;
-          }
-          .footer-component1 {
-            text-decoration: none;
           }
           .footer-links {
             gap: var(--dl-space-space-fiveunits);
@@ -150,24 +111,24 @@ const Footer = (props) => {
             font-weight: 500;
             line-height: 30px;
           }
-          .footer-link2 {
+          .footer-link {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link2:hover {
+          .footer-link:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link3 {
+          .footer-link1 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link3:hover {
+          .footer-link1:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -239,10 +200,10 @@ const Footer = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .footer-link2 {
+            .footer-link {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-link3 {
+            .footer-link1 {
               margin-top: var(--dl-space-space-halfunit);
             }
             .footer-root-class-name {

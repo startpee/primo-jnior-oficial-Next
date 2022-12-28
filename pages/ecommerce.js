@@ -30,7 +30,6 @@ const Ecommerce = (props) => {
           ></iframe>
           <div className="ecommerce-video-container">
             <div className="ecommerce-heading-container">
-              <div className="ecommerce-heading"></div>
               <div className="ecommerce-explore"></div>
             </div>
           </div>
@@ -86,13 +85,6 @@ const Ecommerce = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .ecommerce-heading {
-            gap: var(--dl-space-space-unit);
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
           .ecommerce-explore {
             color: #fff;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -138,9 +130,6 @@ const Ecommerce = (props) => {
             }
             .ecommerce-video-container {
               gap: var(--dl-space-space-threeunits);
-            }
-            .ecommerce-heading {
-              gap: var(--dl-space-space-halfunit);
             }
           }
           @media (max-width: 479px) {
