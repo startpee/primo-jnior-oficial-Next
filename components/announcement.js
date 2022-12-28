@@ -87,7 +87,7 @@ const Announcement = (props) => {
 }
 
 Announcement.defaultProps = {
-  Title: 'Te ajudo a despertar a sua sabedoria',
+  Title: 'Sabedoria para jovens',
   rootClassName: '',
   Button: 'Clique aqui ->',
 }

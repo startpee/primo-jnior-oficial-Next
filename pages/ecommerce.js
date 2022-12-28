@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Footer from '../components/footer'
+
 const Ecommerce = (props) => {
   return (
     <>
@@ -39,6 +41,7 @@ const Ecommerce = (props) => {
         >
           Agendar agora
         </a>
+        <Footer rootClassName="footer-root-class-name1"></Footer>
       </div>
       <style jsx>
         {`
@@ -65,6 +68,8 @@ const Ecommerce = (props) => {
           .ecommerce-iframe {
             width: 681px;
             height: 514px;
+            margin-top: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .ecommerce-video-container {
             gap: var(--dl-space-space-fiveunits);
@@ -110,9 +115,11 @@ const Ecommerce = (props) => {
             width: 215px;
             height: 58px;
             font-size: 24px;
+            margin-top: var(--dl-space-space-threeunits);
             border-color: #ffffff;
             border-width: 3px;
             border-radius: var(--dl-radius-radius-radius8);
+            margin-bottom: var(--dl-space-space-threeunits);
             text-decoration: none;
             background-color: rgb(23, 22, 32);
           }

@@ -54,12 +54,6 @@ const Footer = (props) => {
                 {props.Link4}
               </a>
             </div>
-            <div className="footer-column1">
-              <span className="footer-header1">{props.Header1}</span>
-              <span className="footer-link4">{props.Link5}</span>
-              <span className="footer-link5">{props.Link6}</span>
-              <span className="footer-link6">{props.Link10}</span>
-            </div>
           </div>
         </div>
         <span className="footer-text1">{props.text}</span>
@@ -179,50 +173,6 @@ const Footer = (props) => {
           .footer-link3:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-column1 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .footer-header1 {
-            font-size: 20px;
-            font-style: normal;
-            font-family: Poppins;
-            font-weight: 500;
-            line-height: 30px;
-          }
-          .footer-link4 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link4:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link5 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link5:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
-          .footer-link6 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.3s;
-            line-height: 21px;
-          }
-          .footer-link6:hover {
-            color: rgba(196, 196, 196, 0.5);
-          }
           .footer-text1 {
             color: #c4c4c4;
             width: 100%;
@@ -231,6 +181,9 @@ const Footer = (props) => {
             line-height: 21px;
           }
           .footer-root-class-name {
+            background-color: var(--dl-color-gray-black);
+          }
+          .footer-root-class-name1 {
             background-color: var(--dl-color-gray-black);
           }
           @media (max-width: 991px) {
@@ -275,10 +228,6 @@ const Footer = (props) => {
               font-size: 16px;
               line-height: 24px;
             }
-            .footer-header1 {
-              font-size: 16px;
-              line-height: 24px;
-            }
           }
           @media (max-width: 479px) {
             .footer-socials {
@@ -299,20 +248,10 @@ const Footer = (props) => {
             .footer-link3 {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-column1 {
-              margin-top: var(--dl-space-space-oneandhalfunits);
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .footer-link4 {
-              margin-top: var(--dl-space-space-halfunit);
-            }
-            .footer-link5 {
-              margin-top: var(--dl-space-space-halfunit);
-            }
-            .footer-link6 {
-              margin-top: var(--dl-space-space-halfunit);
-            }
             .footer-root-class-name {
+              background-color: #000000;
+            }
+            .footer-root-class-name1 {
               background-color: #000000;
             }
           }
@@ -324,31 +263,23 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   rootClassName: '',
-  Link10: 'Portfólio',
-  text1: 'Seja uma pessoa ilimitada',
-  Header1: 'Serviços',
+  text1: 'Sabedoria jovem',
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   pastedImage_alt: 'pastedImage',
-  Link2: 'Patrocinar',
-  Link5: 'Copywriting',
-  text: '© 2022 Oprimojunior. todos os direitos reservados.',
-  Header: 'Links importante',
-  Link6: 'Assessoria e-commerce',
-  Link4: 'Minha startup',
+  Link2: 'Politica de privacidade',
+  text: '© CNPJ: 20.369.543/0001-98',
+  Header: 'LINKS ÚTEIS',
+  Link4: 'Contato',
 }
 
 Footer.propTypes = {
   rootClassName: PropTypes.string,
-  Link10: PropTypes.string,
   text1: PropTypes.string,
-  Header1: PropTypes.string,
   pastedImage_src: PropTypes.string,
   pastedImage_alt: PropTypes.string,
   Link2: PropTypes.string,
-  Link5: PropTypes.string,
   text: PropTypes.string,
   Header: PropTypes.string,
-  Link6: PropTypes.string,
   Link4: PropTypes.string,
 }
 

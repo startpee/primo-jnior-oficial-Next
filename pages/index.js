@@ -964,7 +964,7 @@ const Home = (props) => {
           .home-banner-container {
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
+            display: none;
             align-items: center;
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
@@ -1169,7 +1169,7 @@ const Home = (props) => {
           }
           .home-f-a-q {
             width: 100%;
-            display: flex;
+            display: none;
             align-items: center;
             padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-oneandhalfunits);
