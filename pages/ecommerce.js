@@ -125,8 +125,8 @@ const Ecommerce = (props) => {
               width: 100%;
             }
             .ecommerce-iframe {
-              width: 0px;
-              height: 50%;
+              width: 713px;
+              height: 545px;
             }
             .ecommerce-video-container {
               gap: var(--dl-space-space-threeunits);
