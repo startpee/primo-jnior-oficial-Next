@@ -104,10 +104,12 @@ const Ecommerce = (props) => {
           }
           .ecommerce-link {
             color: var(--dl-color-gray-white);
-            width: 215px;
-            height: 58px;
+            width: 255px;
+            height: 76px;
             font-size: 24px;
             margin-top: var(--dl-space-space-threeunits);
+            text-align: center;
+            line-height: 2;
             border-color: #ffffff;
             border-width: 3px;
             border-radius: var(--dl-radius-radius-radius8);
