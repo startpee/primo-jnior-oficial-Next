@@ -248,7 +248,7 @@ Footer.defaultProps = {
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   pastedImage_alt: 'pastedImage',
   Link2: 'Politica de privacidade',
-  text: '© CNPJ: 20.369.543/0001-98',
+  text: '© CNPJ: 20.369.543/0001-98 |  Startpee Tecnologia Co',
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
   Link21: 'Patrocinar',
