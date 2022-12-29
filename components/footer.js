@@ -260,7 +260,7 @@ Footer.defaultProps = {
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
   Link21: 'Patrocinar',
-  text2: 'Cep: 03303000 |  São Paulo- SP',
+  text2: 'Cep: 03303-000 |  São Paulo- SP',
 }
 
 Footer.propTypes = {
