@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import DangerousHTML from 'dangerous-html/react'
 import PropTypes from 'prop-types'
@@ -70,19 +69,14 @@ const Navbar = (props) => {
           </div>
           <div className="navbar-links1">
             <div className="navbar-buttons">
-              <Link href="/">
-                <a className="navbar-link6">
-                  <div className="navbar-btn">
-                    <span className="navbar-text">{props.text131}</span>
-                  </div>
-                </a>
-              </Link>
+              <a href="http://sabedoriajovem.site/" className="navbar-link6">
+                <div className="navbar-btn">
+                  <span className="navbar-text">{props.text131}</span>
+                </div>
+              </a>
             </div>
             <div className="navbar-buttons1">
-              <a
-                href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
-                className="navbar-link7"
-              >
+              <a href="https://startpee.site/" className="navbar-link7">
                 <div className="navbar-btn1">
                   <span className="navbar-text1">{props.text13111}</span>
                 </div>
