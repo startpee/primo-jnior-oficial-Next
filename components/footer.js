@@ -26,7 +26,10 @@ const Footer = (props) => {
               <Link href="/patrocinio">
                 <a className="footer-link2">{props.Link21}</a>
               </Link>
-              <span className="footer-link3">{props.Link4}</span>
+              <Link href="/ecommerce">
+                <a className="footer-link4">{props.Link211}</a>
+              </Link>
+              <span className="footer-link5">{props.Link4}</span>
             </div>
           </div>
         </div>
@@ -137,14 +140,25 @@ const Footer = (props) => {
           .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link3 {
+          .footer-link4 {
+            color: rgb(196, 196, 196);
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            line-height: 21px;
+            text-decoration: none;
+          }
+          .footer-link4:hover {
+            color: rgba(196, 196, 196, 0.5);
+          }
+          .footer-link5 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link3:hover {
+          .footer-link5:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -238,7 +252,10 @@ const Footer = (props) => {
             .footer-link2 {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-link3 {
+            .footer-link4 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
+            .footer-link5 {
               margin-top: var(--dl-space-space-halfunit);
             }
             .footer-text2 {
@@ -272,6 +289,7 @@ Footer.defaultProps = {
   text2: 'Cep: 03303-000 |  São Paulo- SP',
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
+  Link211: 'Ajuda E-commerce',
 }
 
 Footer.propTypes = {
@@ -285,6 +303,7 @@ Footer.propTypes = {
   text2: PropTypes.string,
   Header: PropTypes.string,
   Link4: PropTypes.string,
+  Link211: PropTypes.string,
 }
 
 export default Footer
