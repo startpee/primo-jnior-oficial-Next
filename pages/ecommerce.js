@@ -140,8 +140,8 @@ const Ecommerce = (props) => {
               margin-right: 0px;
             }
             .ecommerce-iframe {
-              width: 0px;
-              height: 50%;
+              width: 363px;
+              height: 230px;
             }
           }
         `}
