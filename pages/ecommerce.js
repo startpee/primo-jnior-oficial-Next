@@ -125,8 +125,8 @@ const Ecommerce = (props) => {
               width: 100%;
             }
             .ecommerce-iframe {
-              width: 766px;
-              height: 627px;
+              width: 0px;
+              height: 50%;
             }
             .ecommerce-video-container {
               gap: var(--dl-space-space-threeunits);
@@ -140,8 +140,8 @@ const Ecommerce = (props) => {
               margin-right: 0px;
             }
             .ecommerce-iframe {
-              width: 389px;
-              height: 284px;
+              width: 0px;
+              height: 50%;
             }
           }
         `}

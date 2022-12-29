@@ -22,7 +22,13 @@ const Footer = (props) => {
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
               <span className="footer-link">{props.Link2}</span>
-              <span className="footer-link1">{props.Link4}</span>
+              <a
+                href="https://primojunior.com/patrocinar"
+                className="footer-link1"
+              >
+                {props.Link21}
+              </a>
+              <span className="footer-link2">{props.Link4}</span>
             </div>
           </div>
         </div>
@@ -127,8 +133,19 @@ const Footer = (props) => {
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
+            text-decoration: none;
           }
           .footer-link1:hover {
+            color: rgba(196, 196, 196, 0.5);
+          }
+          .footer-link2 {
+            color: rgb(196, 196, 196);
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            line-height: 21px;
+          }
+          .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -206,6 +223,9 @@ const Footer = (props) => {
             .footer-link1 {
               margin-top: var(--dl-space-space-halfunit);
             }
+            .footer-link2 {
+              margin-top: var(--dl-space-space-halfunit);
+            }
             .footer-root-class-name {
               background-color: #000000;
             }
@@ -228,6 +248,7 @@ Footer.defaultProps = {
   text: '© CNPJ: 20.369.543/0001-98',
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
+  Link21: 'Patrocinar',
 }
 
 Footer.propTypes = {
@@ -239,6 +260,7 @@ Footer.propTypes = {
   text: PropTypes.string,
   Header: PropTypes.string,
   Link4: PropTypes.string,
+  Link21: PropTypes.string,
 }
 
 export default Footer

@@ -1793,6 +1793,9 @@ const Home = (props) => {
             .home-description5 {
               line-height: 24px;
             }
+            .home-get-started1 {
+              display: none;
+            }
             .home-hero-buttons1 {
               width: 100%;
               flex-direction: column;
