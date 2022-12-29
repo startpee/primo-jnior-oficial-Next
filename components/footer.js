@@ -33,6 +33,7 @@ const Footer = (props) => {
           </div>
         </div>
         <span className="footer-text1">{props.text}</span>
+        <span className="footer-text2">{props.text2}</span>
       </div>
       <style jsx>
         {`
@@ -155,6 +156,13 @@ const Footer = (props) => {
             max-width: 1200px;
             line-height: 21px;
           }
+          .footer-text2 {
+            color: #c4c4c4;
+            width: 100%;
+            font-size: 14px;
+            max-width: 1200px;
+            line-height: 21px;
+          }
           .footer-root-class-name {
             background-color: var(--dl-color-gray-black);
           }
@@ -252,6 +260,7 @@ Footer.defaultProps = {
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
   Link21: 'Patrocinar',
+  text2: 'Cep: 03303000 |  São Paulo- SP',
 }
 
 Footer.propTypes = {
@@ -264,6 +273,7 @@ Footer.propTypes = {
   Header: PropTypes.string,
   Link4: PropTypes.string,
   Link21: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default Footer
