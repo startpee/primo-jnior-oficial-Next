@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
@@ -22,13 +23,10 @@ const Footer = (props) => {
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
               <span className="footer-link">{props.Link2}</span>
-              <a
-                href="https://primojunior.com/patrocinar"
-                className="footer-link1"
-              >
-                {props.Link21}
-              </a>
-              <span className="footer-link2">{props.Link4}</span>
+              <Link href="/patrocinio">
+                <a className="footer-link2">{props.Link21}</a>
+              </Link>
+              <span className="footer-link3">{props.Link4}</span>
             </div>
           </div>
         </div>
@@ -128,7 +126,7 @@ const Footer = (props) => {
           .footer-link:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link1 {
+          .footer-link2 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
@@ -136,17 +134,17 @@ const Footer = (props) => {
             line-height: 21px;
             text-decoration: none;
           }
-          .footer-link1:hover {
+          .footer-link2:hover {
             color: rgba(196, 196, 196, 0.5);
           }
-          .footer-link2 {
+          .footer-link3 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
           }
-          .footer-link2:hover {
+          .footer-link3:hover {
             color: rgba(196, 196, 196, 0.5);
           }
           .footer-text1 {
@@ -237,10 +235,10 @@ const Footer = (props) => {
             .footer-link {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-link1 {
+            .footer-link2 {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-link2 {
+            .footer-link3 {
               margin-top: var(--dl-space-space-halfunit);
             }
             .footer-text2 {
@@ -264,29 +262,29 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
+  Link21: 'Patrocinar',
   rootClassName: '',
   text1: 'Sabedoria jovem',
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   pastedImage_alt: 'pastedImage',
   Link2: 'Politica de privacidade',
   text: '© CNPJ: 20.369.543/0001-98 |  Startpee Tecnologia Co',
+  text2: 'Cep: 03303-000 |  São Paulo- SP',
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
-  Link21: 'Patrocinar',
-  text2: 'Cep: 03303-000 |  São Paulo- SP',
 }
 
 Footer.propTypes = {
+  Link21: PropTypes.string,
   rootClassName: PropTypes.string,
   text1: PropTypes.string,
   pastedImage_src: PropTypes.string,
   pastedImage_alt: PropTypes.string,
   Link2: PropTypes.string,
   text: PropTypes.string,
+  text2: PropTypes.string,
   Header: PropTypes.string,
   Link4: PropTypes.string,
-  Link21: PropTypes.string,
-  text2: PropTypes.string,
 }
 
 export default Footer

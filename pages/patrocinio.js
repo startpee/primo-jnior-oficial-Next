@@ -109,6 +109,7 @@ const Patrocinio = (props) => {
             font-size: 24px;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
+            line-height: 2;
             border-color: #ffffff;
             border-width: 3px;
             border-radius: var(--dl-radius-radius-radius8);
