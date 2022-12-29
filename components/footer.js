@@ -203,6 +203,9 @@ const Footer = (props) => {
               font-size: 16px;
               line-height: 24px;
             }
+            .footer-root-class-name1 {
+              margin-top: var(--dl-space-space-fourunits);
+            }
           }
           @media (max-width: 479px) {
             .footer-socials {
