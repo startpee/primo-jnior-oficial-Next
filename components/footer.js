@@ -280,6 +280,7 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   Link21: 'Patrocinar',
+  Link211: 'Ajuda E-commerce',
   rootClassName: '',
   text1: 'Sabedoria jovem',
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
@@ -289,11 +290,11 @@ Footer.defaultProps = {
   text2: 'Cep: 03303-000 |  São Paulo- SP',
   Header: 'LINKS ÚTEIS',
   Link4: 'Contato',
-  Link211: 'Ajuda E-commerce',
 }
 
 Footer.propTypes = {
   Link21: PropTypes.string,
+  Link211: PropTypes.string,
   rootClassName: PropTypes.string,
   text1: PropTypes.string,
   pastedImage_src: PropTypes.string,
@@ -303,7 +304,6 @@ Footer.propTypes = {
   text2: PropTypes.string,
   Header: PropTypes.string,
   Link4: PropTypes.string,
-  Link211: PropTypes.string,
 }
 
 export default Footer

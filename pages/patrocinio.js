@@ -24,7 +24,7 @@ const Patrocinio = (props) => {
         </Head>
         <div className="patrocinio-content">
           <iframe
-            src="https://www.youtube.com/embed/tk6ZiAca-8Y"
+            src="https://www.youtube.com/embed/_JxAK-KXJD0"
             allowFullScreen
             className="patrocinio-iframe"
           ></iframe>
