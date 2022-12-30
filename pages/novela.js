@@ -38,6 +38,7 @@ const Novela = (props) => {
           alt="image"
           className="novela-image2"
         />
+        <h1 className="novela-text3">Tamanho M</h1>
         <a
           href="https://api.whatsapp.com/send?phone=5511967272695"
           className="novela-link button"
@@ -87,6 +88,11 @@ const Novela = (props) => {
             height: 1192px;
             object-fit: cover;
           }
+          .novela-text3 {
+            font-size: 44px;
+            margin-top: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .novela-link {
             color: var(--dl-color-gray-white);
             width: 289px;
@@ -127,6 +133,9 @@ const Novela = (props) => {
             .novela-image2 {
               width: 100%;
               height: 774px;
+            }
+            .novela-text3 {
+              font-size: 44px;
             }
             .novela-link {
               color: var(--dl-color-gray-white);
