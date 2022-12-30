@@ -122,17 +122,21 @@ const Novela = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .novela-text {
+              font-size: 33px;
+              text-align: center;
+            }
             .novela-image {
               width: 100%;
               height: 366px;
             }
             .novela-image1 {
               width: 100%;
-              height: 900px;
+              height: 684px;
             }
             .novela-image2 {
               width: 100%;
-              height: 774px;
+              height: 616px;
             }
             .novela-text3 {
               font-size: 44px;
@@ -140,7 +144,9 @@ const Novela = (props) => {
             .novela-link {
               color: var(--dl-color-gray-white);
               font-size: 24px;
+              margin-top: var(--dl-space-space-sixunits);
               line-height: 2;
+              margin-bottom: var(--dl-space-space-sixunits);
               text-decoration: none;
               background-color: rgb(23, 22, 32);
             }
