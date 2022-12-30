@@ -944,7 +944,7 @@ const Home = (props) => {
             flex-direction: row;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/pastedimage-5cga-400h.png');
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
           }
           .home-content5 {
             gap: var(--dl-space-space-oneandhalfunits);
