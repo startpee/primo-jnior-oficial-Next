@@ -38,7 +38,7 @@ const Propaganda = (props) => {
           href="https://chatting.page/u4sq7jfo91vvwmcnblgfvwwq9wshhxi1"
           className="propaganda-link button"
         >
-          Patrocinar
+          Eu quero
         </a>
         <Footer rootClassName="footer-root-class-name2"></Footer>
       </div>
@@ -151,6 +151,13 @@ const Propaganda = (props) => {
             .propaganda-iframe {
               width: 363px;
               height: 230px;
+            }
+            .propaganda-link {
+              color: var(--dl-color-gray-white);
+              font-size: 24px;
+              line-height: 2;
+              text-decoration: none;
+              background-color: rgb(23, 22, 32);
             }
           }
         `}
