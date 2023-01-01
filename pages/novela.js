@@ -34,8 +34,8 @@ const Novela = (props) => {
         />
         <h1 className="novela-text2">Foto de trás</h1>
         <img
-          src="/playground_assets/img_20221230_094750-removebg-preview-1500w.png"
           alt="image"
+          src="/playground_assets/img_20221230_094750-removebg-preview-1500w.png"
           className="novela-image2"
         />
         <h1 className="novela-text3">Tamanho M</h1>

@@ -23,7 +23,7 @@ const Footer = (props) => {
             <div className="footer-column">
               <span className="footer-header">{props.Header}</span>
               <span className="footer-link">{props.Link2}</span>
-              <Link href="/patrocinio">
+              <Link href="/propaganda">
                 <a className="footer-link2">{props.Link21}</a>
               </Link>
               <Link href="/ecommerce">
