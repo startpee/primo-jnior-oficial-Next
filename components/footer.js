@@ -187,6 +187,9 @@ const Footer = (props) => {
           .footer-root-class-name3 {
             background-color: var(--dl-color-gray-black);
           }
+          .footer-root-class-name4 {
+            background-color: var(--dl-color-gray-black);
+          }
           @media (max-width: 991px) {
             .footer-footer {
               padding-top: var(--dl-space-space-fourunits);
@@ -238,6 +241,9 @@ const Footer = (props) => {
             .footer-root-class-name3 {
               margin-top: var(--dl-space-space-fourunits);
             }
+            .footer-root-class-name4 {
+              margin-top: var(--dl-space-space-fourunits);
+            }
           }
           @media (max-width: 479px) {
             .footer-socials {
@@ -278,6 +284,9 @@ const Footer = (props) => {
               background-color: #000000;
             }
             .footer-root-class-name3 {
+              background-color: #000000;
+            }
+            .footer-root-class-name4 {
               background-color: #000000;
             }
           }
