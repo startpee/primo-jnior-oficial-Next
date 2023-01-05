@@ -29,7 +29,14 @@ const Footer = (props) => {
               <Link href="/ecommerce">
                 <a className="footer-link4">{props.Link211}</a>
               </Link>
-              <span className="footer-link5">{props.Link4}</span>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511967272695"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-link5"
+              >
+                {props.Link4}
+              </a>
             </div>
           </div>
         </div>
@@ -158,6 +165,7 @@ const Footer = (props) => {
             font-size: 14px;
             transition: 0.3s;
             line-height: 21px;
+            text-decoration: none;
           }
           .footer-link5:hover {
             color: rgba(196, 196, 196, 0.5);
