@@ -28,18 +28,15 @@ const Navbar = (props) => {
               >
                 {props.Link_2}
               </a>
-              <a href="https://primojunior.com/" className="navbar-link3 link">
-                {props.Link_3}
-              </a>
             </div>
           </div>
           <div className="navbar-quick-actions">
-            <a href="https://www.sabedoriajovem.site/" className="navbar-link4">
+            <a href="https://www.sabedoriajovem.site/" className="navbar-link3">
               <div className="navbar-sign-up-btn">
                 <span className="navbar-sign-up">Desenvolvimento pessoal</span>
               </div>
             </a>
-            <a href="https://startpee.site" className="navbar-link5">
+            <a href="https://startpee.site" className="navbar-link4">
               <div className="navbar-sign-up-btn1">
                 <span className="navbar-sign-up1">Negócios</span>
               </div>
@@ -69,14 +66,14 @@ const Navbar = (props) => {
           </div>
           <div className="navbar-links1">
             <div className="navbar-buttons">
-              <a href="http://sabedoriajovem.site/" className="navbar-link6">
+              <a href="http://sabedoriajovem.site/" className="navbar-link5">
                 <div className="navbar-btn">
                   <span className="navbar-text">{props.text131}</span>
                 </div>
               </a>
             </div>
             <div className="navbar-buttons1">
-              <a href="https://startpee.site/" className="navbar-link7">
+              <a href="https://startpee.site/" className="navbar-link6">
                 <div className="navbar-btn1">
                   <span className="navbar-text1">{props.text13111}</span>
                 </div>
@@ -172,9 +169,6 @@ closeButton.addEventListener("click", function() {
           .navbar-link2 {
             text-decoration: none;
           }
-          .navbar-link3 {
-            text-decoration: none;
-          }
           .navbar-quick-actions {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
@@ -182,7 +176,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .navbar-link4 {
+          .navbar-link3 {
             display: contents;
           }
           .navbar-sign-up-btn {
@@ -207,7 +201,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-link5 {
+          .navbar-link4 {
             display: contents;
           }
           .navbar-sign-up-btn1 {
@@ -287,7 +281,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link6 {
+          .navbar-link5 {
             display: contents;
           }
           .navbar-btn {
@@ -315,7 +309,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .navbar-link7 {
+          .navbar-link6 {
             display: contents;
           }
           .navbar-btn1 {
@@ -432,7 +426,6 @@ closeButton.addEventListener("click", function() {
 }
 
 Navbar.defaultProps = {
-  Link_3: 'Projetos',
   Branding_src: '/playground_assets/novo%20projeto%20%5B3%5D-1500h.png',
   rootClassName: '',
   text13111: 'Negócios',
@@ -447,7 +440,6 @@ Navbar.defaultProps = {
 }
 
 Navbar.propTypes = {
-  Link_3: PropTypes.string,
   Branding_src: PropTypes.string,
   rootClassName: PropTypes.string,
   text13111: PropTypes.string,
