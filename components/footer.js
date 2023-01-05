@@ -33,8 +33,9 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <span className="footer-text1">{props.text}</span>
-        <span className="footer-text2">{props.text2}</span>
+        <span className="footer-text1">{props.text21}</span>
+        <span className="footer-text2">{props.text}</span>
+        <span className="footer-text3">{props.text2}</span>
       </div>
       <style jsx>
         {`
@@ -166,6 +167,7 @@ const Footer = (props) => {
             width: 100%;
             font-size: 14px;
             max-width: 1200px;
+            text-align: center;
             line-height: 21px;
           }
           .footer-text2 {
@@ -173,6 +175,15 @@ const Footer = (props) => {
             width: 100%;
             font-size: 14px;
             max-width: 1200px;
+            text-align: center;
+            line-height: 21px;
+          }
+          .footer-text3 {
+            color: #c4c4c4;
+            width: 100%;
+            font-size: 14px;
+            max-width: 1200px;
+            text-align: center;
             line-height: 21px;
           }
           .footer-root-class-name {
@@ -270,7 +281,12 @@ const Footer = (props) => {
             .footer-link5 {
               margin-top: var(--dl-space-space-halfunit);
             }
-            .footer-text2 {
+            .footer-text1 {
+              align-self: center;
+              text-align: center;
+              text-decoration: underline;
+            }
+            .footer-text3 {
               align-self: center;
               text-align: center;
             }
@@ -297,8 +313,9 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  Link21: 'Patrocinar',
+  Link21: 'Propaganda',
   Link211: 'Ajuda E-commerce',
+  text21: 'assessorado pela Startpee',
   rootClassName: '',
   text1: 'Sabedoria jovem',
   pastedImage_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
@@ -313,6 +330,7 @@ Footer.defaultProps = {
 Footer.propTypes = {
   Link21: PropTypes.string,
   Link211: PropTypes.string,
+  text21: PropTypes.string,
   rootClassName: PropTypes.string,
   text1: PropTypes.string,
   pastedImage_src: PropTypes.string,
